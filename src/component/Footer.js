@@ -1,167 +1,155 @@
 import React from "react";
-import Odishapng from "../image/OdishaTourism1.png";
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-
   return (
     <div>
       <>
-        <footer className="footer-section">
-          <div className="container">
-            <div className="footer-cta pt-5 pb-5">
-              <div className="row">
-                <div className="col-xl-4 col-md-4 mb-30">
-                  <div className="single-cta">
-                    <i className="fas fa-map-marker-alt" />
-                    <div className="cta-text">
-                      <h4>Find us</h4>
-                      <span>salipur,cuttack</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-md-4 mb-30">
-                  <div className="single-cta">
-                    <i className="fas fa-phone" />
-                    <div className="cta-text">
-                      <h4>Call us</h4>
-                      <span>8260821103</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-md-4 mb-30">
-                  <div className="single-cta">
-                    <i className="far fa-envelope-open" />
-                    <div className="cta-text">
-                      <h4>Mail us</h4>
-                      <span>nigammishra826@gmail.com</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="footer-content pt-5 pb-5">
-              <div className="row">
-                <div className="col-xl-4 col-lg-4 mb-50">
-                  <div className="footer-widget">
-                    <div className="footer-logo">
-                      <a href="index.html">
-                        <img src={Odishapng} className="img-fluid" alt="logo" />
-                      </a>
-                    </div>
-                    <div className="footer-text">
-                      <p>
-                        Lorem ipsum dolor sit amet, consec tetur adipisicing
-                        elit, sed do eiusmod tempor incididuntut consec tetur
-                        adipisicing elit,Lorem ipsum dolor sit amet.
-                      </p>
-                    </div>
-                    <div className="footer-social-icon">
-                      <span>Follow us</span>
-                      <a href="#">
-                        <i className="fab fa-facebook-f facebook-bg" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter twitter-bg" />
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-google-plus-g google-bg" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                  <div className="footer-widget">
-                    <div className="footer-widget-heading">
-                      <h3>Useful Links</h3>
-                    </div>
-                    <ul>
-                      <li>
-                        <a href="/">Home</a>
-                      </li>
-                      <li>
-                        <a href="/about-us">about</a>
-                      </li>
-                      <li>
-                        <a href="#">services</a>
-                      </li>
-                      <li>
-                        <a href="#">portfolio</a>
-                      </li>
-                      <li>
-                        <a href="/Gallery">Gallery</a>
-                      </li>
-                      {/* <li><a href="#">About us</a></li> */}
-                      <li>
-                        <a href="#">Our Services</a>
-                      </li>
-                      <li>
-                        <a href="#">Expert Team</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact us</a>
-                      </li>
-                      <li>
-                        <a href="#">Latest News</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
-                  <div className="footer-widget">
-                    <div className="footer-widget-heading">
-                      <h3>Subscribe</h3>
-                    </div>
-                    <div className="footer-text mb-25">
-                      <p>
-                        Don’t miss to subscribe to our new feeds, kindly fill
-                        the form below.
-                      </p>
-                    </div>
-                    <div className="subscribe-form">
-                      <form action="#">
-                        <input type="text" placeholder="Email Address" />
-                        <button>
-                          <i className="fab fa-telegram-plane" />
-                        </button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="copyright-area">
+        <footer className="new_footer_area bg_color m-t80">
+          <div className="new_footer_top">
             <div className="container">
               <div className="row">
-                <div className="col-xl-6 col-lg-6 text-center text-lg-left">
-                  <div className="copyright-text">
-                    <div className="footer-year mt-5">
-                      ©<span id="year">{new Date().getFullYear()}</span>| BBSR,
-                      All Rights Reserved.
-                    </div>
+                <div className="col-lg-3 col-md-6">
+                  <div
+                    className="f_widget company_widget wow fadeInLeft"
+                    data-wow-delay="0.2s"
+                    style={{
+                      visibility: "visible",
+                      animationDelay: "0.2s",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <h3 className="f-title f_600 t_color f_size_18">
+                      Get in Touch
+                    </h3>
+                    <p>
+                      Don’t miss any updates of our new templates and
+                      extensions.!
+                    </p>
+                    <form
+                      action="#"
+                      className="f_subscribe_two mailchimp"
+                      method="post"
+                      noValidate="true"
+                      _lpchecked={1}
+                    >
+                      <input
+                        type="text"
+                        name="EMAIL"
+                        className="form-control memail"
+                        placeholder="Email"
+                      />
+                      <button className="btn btn_get btn_get_two" type="submit">
+                        Subscribe
+                      </button>
+                      <p
+                        className="mchimp-errmessage"
+                        style={{ display: "none" }}
+                      />
+                      <p
+                        className="mchimp-sucmessage"
+                        style={{ display: "none" }}
+                      />
+                    </form>
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                  <div className="footer-menu">
-                    <ul>
-                      <li>
-                        <a href="/">Home</a>
+                <div className="col-lg-3 col-md-6">
+                  <div
+                    className="f_widget about-widget pl_70 wow fadeInLeft"
+                    data-wow-delay="0.4s"
+                    style={{
+                      visibility: "visible",
+                      animationDelay: "0.4s",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <h3 className="f-title f_600 t_color f_size_18">
+                      Main menu
+                    </h3>
+                    <ul className="list-unstyled f_list">
+                      <li className="textstyle">
+                        <Link to="#">Home</Link>
                       </li>
                       <li>
-                        <a href="#">Terms</a>
+                        <Link to="#"> ViewAll</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy</a>
+                        <Link to="#">Create</Link>
                       </li>
                       <li>
-                        <a href="#">Policy</a>
+                        <Link to="#">Developer</Link>
+                      </li>
+                      {/* <li><Link to="#">Projects</Link></li>
+              <li><Link to="#">My tasks</Link></li> */}
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                  <div
+                    className="f_widget about-widget pl_70 wow fadeInLeft"
+                    data-wow-delay="0.6s"
+                    style={{
+                      visibility: "visible",
+                      animationDelay: "0.6s",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <h3 className="f-title f_600 t_color f_size_18">Help</h3>
+                    <ul className="list-unstyled f_list">
+                      <li>
+                        <Link to="#">FAQ</Link>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
+                        <Link to="#">Term &amp; conditions</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Reporting</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Documentation</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Support Policy</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Privacy</Link>
                       </li>
                     </ul>
                   </div>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                  <div
+                    className="f_widget social-widget pl_70 wow fadeInLeft"
+                    data-wow-delay="0.8s"
+                    style={{
+                      visibility: "visible",
+                      animationDelay: "0.8s",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <h3 className="f-title f_600 t_color f_size_18">
+                      Team Solutions
+                    </h3>
+                    <div className="f_social_icon">
+                      <Link to="#" className="fab fa-facebook" />
+                      <Link to="#" className="fab fa-twitter" />
+                      <Link to="#" className="fab fa-linkedin" />
+                      <Link to="#" className="fab fa-pinterest" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="footer_bg">
+              <div className="footer_bg_one" />
+              <div className="footer_bg_two" />
+            </div>
+          </div>
+          <div className="footer_bottom">
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-lg-6 col-sm-7">
+                  {/* <p className="mb-0 f_400">©  2019 All rights reserved.</p> */}
                 </div>
               </div>
             </div>
