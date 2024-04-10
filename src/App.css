@@ -2533,7 +2533,7 @@ fieldset {
 
 .coet {
   margin-top: 10%;
-  /* position: relative; */
+  position: sticky;
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
