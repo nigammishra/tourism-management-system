@@ -11,10 +11,9 @@ const Header = () => {
   <ul className="menu1">
     <li><a href="/">home</a></li>
     <li><a href="/about-us">about</a></li>
-    <li><a href="#">package</a></li>
-    {/* <li><a href="#">blog</a></li> */}
+    <li><a href="/Package">Package</a></li>
     <li><a href="/Gallery">gallery</a></li>
-    <li><a href="#">contact us</a></li>
+    <li><a href="/Contact">Contact us</a></li>
   </ul>
 </section>
 

@@ -11,9 +11,9 @@ import Home from './pages/Home';
 import Footer from './component/Footer';
 import Gallery from './pages/Gallery';
 import About from './pages/About';
-// import Initiative from './Pages/Initiative';
-// import Team from './Pages/Team';
-// import Contact from './Pages/Contact';
+import Package from './pages/Package';
+import Roombook from './pages/Roombook';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -23,10 +23,10 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>}/>
          <Route exact path="/about-us" element={<About/>}/>
-        {/*<Route exact path="/initiative" element={<Initiative/>}/>
-        <Route exact path="/team" element={<Team/>}/>
-        <Route exact path="/contact" element={<Contact/>}/>*/}
+         <Route exact path="/Package" element={<Package/>} />
+        <Route exact path="/Roombook" element={<Roombook/>}/>
         <Route exact path="/Gallery" element={<Gallery/>}/> 
+         <Route exact path="/Contact" element={<Contact/>}/> 
       </Routes>
       {/* <Partners/> */}
       <Footer/>

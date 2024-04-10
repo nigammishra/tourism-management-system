@@ -6,7 +6,6 @@ import "lightgallery/css/lg-thumbnail.css";
 import "lightgallery/css/lg-autoplay.css";
 import "lightgallery/css/lg-share.css";
 import "lightgallery/css/lg-rotate.css";
- 
 // import plugins if you need
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
@@ -14,9 +13,38 @@ import lgAutoplay from "lightgallery/plugins/autoplay";
 import lgVideo from "lightgallery/plugins/video";
 import lgShare from "lightgallery/plugins/share";
 import lgRotate from "lightgallery/plugins/rotate";
-
+import gallary1 from '../image/Gallrey1.jpg'
+import gallary2 from '../image/Gallery2.jpg'
+import gallary3 from '../image/Gallery3.jpg'
+import gallary4 from '../image/Gallery4.jpg'
+import gallary5 from '../image/Gallery5.jpg'
+import gallary6 from '../image/Gallery6.jpg'
+import gallary7 from '../image/Gallery7.jpg'
+import gallary8 from '../image/Gallery8.jpg'
+import gallary9 from '../image/Gallery9.webp'
+import gallary10 from '../image/Gallery10.jpg'
+import gallary11 from '../image/Gallery11.jpg'
+import gallary12 from '../image/Gallery12.jpg'
+import gallary13 from '../image/Gallery13.jpg'
+import gallary14 from '../image/Gallery14.jpg'
+import gallary15 from '../image/Gallery15.jpg'
+import gallary16 from '../image/Gallery16.jpg'
+import gallary17 from '../image/Gallery17.jpg'
+import galle from '../image/galle.jpg'
+import galle1 from '../image/galle1.jpg'
+import galle2 from '../image/galle2.jpg'
+import galle3 from '../image/galle3.jpg'
+import galle4 from '../image/galle4.jpg'
+import galle5 from '../image/galle5.jpg'
+import galle6 from '../image/galle6.jpg'
+import galle7 from '../image/galle7.jpg'
+import galle8 from '../image/galle8.jpg'
+import galle9 from '../image/galle9.jpg'
+import galle10 from '../image/galle10.jpg'
+import galle11 from '../image/galle11.jpg'
+import galle12 from '../image/galle12.jpg'
+import galle13 from '../image/galle13.jpg'
 // image import 
-
 import image from '../image/puritemple.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
@@ -47,12 +75,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item  "
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary16}
+                      data-sub-html="<h4>Deomali</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary16}
                         alt=""
                       />
                     </a>
@@ -60,12 +88,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary1}
+                      data-sub-html="<h4>Konark</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary1}
                         alt=""
                       />
                     </a>
@@ -73,12 +101,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary2}
+                      data-sub-html="<h4>Budha</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary2}
                         alt=""
                       />
                     </a>
@@ -86,12 +114,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary3}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary3}
                         alt=""
                       />
                     </a>
@@ -99,12 +127,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary4}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary4}
                         alt=""
                       />
                     </a>
@@ -112,12 +140,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary5}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary5}
                         alt=""
                       />
                     </a>
@@ -125,12 +153,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary6}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary6}
                         alt=""
                       />
                     </a>
@@ -138,12 +166,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary7}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary7}
                         alt=""
                       />
                     </a>
@@ -151,12 +179,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary8}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary8}
                         alt=""
                       />
                     </a>
@@ -164,12 +192,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary9}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary9}
                         alt=""
                       />
                     </a>
@@ -177,12 +205,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary10}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary10}
                         alt=""
                       />
                     </a>
@@ -190,12 +218,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary11}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary11}
                         alt=""
                       />
                     </a>
@@ -203,12 +231,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary17}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary17}
                         alt=""
                       />
                     </a>
@@ -216,12 +244,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary12}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary12}
                         alt=""
                       />
                     </a>
@@ -229,12 +257,12 @@ const Gallery = () => {
                       
                       data-lg-size="1400-1400"
                       className="gallery-item"
-                      data-src={image}
-                      data-sub-html="<h4>Heading Here</h4>"
+                      data-src={gallary13}
+                      // data-sub-html="<h4>Heading Here</h4>"
                     >
                       <img
                         className="img-fluid"
-                        src={image}
+                        src={gallary13}
                         alt=""
                       />
                     </a>
@@ -254,10 +282,10 @@ const Gallery = () => {
                 {/* TITLE START*/}
                 <div className="section-head text-center">
                   {/* <div className="section-sub-title">FIND OUT MORE</div> */}
-                  <h3 data-title="Top Services">Top Services</h3>
+                  {/* <h3 data-title="Top Services">Top Services</h3> */}
                   <div className="wt-separator bg-primarys" />
                   <div className="wt-separator2 bg-primarys" />
-                  <p>We helping client to create with our talented expert.</p>
+                  <p className='gall'>MOST POPULAR PHOTO'S OF 2K14</p>
                 </div>
                 {/* TITLE END*/}
                 <div className="section-content" style={{position:'sticky'}}>
@@ -287,21 +315,20 @@ const Gallery = () => {
                         speed={1000} // Set the speed in milliseconds
                       >
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle12} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
                               margin: "5px",
                               padding: "5px",
-                              // color: "#00897b",
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Agriculture
+                           Traditional Dress Of Odisha
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -310,11 +337,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Doctor
+                            Konark Sun Temple
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle1} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -323,11 +350,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Food
+                            Chilika Lake
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle2} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -336,11 +363,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Beauty
+                            Patora Dam Nuapada 
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle3} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -349,11 +376,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Education
+                            Maha Prashad
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle4} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -362,11 +389,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Wedding
+                           Puri Sea Beach
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle5} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -375,11 +402,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Telismith
+                           DHAULIGIRI BUDDHIST TEMPLE 
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle6} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -388,11 +415,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Health
+                            Maa Tara Tarini Temple 
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle7} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -401,11 +428,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            TravelService
+                            Tarini Temple
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle8} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -414,11 +441,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Household
+                            Odisha Art
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle9} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -427,11 +454,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            BusinessService
+                            ODISHA
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle10} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -440,11 +467,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Production
+                            ANTIQUE
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="251" width="100%" />
+                          <img src={galle11} height="251" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -453,11 +480,11 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Medicine Store
+                            National Geographic
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={image} height="250" width="100%" />
+                          <img src={galle13} height="250" width="100%" />
                           <h5
                             style={{
                               textAlign: "center",
@@ -466,7 +493,7 @@ const Gallery = () => {
                               color: "rgb(241, 162, 40)",
                             }}
                           >
-                            Finance Services
+                            Famolus Food
                           </h5>
                         </SwiperSlide>
                       </Swiper>
