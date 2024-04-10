@@ -13,7 +13,7 @@ import Gallery from './pages/Gallery';
 import About from './pages/About';
 import Package from './pages/Package';
 import Roombook from './pages/Roombook';
-// import Contact from './Pages/Contact';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -25,8 +25,8 @@ function App() {
          <Route exact path="/about-us" element={<About/>}/>
          <Route exact path="/Package" element={<Package/>} />
         <Route exact path="/Roombook" element={<Roombook/>}/>
-        {/* <Route exact path="/contact" element={<Contact/>}/>*/} 
         <Route exact path="/Gallery" element={<Gallery/>}/> 
+         <Route exact path="/Contact" element={<Contact/>}/> 
       </Routes>
       {/* <Partners/> */}
       <Footer/>
