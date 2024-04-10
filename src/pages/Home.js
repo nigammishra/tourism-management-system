@@ -17,6 +17,7 @@ import Odishapng from "../image/OdishaTourism1.png";
 import puri from "../image/puritemple.jpg";
 
 
+
 const Home = () => {
   // card  convert to background image
   const activate = (e) => {
@@ -113,7 +114,9 @@ const handleTabClick = (id) => {
   
   return (
     <div>
+
       <>
+
         <section className="banner">
           {/* <img className="banner" src={odishatour} alt /> */}
           <div className="banner-text-item">
