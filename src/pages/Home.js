@@ -302,19 +302,19 @@ const handleTabClick = (id) => {
               enim ad minim veniam, quis nostrud
             </p>
             <label>
-              <input type="checkbox" defaultChecked />
+              {/* <input type="checkbox" defaultChecked /> */}
               Lorem ipsum dolor sit amet
             </label>
             <label>
-              <input type="checkbox" defaultChecked />
+              {/* <input type="checkbox" defaultChecked /> */}
               consectetur adipisicing elit
             </label>
             <label>
-              <input type="checkbox" defaultChecked />
+              {/* <input type="checkbox" defaultChecked /> */}
               Architecto atque consequuntur
             </label>
             <label>
-              <input type="checkbox" defaultChecked />
+              {/* <input type="checkbox" defaultChecked /> */}
               cupiditate doloremque ducimus
             </label>
             <a href=""><button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button></a>
