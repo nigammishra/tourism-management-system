@@ -65,7 +65,7 @@ const Package = () => {
                         <div className="col-md-12">
                           <input
                             type="submit"
-                            className="btnn btn-primary btn-block"
+                            className="bttn"
                             defaultValue="Find"
                           />
                         </div>
@@ -85,7 +85,7 @@ const Package = () => {
                       <input
                         name="map"
                         id
-                        className="btn btn-outline-secondary map-btn"
+                        className="bttnn "
                         type="button"
                         defaultValue="map"
                       />

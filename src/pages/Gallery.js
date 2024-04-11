@@ -66,7 +66,7 @@ const Gallery = () => {
       </h2>
     </div>
     <img style={{height:'300px',width:'500px'}} className='galog' src={logo} />
-    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+    <svg className='sv' xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
     <defs>
       <path id="gentle-wave" d="M-160 44c30 0 
   58-18 88-18s
@@ -318,7 +318,7 @@ const Gallery = () => {
                   {/* <h3 data-title="Top Services">Top Services</h3> */}
                   <div className="wt-separator bg-primarys" />
                   <div className="wt-separator2 bg-primarys" />
-                  <p className='gall'>MOST POPULAR PHOTO'S OF 2K14</p>
+                  <p className='gall'>MOST POPULAR PHOTO'S OF 2024</p>
                 </div>
                 {/* TITLE END*/}
                 <div className="section-content" style={{position:'sticky'}}>

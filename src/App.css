@@ -1695,7 +1695,7 @@ ul {
   }
 }
 
-svg {
+.sv {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -2432,6 +2432,20 @@ h3 {
   background-color: #28a745;
   border-color: #28a745;
 }
+.bttnn {
+  width: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #3313cf;
+  border-color: #28a745;
+}
 .map-btn {
   color: #000;
   font-size: 15px;
@@ -2615,23 +2629,7 @@ fieldset {
 	display: block;
 	margin: 0 auto;
 }
-
-
-
-
-.coet {
-  margin-top: 10%;
-  position: sticky;
-  width: 100%;
-  min-height: 100vh;
-  padding: 2rem;
-  background-color: #fafafa;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+/* contact-form */
 .form {
   /* position: absolute; */
   width: 100%;
@@ -2774,7 +2772,18 @@ textarea.input {
   pointer-events: none;
   z-index: 500;
 }
-
+.coet {
+  margin-top: 10%;
+  position: sticky;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #fafafa;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .input-coet span:before,
 .input-coet span:after {
   content: "";
