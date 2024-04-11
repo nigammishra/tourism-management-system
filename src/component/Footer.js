@@ -23,8 +23,7 @@ const Footer = () => {
                       Get in Touch
                     </h3>
                     <p>
-                      Don’t miss any updates of our new templates and
-                      extensions.!
+                      Checked out our TSM.
                     </p>
                     <form
                       action="#"
@@ -149,7 +148,7 @@ const Footer = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-6 col-sm-7">
-                  <p className="mb-0 f_400">©  2019 All rights reserved.</p>
+                  <p className="mb-0 f_400">©  2K24 Tourism Management System.</p>
                 </div>
               </div>
             </div>

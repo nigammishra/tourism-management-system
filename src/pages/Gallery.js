@@ -98,7 +98,7 @@ const Gallery = () => {
         <>
       <div className="section-wrapper p-t80">
           <div className="container">
-            <h1 className="head2 text-center">Tourist Places In Odisha</h1>
+            <h1 className="head2 text-center">Tourism Photo of Odisha</h1>
             <div className="gallery-container" id="gallery-container">
               <LightGallery
                 speed={200}
@@ -107,12 +107,12 @@ const Gallery = () => {
                     <a
                       
                       data-lg-size="1400-1400"
-                      className="gallery-item  "
+                     className="gallery-item  "
                       data-src={gallary16}
                       data-sub-html="<h4>Deomali</h4>"
                     >
                       <img
-                        className="img-fluid"
+                         className="img-fluid"
                         src={gallary16}
                         alt=""
                       />
@@ -318,7 +318,7 @@ const Gallery = () => {
                   {/* <h3 data-title="Top Services">Top Services</h3> */}
                   <div className="wt-separator bg-primarys" />
                   <div className="wt-separator2 bg-primarys" />
-                  <p className='gall'>MOST POPULAR PHOTO'S OF 2024</p>
+                  <p className='gall'>MOST POPULAR PHOTO'S OF 2K24</p>
                 </div>
                 {/* TITLE END*/}
                 <div className="section-content" style={{position:'sticky'}}>
