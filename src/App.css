@@ -264,7 +264,7 @@ ul.menu1 {
 }
 
 .banner-text-item {
-  position: absolute;
+  position: sticky;
   width: 100%;
   text-align: center;
   display: flex;
@@ -1412,13 +1412,13 @@ ul {
 
 .tabitem {
   position: sticky;
-  width: 80%;
+  width: 70%;
   height: 40px;
   margin: auto;
   margin-top: 50px;
   display: flex;
   align-items: center;
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  /* box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e; */
   overflow: hidden;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -1428,14 +1428,16 @@ ul {
 }
 
 .tabitem li {
-  background-color: #212327;
+  background-color: #4579e1;
   width: 25%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
   color: #c4cfde;
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -1456,7 +1458,7 @@ ul {
 .actives {
   background: linear-gradient(145deg, #759ded, #b162ee);
 
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  /* box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e; */
   color: #f9004d !important;
   position: relative;
   z-index: 1;
@@ -1474,8 +1476,10 @@ ul {
 
 .box {
   gap: 20px;
-  background: linear-gradient(145deg, #1e2024, #23272b);
-  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  background-color: #81aef1;
+  /* background: linear-gradient(145deg, #1e2024, #23272b); */
+  /* box-shadow: 10px 10px 19px #93aee4, -10px -10px 19px #98bee5; */
+  box-shadow: #98bee5 0px 4px 12px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1497,14 +1501,14 @@ ul {
 }
 
 .box h3 {
-  color: #c4cfde;
+  color: #26282b;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .box p {
-  color: #c4cfde;
+  color: #000000;
   opacity: 0.5;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -1585,7 +1589,7 @@ ul {
   background: transparent;
 }
 .btn-8 span:hover {
-  color: #c797eb;
+  color: #eeecf0;
 }
 .btn-8 span:before,
 .btn-8 span:after {
