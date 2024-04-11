@@ -53,7 +53,7 @@ const Roombook = () => {
           <section>
             <h4 className="Decription123">Most popular facilities :-</h4>
             <div style={{ display: "flex" }} className="col-sm-6 boxx">
-              <p style={{ paddingRight: "3%" }} className="logo">
+              <p style={{ paddingRight: "3%" }} className="logoo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -68,26 +68,26 @@ const Roombook = () => {
                 </svg>
                 <p className="texx">Free Wifi</p>
               </p>
-              <p style={{ paddingRight: "3%" }} className="logo">
+              <p style={{ paddingRight: "3%" }} className="logoo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-airplane-engines facilities"
+                  class="bi bi-airplane-engines facilities123"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.35 4.35 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0M7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1s.458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7z" />
                 </svg>
                 Airport shuttle
               </p>
-              <p style={{ paddingRight: "3%" }} className="logo">
+              <p style={{ paddingRight: "3%" }} className="logoo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-p-circle-fill facilities"
+                  class="bi bi-p-circle-fill facilities123"
                   viewBox="0 0 16 16"
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.5 4.002V12h1.283V9.164h1.668C10.033 9.164 11 8.08 11 6.586c0-1.482-.955-2.584-2.538-2.584zm2.77 4.072c.893 0 1.419-.545 1.419-1.488s-.526-1.482-1.42-1.482H6.778v2.97z" />
@@ -96,26 +96,26 @@ const Roombook = () => {
               </p>
             </div>
             <div style={{ display: "flex" }} className="col-sm-6 boxx">
-              <p style={{ paddingRight: "3%" }} className="logo">
+              <p style={{ paddingRight: "3%" }} className="logoo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-person-standing-dress facilities"
+                  class="bi bi-person-standing-dress facilities123"
                   viewBox="0 0 16 16"
                 >
                   <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-.5 12.25V12h1v3.25a.75.75 0 0 0 1.5 0V12h1l-1-5v-.215a.285.285 0 0 1 .56-.078l.793 2.777a.711.711 0 1 0 1.364-.405l-1.065-3.461A3 3 0 0 0 8.784 3.5H7.216a3 3 0 0 0-2.868 2.118L3.283 9.079a.711.711 0 1 0 1.365.405l.793-2.777a.285.285 0 0 1 .56.078V7l-1 5h1v3.25a.75.75 0 0 0 1.5 0Z" />
                 </svg>
                 Laundry
               </p>
-              <p style={{ paddingRight: "3%" }} className="logo">
+              <p style={{ paddingRight: "3%" }} className="logoo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-cup-hot facilities"
+                  class="bi bi-cup-hot facilities123"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -126,13 +126,13 @@ const Roombook = () => {
                 </svg>
                 Wonderful Breakfast
               </p>
-              <p style={{ paddingRight: "3%" }} className="logo">
+              <p style={{ paddingRight: "3%" }} className="logoo">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-car-front-fill  facilities"
+                  class="bi bi-car-front-fill  facilities123"
                   viewBox="0 0 16 16"
                 >
                   <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z" />
@@ -197,21 +197,21 @@ const Roombook = () => {
     <div className="double-input">
       <div className="form-input-container">
         <label htmlFor="fname">First name</label>
-        <input type="text" name="firstname" id="fname" placeholder="Jan" minLength={3} required />
+        <input type="text" Type="name" id="fname" placeholder="Name" minLength={3} required />
       </div>
       <div className="form-input-container">
         <label htmlFor="lname">Last name</label>
-        <input type="text" name="lastname" id="lname" placeholder="Kowalski" required />
+        <input type="text" Type="name" id="lname" placeholder="End Name" required />
       </div>
     </div>
     <div className="double-input">
       <div className="form-input-container">
         <label htmlFor="email">Email</label>
-        <input type="email" name="email" id="email" required placeholder="jan.kowalski@gmail.com" />
+        <input type="email" name="email" id="email" required placeholder="@gmail.com" />
       </div>
       <div className="form-input-container">
         <label htmlFor="phone">Phone</label>
-        <input type="tel" name="phone" id="phone" placeholder="213 742 069" required />
+        <input type="tel" Type="number" id="phone" placeholder="+91" required />
       </div>
     </div>
   </fieldset>
@@ -235,25 +235,27 @@ const Roombook = () => {
     <div className="double-input">
       <div className="form-input-container date-select">
         <label htmlFor="startdate">Start date</label>
-        <select name="start-date-day" id="start-date-day">
+        {/* <select name="start-date-day" id="start-date-day">
           <option value="Day" disabled selected>Day</option>
           <option value={1}>1</option>
-        </select>
-        <select name="start-date-month" id="start-date-month">
+        </select> */}
+        <input  type="date"/>
+        {/* <select name="start-date-month" id="start-date-month">
           <option value="Month" disabled selected>Month</option>
           <option value={1}>01</option>
-        </select>
+        </select> */}
       </div>
       <div className="form-input-container date-select">
         <label htmlFor="enddate">End date</label>
-        <select name="end-date-day" id="end-date-day">
+        {/* <select name="end-date-day" id="end-date-day">
           <option value="Day" disabled selected>Day</option>
           <option value={1}>1</option>
         </select>
         <select name="end-date-month" id="end-date-month">
           <option value="Month" disabled selected>Month</option>
           <option value={1}>01</option>
-        </select>
+        </select> */}
+        <input type="date" />
       </div>
     </div>
   </fieldset>

@@ -3,6 +3,7 @@ import img from "../image/room1.webp";
 import img1 from "../image/room1.webp";
 import img2 from "../image/room1.webp";
 import img3 from "../image/room1.webp";
+import { Form } from 'react-bootstrap';
 
 const Package = () => {
   return (
@@ -64,7 +65,7 @@ const Package = () => {
                         <div className="col-md-12">
                           <input
                             type="submit"
-                            className="btn btn-primary btn-block"
+                            className="btnn btn-primary btn-block"
                             defaultValue="Find"
                           />
                         </div>
@@ -146,6 +147,207 @@ const Package = () => {
                         </div>
                       </form>
                     </div>
+                    <div style={{ backgroundColor:"white" }} className="container">
+              <section style={{ paddingLeft: "4%" }} className="border">
+                <h2 className="filter">Popular Filters</h2>
+                <div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Swimming pool
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Apartments
+                    </label>
+                  </div>
+                </div>
+                <div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Hotels
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Private bathroom
+                    </label>
+                  </div>
+                </div>
+                <div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Sea view
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Guesthouses
+                    </label>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div style={{ backgroundColor:"white" }} className="container">
+              <section style={{ paddingLeft: "4%" }} className="border">
+                <h2 className="filter">Property Type</h2>
+                <div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Hotels
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Apartments
+                    </label>
+                  </div>
+                </div>
+                <div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Bed and Breakfasts
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Guesthouses
+                    </label>
+                  </div>
+                </div>
+                <div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Homestays
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      defaultValue
+                      id="flexCheckDefault"
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexCheckDefault"
+                    >
+                      Motels
+                    </label>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div style={{ backgroundColor:"white" }} className="container">
+              <Form.Select aria-label="Default select example">
+                <option>Brands</option>
+                <option value="1">FabHotels</option>
+                <option value="2">The Indian Hotels Co Ltd</option>
+                <option value="3">Sarovar (Louvre)</option>
+                <option value="4">Holiday Inn Hotels & Resorts</option>
+                <option value="5">Oberoi Hotels & Resorts</option>
+                <option value="6">Park Plaza Hotels & Resorts</option>
+              </Form.Select>
+            </div>
                   </div>
                 </div>
                 <div className="col-lg-9  px-4">

@@ -44,6 +44,7 @@ import galle10 from '../image/galle10.jpg'
 import galle11 from '../image/galle11.jpg'
 import galle12 from '../image/galle12.jpg'
 import galle13 from '../image/galle13.jpg'
+import logo from '../image/gallerylogo.png';
 // image import 
 import image from '../image/puritemple.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -53,6 +54,38 @@ const Gallery = () => {
   return (
     <div>
       <>
+     <div>
+      
+  <section className="bannerr">
+  <div className="banner-content">
+      <h2 className='galo'>Gallery
+      <p>
+        I'm Gio, a talented frontend developer that loves creating immersive
+        web experiences.
+      </p>
+      </h2>
+    </div>
+    <img style={{height:'300px',width:'500px'}} className='galog' src={logo} />
+    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 
+  58-18 88-18s
+  58 18 88 18 
+  58-18 88-18 
+  58 18 88 18
+  v44h-352z" />
+    </defs>
+    <g className="waves">
+      <use xlinkHref="#gentle-wave" x={50} y={0} fill="#03ffff" fillOpacity=".2" />
+      <use xlinkHref="#gentle-wave" x={50} y={3} fill="#03ffff" fillOpacity=".5" />
+      <use xlinkHref="#gentle-wave" x={50} y={6} fill="#03ffff" fillOpacity=".9" />
+    </g>
+  </svg>
+  </section>
+</div>
+
+      </>
+      {/* <>
       <section className="banner">
           <img className="banner" src={image} alt />
           <div className="banner-text-item">
@@ -61,7 +94,7 @@ const Gallery = () => {
             </div>
             </div>
             </section>
-      </>
+      </> */}
         <>
       <div className="section-wrapper p-t80">
           <div className="container">
