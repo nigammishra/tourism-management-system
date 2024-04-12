@@ -294,7 +294,7 @@ const handleTabClick = (id) => {
             <img src={puri} />
           </div>
           <div className="about-text">
-            <small>ABOUT OUR COMPANY</small>
+            <small>The Beauty of Odisha</small>
             <h2>We are Go Trip Ravels Support Company</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br/> sed do
@@ -459,17 +459,17 @@ const handleTabClick = (id) => {
           </h2>
         </div>
       <ul className="tabitem">
-        <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">Lorem</li>
-        <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lorem </li>
-        <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Lorem</li>
-        <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Lorem</li>
+        <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
+        <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja Temple </li>
+        <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri Caves</li>
+        <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark Sun Temple</li>
       </ul>
 
       <div className="contentstyle">
         <div className={`box ${activeTab === 0 ? 'show' : 'hide'}`} data-content="0">
           <img src={puri} alt="" />
           <div>
-            <h3>Lorem ipsum dolor</h3>
+            <h3>PURI</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
               a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
