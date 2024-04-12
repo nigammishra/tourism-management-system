@@ -4,6 +4,7 @@ import img1 from "../image/room1.webp";
 import img2 from "../image/room1.webp";
 import img3 from "../image/room1.webp";
 import { Form } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const Package = () => {
   return (
@@ -432,7 +433,7 @@ const Package = () => {
                         <p>Place.com</p>
                         <h5>£65</h5>
                       </div>
-                      <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
+                      <div className="bttn btn-success"><Link className="roo" href="/Roombook">View deal &gt;</Link></div>
                     </div>
                   </div>
                   <div className="row search-card-result">

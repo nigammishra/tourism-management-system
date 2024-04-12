@@ -1,5 +1,6 @@
 import React from 'react'
 import img from '../image/Odisha_Tourism.webp'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,11 +10,11 @@ const Header = () => {
         <section className="nav-bar ">
   <div className="logo"><img className="" src={img} style={{height:'60px',width:'150px'}} alt /></div>
   <ul className="menu1">
-    <li><a href="/">home</a></li>
-    <li><a href="/about-us">about</a></li>
-    <li><a href="/Package">Package</a></li>
-    <li><a href="/Gallery">gallery</a></li>
-    <li><a href="/Contact">Contact us</a></li>
+    <li><Link to="/">home</Link></li>
+    <li><Link to="/about-us">about</Link></li>
+    <li><Link to="/Package">Package</Link></li>
+    <li><Link to="/Gallery">gallery</Link></li>
+    <li><Link to="/Contact">Contact us</Link></li>
   </ul>
 </section>
 

@@ -10,6 +10,11 @@ import travel from "../image/Travel-PNG-Image-HD.png";
 import travelhappy from "../image/clipart4216475.png";
 import Odishapng from "../image/OdishaTourism1.png";
 import puri from "../image/puritemple.jpg";
+import ANUGUL from "../image/ANUGUL.jpg";
+import Balasore from "../image/Balasore.jpg";
+import Boudh from "../image/Boudh.jpg";
+import Balangir from "../image/Daringbadi.jpg";
+import { Link } from 'react-router-dom';
 
 
 
@@ -134,9 +139,9 @@ const handleTabClick = (id) => {
                 <option>Seoul</option>
               </datalist>
               <input type="date" className="date" />
-              <a href="#" className="book">
+              <Link to="#" className="book">
                 book
-              </a>
+              </Link>
             </form>
           </div>
         </section>
@@ -289,37 +294,71 @@ const handleTabClick = (id) => {
         </main>
       </>
       <>
-        <section className="about">
-          <div className="about-img">
-            <img src={puri} />
+   <section className="team-section1 bg-grey bd-bottom circle5 p-t80 shape padding">
+  <div className="container">
+    <div className="section-heading text-center mb-40">
+      <h2>Meet Our Volunteers</h2>
+      <span className="heading-border" />
+      <p>Help today because tomorrow you may be the one who <br /> needs more helping!</p>
+    </div>
+    <div className="team-wrapper row">
+      <div className="col-lg-6 sm-padding">
+        <div className="team-wrap row">
+          <div className="col-md-6">
+            <div className="team-details">
+              <img className='sideimg1' src={ANUGUL} alt="team" />
+              <div className="hover">
+                <h3>Jonathan Smith <span>Communicator</span></h3>
+              </div>
+            </div>
           </div>
-          <div className="about-text">
-            <small>The Beauty of Odisha</small>
-            <h2>We are Go Trip Ravels Support Company</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br/> sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud
-            </p>
-            <label>
-              {/* <input type="checkbox" defaultChecked /> */}
-              Lorem ipsum dolor sit amet
-            </label>
-            <label>
-              {/* <input type="checkbox" defaultChecked /> */}
-              consectetur adipisicing elit
-            </label>
-            <label>
-              {/* <input type="checkbox" defaultChecked /> */}
-              Architecto atque consequuntur
-            </label>
-            <label>
-              {/* <input type="checkbox" defaultChecked /> */}
-              cupiditate doloremque ducimus
-            </label>
-            <a href=""><button class="custom-btn btn-12"><span>Click!</span><span>Read More</span></button></a>
+          <div className="col-md-6">
+            <div className="team-details">
+              <img className='sideimg2' src={Balasore} alt="team" />
+              <div className="hover">
+                <h3>Angelina Rose <span>Certified Reader</span></h3>
+              </div>
+            </div>
           </div>
-        </section>
+          <div className="col-md-6" >
+            <div className="team-details">
+              <img className='sideimg3' src={Boudh} alt="team" />
+              <div className="hover">
+                <h3>Taylor Swift <span>Event Creator</span></h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="team-details">
+              <img className='sideimg4' src={Balangir} alt="team" />
+              <div className="hover">
+                <h3>Michel Brown <span>Internet Specialist</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-lg-6 sm-padding">
+        <div className="team-content">
+          <h2>Become a Volunteer?</h2>
+          <h3 className='section5h3'>Join your hand with us for a better life and beautiful future.</h3>
+          <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can
+            make in the lives of the poor, the abused and the helpless.</p>
+          <ul className="check-list">
+            <li><i className="fa fa-check" />We are friendly to each other.</li>
+            <li><i className="fa fa-check" />If you join with us,We will give you free training.</li>
+            <li><i className="fa fa-check" />Its an opportunity to help poor children.</li>
+            <li><i className="fa fa-check" />No goal requirements.</li>
+            <li><i className="fa fa-check" />Joining is tottaly free. We dont need any money from you.
+            </li>
+          </ul>
+          <Link to="#" className="custom-btn btn-9 default-btn">Join With Us</Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       </>
       <>
         <div className="container">
@@ -342,9 +381,9 @@ const handleTabClick = (id) => {
                     This is one of the places to visit in Odisha during summer.
                      For travelers from different parts of the world, there are different accommodations, such as Daringbadi Nature Camp and Belghar Nature Camp.{" "}
                   </p>
-                  <a href="">
+                  <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </a>
+                  </Link>
                 </div>
               </li>
               {/* Repeat the rest of the list items similarly */}
@@ -355,9 +394,9 @@ const handleTabClick = (id) => {
                     {" "}
                     <p>These are the locations where religion, art, and rock-cut building abound. A pleasant location to take your family is the two hills, which rise sharply from the coastal plain and are divided by a highway around six kilometers west of Bhubaneswar. Among the tourists this is one of the <strong>top place to visit in Odisha. </strong>It has a great deal of historical significance and resembles little Ajanta Ellora caves.</p>
                   </p>
-                  <a href="">
+                  <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="item1 thirdimg">
@@ -368,9 +407,9 @@ const handleTabClick = (id) => {
                     The Sun Temple in Konark is one of India's most exquisite temples and an architectural wonder.
                      This is the best place to visit in Odisha! The Annual Dance Festival is a five-day cultural spectacle that brings together exceptional dance talent from throughout the nation. This festival honors the diverse dance styles that our nation has created and is a spectacular celebration of our nation's rich cultural and artistic heritage.
                   </p>
-                  <a href="">
+                  <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="item1 fourthimg">
@@ -379,9 +418,9 @@ const handleTabClick = (id) => {
                   <p className="description">
                   There is no beach like Chandipur. At low tide, the beach retreats up to 5 km, allowing people to stroll on the ocean floor. The beach's equally unusual biodiversity is supported by this unique phenomena.Among other things, it is home to sea urchins, starfish, and endangered horse shoe crabs. The beach's dirty water makes it unsuitable for swimming.
                   </p>
-                  <a href="">
+                  <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="item1 fivthimg">
@@ -392,9 +431,9 @@ const handleTabClick = (id) => {
                    It is located along the Karo River's bank.
                    Barbil is a well-liked location with a special fusion of history, mythology, and scenic beauty.
                   </p>
-                  <a href="">
+                  <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className="item1 sixthimg">
@@ -405,9 +444,9 @@ const handleTabClick = (id) => {
                     The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism
                     The temple is famous for its annual Ratha Yatra, or chariot festival, in which the three principal deities are pulled on huge and elaborately decorated raths, or temple cars.
                   </p>
-                  <a href="">
+                  <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </a>
+                  </Link>
                 </div>
               </li>
             </ul>
@@ -475,7 +514,7 @@ const handleTabClick = (id) => {
               a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
               sequi perferendis veritatis! Voluptatem?
             </p>
-            <a href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></a>
+            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
           </div>
         </div>
 
@@ -488,7 +527,7 @@ const handleTabClick = (id) => {
               a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
               sequi perferendis veritatis! Voluptatem?
             </p>
-            <a href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></a>
+            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
           </div>
         </div>
 
@@ -501,7 +540,7 @@ const handleTabClick = (id) => {
               a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
               sequi perferendis veritatis! Voluptatem?
             </p>
-            <a href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></a>
+            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
           </div>
         </div>
 
@@ -514,7 +553,7 @@ const handleTabClick = (id) => {
               a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
               sequi perferendis veritatis! Voluptatem?
             </p>
-            <a href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></a>
+            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
           </div>
         </div>
       </div>
