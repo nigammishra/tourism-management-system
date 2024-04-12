@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../image/puritemple.jpg'
+// import image from '../image/puritemple.jpg'
 import anugul from '../image/ANUGUL.jpg'
 import Balangir from '../image/Balangir.jpg'
 import Balasore from '../image/Balasore.jpg'
@@ -15,7 +15,7 @@ const About = () => {
     <div>
         <>
       <section className="banner">
-          <img className="banner" src={image} alt />
+          {/* <img className="banner" src={image} alt /> */}
           <div className="banner-text-item">
             <div className="banner-heading">
               <h1>Explore The Beauty Of Odisha</h1>

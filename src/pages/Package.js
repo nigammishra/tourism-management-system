@@ -17,15 +17,13 @@ const Package = () => {
               <div className="row mt-2 justify-content-between">
                 <div className="col-md-8 text-white align-self-center mb-2 p-4">
                  <p className="hote">
-                 {"{"}
-                    {"{"}HOTEL Place {"}"}
-                    {"}"}
+                 HOTEL PLACES
                  </p>
                    
                   <span className>
-                    {"{"}
-                    {"{"}place description{"}"}
-                    {"}"} Lorem ipsum dolor, sit amet consectetur adipisicing
+                    
+                    place description
+                     Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Harum debitis perspiciatis sed iusto eveniet neque
                     natus quidem velit optio cumque saepe repudiandae vero, sit
                     hic adipisci laudantium libero blanditiis animi.
