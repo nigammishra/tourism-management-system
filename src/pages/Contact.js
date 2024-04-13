@@ -1,14 +1,51 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
 
 const Contact = () => {
+
+
+
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <div>
+      
+      <button
+      className={showButton ? "show" : ""}
+      onClick={scrollToTop}
+      id="button"
+    >
+    </button>
       <div>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Form</title>
+  
   <div className="container coet">
+    
     <span className="big-circle" />
     <img src="img/shape.png" className="square" alt />
     <div className="form">

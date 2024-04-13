@@ -14,6 +14,10 @@ import ANUGUL from "../image/ANUGUL.jpg";
 import Balasore from "../image/Balasore.jpg";
 import Boudh from "../image/Boudh.jpg";
 import Balangir from "../image/Daringbadi.jpg";
+import sambalpur from "../image/3rd-waterfall-sambalpur.jpg";
+import Chandipur from "../image/Chandipur.jpg";
+import konark from "../image/konark.jpg";
+import bbsr from "../image/bhubaneswar-visit-place.jpg";
 import { Link } from 'react-router-dom';
 
 
@@ -106,8 +110,32 @@ const handleTabClick = (id) => {
 
 
 
+  const [showButton, setShowButton] = useState(false);
 
-  // 3D image cards design
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+  
 
 
 
@@ -116,7 +144,12 @@ const handleTabClick = (id) => {
     <div>
 
       <>
-
+      <button
+      className={showButton ? "show" : ""}
+      onClick={scrollToTop}
+      id="button"
+    >
+    </button>
         <section className="banner">
           {/* <img className="banner" src={odishatour} alt /> */}
           <div className="banner-text-item">
@@ -157,9 +190,9 @@ const handleTabClick = (id) => {
           </h2>
         </div>
         <section className="py-4 services">
-          <div className="container text-center partner">
+          <div className="container">
             {/* <h1>Tourism</h1> */}
-            <div className="partner-items">
+            <div className="">
               <Slider {...settings1}>
                 <div className="m-1">
                   <div className="service-item">
@@ -361,7 +394,7 @@ const handleTabClick = (id) => {
 
       </>
       <>
-        <div className="container">
+        <div className="container p-t80">
           <h3 class="head3 spacing secondary-color text-center text-uppercase">
             Most Demanded Places
           </h3>
@@ -463,7 +496,7 @@ const handleTabClick = (id) => {
       </>
 
       <>
-        <div className="container">
+        <div className="container p-t80">
           <h3 class="head3 spacing secondary-color text-center text-uppercase">
             Art& Architectures of
           </h3>
@@ -471,28 +504,40 @@ const handleTabClick = (id) => {
             Odisha
           </h2>
         </div>
-         
-<div className='container-fluid'>
-        <div className="wrapper-design">
-  <div className="item-styles">
-    <div className="item-style img1" tabIndex={0} />
-    <div className="item-style img2" tabIndex={0} />
-    <div className="item-style img3" tabIndex={0} />
-    <div className="item-style img4" tabIndex={0} />
-    <div className="item-style img5" tabIndex={0} />
-    <div className="item-style img6" tabIndex={0} />
-    <div className="item-style img7" tabIndex={0} />
-    <div className="item-style img8" tabIndex={0} />
-    <div className="item-style img9" tabIndex={0} />
-    {/* <div className="item-style img10" tabIndex={0} /> */}
-    </div>
-  </div>
-</div>
+        <css-doodle style={{position:'absolute', display: 'flex',  alignItems: 'center', }}>
+                    <style dangerouslySetInnerHTML={{ __html: "\n  --color: #51eaea, #fffde1, #ff9d76, #FB3569;\n\n  @grid: 30x1 / 100% 78vh / #270f34; \n  \n  :container {\n    perspective: 30vmin;\n    --deg: @p(-180deg, 180deg);\n  }\n  \n  :after, :before {\n    content: '';\n    background: @p(--color); \n    @place: @r(100%) @r(100%);\n    @size: @r(6px);\n    @shape: heart;\n  }\n\n  @place: center;\n  @size: 18vmin; \n\n  box-shadow: @m2(0 0 50px @p(--color));\n  background: @m100(\n    radial-gradient(@p(--color) 50%, transparent 0) \n    @r(-20%, 120%) @r(-20%, 100%) / 1px 1px\n    no-repeat\n  );\n\n  will-change: transform, opacity;\n  animation: scale-up 26s linear infinite;\n  animation-delay: calc(-12s / @I * @i);\n\n  @keyframes scale-up {\n    0%, 95.01%, 100% {\n      transform: translateZ(0) rotate(0);\n      opacity: 0;\n    }\n    10% { \n      opacity: 1; \n    }\n    95% {\n      transform: \n        translateZ(35vmin) rotateZ(var(--deg));\n    }\n  }\n" }} />
+                </css-doodle>
+        <section id="slideshow" >
+                <div class="entire-content">
+                    <div class="content-carrousel">
+                        <figure class="shadow">
+                          <img src={Balasore} /></figure>
+                        <figure class="shadow">
+                          <img src={Chandipur} /></figure>
+                        <figure class="shadow">
+                          <img src={Boudh} /></figure>
+                        <figure class="shadow">
+                          <img src={sambalpur} /></figure>
+                        <figure class="shadow">
+                          <img src={puri} />
+                          </figure>
+                        <figure class="shadow">
+                          <img src={Balangir} /></figure>
+                        <figure class="shadow">
+                          <img src={ANUGUL} /></figure>
+                        <figure class="shadow">
+                          <img src={konark} /></figure>
+                        <figure class="shadow">
+                          <img src={bbsr} /></figure>
+                    </div>
+                </div>
+                
+            </section>
 
        
       </>
       <>
-      <div className="container">
+      <div className="container p-t180">
       <h2 class=" head2 spacing secondary-color text-center text-uppercase">
            Most Loveble Places In Odisha
           </h2>

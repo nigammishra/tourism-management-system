@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import LightGallery from "lightgallery/react/Lightgallery.es5";
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
@@ -51,9 +51,46 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 
 const Gallery = () => {
+
+
+
+
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <div>
       <>
+
+
+      <button
+      className={showButton ? "show" : ""}
+      onClick={scrollToTop}
+      id="button"
+    >
+    </button>
      <div>
       
   <section className="bannerr">

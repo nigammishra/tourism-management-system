@@ -1,12 +1,47 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import imga from "../image/room1.webp";
 import imga1 from "../image/room1.webp";
 import imga2 from "../image/room1.webp";
 
 const Roombook = () => {
+
+
+
+
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <div>
       <>
+      <button
+      className={showButton ? "show" : ""}
+      onClick={scrollToTop}
+      id="button"
+    >
+    </button>
       <div style={{ display: "flex", marginTop: "7%" }} className="container">
         <div style={{ paddingRight: "5%" }} className="col-sm-7 boxx">
           <div
@@ -221,10 +256,10 @@ const Roombook = () => {
       <div className="form-input-container">
         <label htmlFor="hotelcity">City</label>
         <select name="hotelcity" id="hotelcity">
-          <option value="Wroclaw">Wroclaw</option>
-          <option value="Warsaw">Warsaw</option>
-          <option value="Plock">Plock</option>
-          <option value="Krakow">Krakow</option>
+          <option value="Wroclaw">Anugul</option>
+          <option value="Warsaw">Cuttack</option>
+          <option value="Plock">Balasore</option>
+          <option value="Krakow">Balangir</option>
         </select>
       </div>
       <div className="form-input-container">

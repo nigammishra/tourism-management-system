@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import img from "../image/room1.webp";
 import img1 from "../image/room1.webp";
 import img2 from "../image/room1.webp";
@@ -7,9 +7,43 @@ import { Form } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
 const Package = () => {
+
+
+
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
   return (
     <div>
       <>
+      <button
+      className={showButton ? "show" : ""}
+      onClick={scrollToTop}
+      id="button"
+    >
+    </button>
         <div>
           {/* jumbotron and nav */}
           <section className="colorful jumbotron mb-0" role="banner">
@@ -22,11 +56,11 @@ const Package = () => {
                    
                   <span className>
                     
-                    place description
-                     Lorem ipsum dolor, sit amet consectetur adipisicing
+                      <h4 style={{color:'#fff'}}>place description</h4>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing
                     elit. Harum debitis perspiciatis sed iusto eveniet neque
                     natus quidem velit optio cumque saepe repudiandae vero, sit
-                    hic adipisci laudantium libero blanditiis animi.
+                    hic adipisci laudantium libero blanditiis animi.</p>
                   </span>
                 </div>
                 <div className="col-md-4">
@@ -120,7 +154,7 @@ const Package = () => {
                         </div>
                         <div className="row form-group">
                           <div className="col-md-12">
-                            <label htmlFor="date-start">Price Range</label>: £
+                            <label htmlFor="date-start">Price Range</label>: cost-
                             <span id="price" className="price">
                               1000
                             </span>
@@ -409,12 +443,12 @@ const Package = () => {
                     <div className="col-md-2 border-left text-center more-offers">
                       <p>place.com</p>
                       <p>
-                        <s>£123</s>
+                        <s>cost-123</s>
                       </p>
                       <p>Place.com</p>
-                      <p>£65</p>
+                      <p>cost-6500</p>
                       <p className="border-top additional">
-                        More Deals from £65
+                        More Deals from cost-6500
                       </p>
                     </div>
                     <div className="col-md-2 border-left text-center more-offers">
@@ -424,12 +458,12 @@ const Package = () => {
                       <div className="text-warning">
                         <p>place.com</p>
                         <p>
-                          <s>£123</s>
+                          <s>cost-123</s>
                         </p>
                       </div>
                       <div className="text-success">
                         <p>Place.com</p>
-                        <h5>£65</h5>
+                        <h5>cost-6500</h5>
                       </div>
                       <div className="bttn btn-success"><Link className="roo" href="/Roombook">View deal &gt;</Link></div>
                     </div>
@@ -471,12 +505,12 @@ const Package = () => {
                     <div className="col-md-2 border-left text-center more-offers">
                       <p>place.com</p>
                       <p>
-                        <s>£123</s>
+                        <s>cost-123</s>
                       </p>
                       <p>Place.com</p>
-                      <p>£65</p>
+                      <p>cost-6500</p>
                       <p className="border-top additional">
-                        More Deals from £65
+                        More Deals from cost-6500
                       </p>
                     </div>
                     <div className="col-md-2 border-left text-center more-offers">
@@ -486,12 +520,12 @@ const Package = () => {
                       <div className="text-warning">
                         <p>place.com</p>
                         <p>
-                          <s>£123</s>
+                          <s>cost-123</s>
                         </p>
                       </div>
                       <div className="text-success">
                         <p>Place.com</p>
-                        <h5>£65</h5>
+                        <h5>cost-6500</h5>
                       </div>
                       <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
                     </div>
@@ -533,12 +567,12 @@ const Package = () => {
                     <div className="col-md-2 border-left text-center more-offers">
                       <p>place.com</p>
                       <p>
-                        <s>£123</s>
+                        <s>cost-123</s>
                       </p>
                       <p>Place.com</p>
-                      <p>£65</p>
+                      <p>cost-6500</p>
                       <p className="border-top additional">
-                        More Deals from £65
+                        More Deals from cost-6500
                       </p>
                     </div>
                     <div className="col-md-2 border-left text-center more-offers">
@@ -548,12 +582,12 @@ const Package = () => {
                       <div className="text-warning">
                         <p>place.com</p>
                         <p>
-                          <s>£123</s>
+                          <s>cost-123</s>
                         </p>
                       </div>
                       <div className="text-success">
                         <p>Place.com</p>
-                        <h5>£65</h5>
+                        <h5>cost-6500</h5>
                       </div>
                       <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
                     </div>
@@ -595,12 +629,12 @@ const Package = () => {
                     <div className="col-md-2 border-left text-center more-offers">
                       <p>place.com</p>
                       <p>
-                        <s>£123</s>
+                        <s>cost-123</s>
                       </p>
                       <p>Place.com</p>
-                      <p>£65</p>
+                      <p>cost-6500</p>
                       <p className="border-top additional">
-                        More Deals from £65
+                        More Deals from cost-6500
                       </p>
                     </div>
                     <div className="col-md-2 border-left text-center more-offers">
@@ -610,12 +644,12 @@ const Package = () => {
                       <div className="text-warning">
                         <p>place.com</p>
                         <p>
-                          <s>£123</s>
+                          <s>cost-123</s>
                         </p>
                       </div>
                       <div className="text-success">
                         <p>Place.com</p>
-                        <h5>£65</h5>
+                        <h5>cost-6500</h5>
                       </div>
                       <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
                     </div>
@@ -657,12 +691,12 @@ const Package = () => {
                     <div className="col-md-2 border-left text-center more-offers">
                       <p>place.com</p>
                       <p>
-                        <s>£123</s>
+                        <s>cost-123</s>
                       </p>
                       <p>Place.com</p>
-                      <p>£65</p>
+                      <p>cost-6500</p>
                       <p className="border-top additional">
-                        More Deals from £65
+                        More Deals from cost-6500
                       </p>
                     </div>
                     <div className="col-md-2 border-left text-center more-offers">
@@ -672,12 +706,12 @@ const Package = () => {
                       <div className="text-warning">
                         <p>place.com</p>
                         <p>
-                          <s>£123</s>
+                          <s>cost-123</s>
                         </p>
                       </div>
                       <div className="text-success">
                         <p>Place.com</p>
-                        <h5>£65</h5>
+                        <h5>cost-6500</h5>
                       </div>
                       <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
                     </div>
@@ -719,12 +753,12 @@ const Package = () => {
                     <div className="col-md-2 border-left text-center more-offers">
                       <p>place.com</p>
                       <p>
-                        <s>£123</s>
+                        <s>cost-123</s>
                       </p>
                       <p>Place.com</p>
-                      <p>£65</p>
+                      <p>cost-6500</p>
                       <p className="border-top additional">
-                        More Deals from £65
+                        More Deals from cost-6500
                       </p>
                     </div>
                     <div className="col-md-2 border-left text-center more-offers">
@@ -734,12 +768,12 @@ const Package = () => {
                       <div className="text-warning">
                         <p>place.com</p>
                         <p>
-                          <s>£123</s>
+                          <s>cost-123</s>
                         </p>
                       </div>
                       <div className="text-success">
                         <p>Place.com</p>
-                        <h5>£65</h5>
+                        <h5>cost-6500</h5>
                       </div>
                       <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
                     </div>
