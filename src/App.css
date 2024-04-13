@@ -300,6 +300,21 @@ ul.menu1 {
 
 /*=============================Banner=============================*/
 .banner {
+  /* background-image: url("image/OdishaTourism.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner1 {
   background-image: url("image/OdishaTourism.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -323,7 +338,18 @@ ul.menu1 {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(129, 115, 115, 0.2);
+  /*background-size: 100%;*/
+}
+.content1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(16, 16, 16, 0.2);
   /*background-size: 100%;*/
 }
 
@@ -346,7 +372,7 @@ ul.menu1 {
   font-weight: normal;
   color: #fde02f;
   font-family: "Barlow Condensed";
-  opacity: 1 #000;
+  opacity: 1rgb(70, 68, 68)0;
 }
 
 .banner-text-item .form {
@@ -398,7 +424,7 @@ ul.menu1 {
   font-size: 18px;
   font-weight: 700;
   font-family: "Barlow Condensed";
-  width: 20%;
+  width: 50%;
 }
 .book:hover {
   background-color: #fff;
@@ -2847,7 +2873,7 @@ textarea.input {
   z-index: 500;
 }
 .coet {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   position: sticky;
   width: 100%;
   min-height: 100vh;
@@ -3395,4 +3421,46 @@ html, body {
 }
 .p-t180{
   padding-top: 180px;
+}
+
+.lineUp {
+  animation: 4s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.lineDown {
+  animation: 4s anim-lineDown ease-out infinite;
+}
+
+@keyframes anim-lineDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }

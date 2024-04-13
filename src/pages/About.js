@@ -50,7 +50,7 @@ const About = () => {
       id="button"
     >
     </button>
-      <section className="banner">
+      <section className="banner1">
           {/* <img className="banner" src={image} alt /> */}
           <div className="banner-text-item">
             <div className="banner-heading">

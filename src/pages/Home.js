@@ -2,19 +2,25 @@ import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import odishatour from "../image/Odisha-tour.jpg";
+import odishatour1 from "../image/banner1.jpg";
+import odishatour2 from "../image/banner2.jpeg";
+import odishatour3 from "../image/banner3.jpeg";
+import odishatour4 from "../image/banner4.jpeg";
+import odishatour5 from "../image/banner5.jpeg";
 import guideimage from "../image/guide.png";
 import trust from "../image/NicePng_travel-logo-png_3200042.png";
 import travel from "../image/Travel-PNG-Image-HD.png";
 import travelhappy from "../image/clipart4216475.png";
 import Odishapng from "../image/OdishaTourism1.png";
+import Odishatourism from "../image/OdishaTourism.jpg";
+import Odishatourism2 from "../image/glimpses-of-odisha.jpg";
 import puri from "../image/puritemple.jpg";
 import ANUGUL from "../image/ANUGUL.jpg";
 import Balasore from "../image/Balasore.jpg";
 import Boudh from "../image/Boudh.jpg";
-import Balangir from "../image/Daringbadi.jpg";
-import sambalpur from "../image/3rd-waterfall-sambalpur.jpg";
+import Balangir from "../image/Balangir.jpg";
+import sambalpur from "../image/Daringbadi.jpg";
 import Chandipur from "../image/Chandipur.jpg";
 import konark from "../image/konark.jpg";
 import bbsr from "../image/bhubaneswar-visit-place.jpg";
@@ -150,8 +156,7 @@ const handleTabClick = (id) => {
       id="button"
     >
     </button>
-        <section className="banner">
-          {/* <img className="banner" src={odishatour} alt /> */}
+        {/* <section className="banner">
           <div className="banner-text-item">
             <div className="banner-heading">
               <h1>Explore The Beauty Of Odisha</h1>
@@ -177,7 +182,178 @@ const handleTabClick = (id) => {
               </Link>
             </form>
           </div>
+        </section> */}
+
+<div>
+  
+  <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={4000}>
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <img src={odishatour1} className="d-block w-100" style={{height:'80vh',opacity:'999'}} alt="First slide" />
+        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
+          <div className="display-table">
+            <div className="table-cell">
+              <div className="container">
+                <div className="slider-text ">
+                <section className="banner">
+          <div className="banner-text-item">
+            <div className="banner-heading lineDown">
+              <h1>Explore The Beauty Of Odisha</h1>
+            </div>
+            <Link to="#" className="book lineUp">
+                book Your Package
+              </Link>
+          </div>
         </section>
+                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="carousel-item active">
+        <img src={odishatour2} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
+          <div className="display-table">
+            <div className="table-cell">
+              <div className="container">
+                <div className="slider-text ">
+                <section className="banner">
+          <div className="banner-text-item">
+            <div className="banner-heading lineDown">
+              <h1>Explore The Beauty Of Odisha</h1>
+            </div>
+            
+              <Link to="#" className="book lineUp">
+                book Your Package
+              </Link>
+            
+          </div>
+        </section>
+                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="carousel-item active">
+        <img src={Odishatourism} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
+          <div className="display-table">
+            <div className="table-cell">
+              <div className="container">
+                <div className="slider-text ">
+                <section className="banner">
+          <div className="banner-text-item">
+            <div className="banner-heading lineDown">
+              <h1>Explore The Beauty Of Odisha</h1>
+            </div>
+            
+              <Link to="#" className="book lineUp">
+                book Your Package
+              </Link>
+            
+          </div>
+        </section>
+                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="carousel-item active">
+        <img src={odishatour3} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
+          <div className="display-table">
+            <div className="table-cell">
+              <div className="container">
+                <div className="slider-text ">
+                <section className="banner">
+          <div className="banner-text-item">
+            <div className="banner-heading lineDown">
+              <h1>Explore The Beauty Of Odisha</h1>
+            </div>
+            <Link to="#" className="book lineUp">
+                book Your Package
+              </Link>
+          </div>
+        </section>
+                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                  {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="carousel-item active">
+        <img src={odishatour4} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
+          <div className="display-table">
+            <div className="table-cell">
+              <div className="container">
+                <div className="slider-text ">
+                <section className="banner">
+          <div className="banner-text-item">
+            <div className="banner-heading lineDown">
+              <h1>Explore The Beauty Of Odisha</h1>
+            </div>
+            <Link to="#" className="book lineUp">
+                book Your Package
+              </Link>
+          </div>
+        </section>
+                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                  {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="carousel-item active">
+        <img src={odishatour5} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
+          <div className="display-table">
+            <div className="table-cell">
+              <div className="container">
+                <div className="slider-text ">
+                <section className="banner">
+          <div className="banner-text-item">
+            <div className="banner-heading lineDown">
+              <h1>Explore The Beauty Of Odisha</h1>
+            </div>
+            <Link to="#" className="book lineUp">
+                book Your Package
+              </Link>
+          </div>
+        </section>
+                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                  {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true" />
+      <span className="visually-hidden">Previous</span>
+    </a>
+    <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true" />
+      <span className="visually-hidden">Next</span>
+    </a>
+  </div>
+</div>
+
       </>
 
       <>
