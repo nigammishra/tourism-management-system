@@ -8,8 +8,6 @@ import { Link } from "react-router-dom";
 
 const Package = () => {
 
-
-
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
@@ -115,13 +113,9 @@ const Package = () => {
                 <div className="col-lg-3">
                   <div className="row my-3">
                     <div className="col-sm-12 map-container-btn text-center">
-                      <input
-                        name="map"
-                        id
-                        className="bttnn "
-                        type="button"
-                        defaultValue="map"
-                      />
+                    <a href="https://maps.app.goo.gl/9VMSJmCrocHH7LkYA">
+                        <button type="button" class="btn btn-outline-primary">MAP</button>
+                            </a>
                     </div>
                   </div>
                   <div className="row mt-2 justify-content-between">
@@ -154,8 +148,15 @@ const Package = () => {
                         </div>
                         <div className="row form-group">
                           <div className="col-md-12">
-                            <label htmlFor="date-start">Price Range</label>: cost-
-                            <span id="price" className="price">
+                          <div class="slidecontainer">
+                          <div>
+                            
+                          <input type="range" min={1} max={100} defaultValue={50} className="slider" id="myRange" />
+                          <p>Value: <span id="demo" /></p>
+                          </div>
+
+                            {/* <label htmlFor="date-start">Price Range</label>: cost- */}
+                            {/* <span id="price" className="price">
                               1000
                             </span>
                             <input
@@ -166,7 +167,8 @@ const Package = () => {
                               className="slider"
                               id="myRange"
                             />
-                            <p />
+                            <p /> */}
+                            </div>
                           </div>
                         </div>
                         <div className="row form-group">

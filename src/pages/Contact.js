@@ -44,7 +44,7 @@ const Contact = () => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Form</title>
   
-  <div className="container coet">
+  <div className="container-fluid coet">
     
     <span className="big-circle" />
     <img src="img/shape.png" className="square" alt />
@@ -58,15 +58,15 @@ const Contact = () => {
         <div className="info">
           <div className="information">
             <i className="fas fa-map-marker-alt" /> &nbsp; &nbsp;
-            <p>92 Cherry Drive Uniondale, NY 11553</p>
+            <p>Odisha (formerly Orissa), an eastern Indian state on the Bay of Bengal.</p>
           </div>
           <div className="information">
             <i className="fas fa-envelope" /> &nbsp; &nbsp;
-            <p>lorem@ipsum.com</p>
+            <p>TSM@gmail.com</p>
           </div>
           <div className="information">
             <i className="fas fa-phone" />&nbsp;&nbsp;
-            <p>123-456-789</p>
+            <p>91+ 99999 88888</p>
           </div>
         </div>
         <div className="social-media">
