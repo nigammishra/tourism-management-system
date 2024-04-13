@@ -1771,7 +1771,7 @@ ul {
   width: 100%;
   height: 30vw;
   max-height: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 .img-fluid{
   height: 150px;
@@ -2471,9 +2471,9 @@ h3 {
   color: #28a745;
   font-weight: 600;
 }
-.hotels-container {
+/* .hotels-container {
   margin-top: 6%;
-}
+} */
 .hote {
   font-size: 50px;
 }
