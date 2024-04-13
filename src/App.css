@@ -295,7 +295,7 @@ ul.menu1 {
 
 .menu1 li a:hover {
   color: rgb(78, 78, 214);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /*=============================Banner=============================*/
