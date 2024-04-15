@@ -14,7 +14,7 @@ import travel from "../image/Travel-PNG-Image-HD.png";
 import travelhappy from "../image/clipart4216475.png";
 import Odishapng from "../image/OdishaTourism1.png";
 import Odishatourism from "../image/OdishaTourism.jpg";
-import Odishatourism2 from "../image/glimpses-of-odisha.jpg";
+// import Odishatourism2 from "../image/glimpses-of-odisha.jpg";
 import puri from "../image/puritemple.jpg";
 import ANUGUL from "../image/ANUGUL.jpg";
 import Balasore from "../image/Balasore.jpg";
