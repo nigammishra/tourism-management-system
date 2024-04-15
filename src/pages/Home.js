@@ -200,7 +200,7 @@ const handleTabClick = (id) => {
             <div className="banner-heading lineDown">
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
-            <Link to="#" className="book lineUp">
+            <Link to="/Package" className="book lineUp">
                 book Your Package
               </Link>
           </div>
@@ -226,7 +226,7 @@ const handleTabClick = (id) => {
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
             
-              <Link to="#" className="book lineUp">
+            <Link to="/Package" className="book lineUp">
                 book Your Package
               </Link>
             
@@ -253,7 +253,7 @@ const handleTabClick = (id) => {
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
             
-              <Link to="#" className="book lineUp">
+            <Link to="/Package" className="book lineUp">
                 book Your Package
               </Link>
             
@@ -279,7 +279,7 @@ const handleTabClick = (id) => {
             <div className="banner-heading lineDown">
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
-            <Link to="#" className="book lineUp">
+            <Link to="/Package" className="book lineUp">
                 book Your Package
               </Link>
           </div>
@@ -304,7 +304,7 @@ const handleTabClick = (id) => {
             <div className="banner-heading lineDown">
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
-            <Link to="#" className="book lineUp">
+            <Link to="/Package" className="book lineUp">
                 book Your Package
               </Link>
           </div>
@@ -329,7 +329,7 @@ const handleTabClick = (id) => {
             <div className="banner-heading lineDown">
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
-            <Link to="#" className="book lineUp">
+            <Link to="/Package" className="book lineUp">
                 book Your Package
               </Link>
           </div>

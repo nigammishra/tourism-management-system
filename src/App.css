@@ -288,8 +288,9 @@ ul.menu1 {
 }
 
 .menu1 li a {
+  font-weight: 900;
   text-decoration: none;
-  color: #000;
+  color: #ff9d76;
   text-transform: uppercase;
 }
 
@@ -322,7 +323,7 @@ ul.menu1 {
   overflow: hidden;
   object-fit: cover;
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   text-align: center;
   position: relative;
   display: flex;
@@ -2014,6 +2015,40 @@ svg {
   padding-top: 80px;
 }
 /* Package section */
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}
 nav {
   margin-bottom: 1rem;
 }
@@ -2941,6 +2976,7 @@ textarea.input {
 }
 
 .information i {
+  padding-bottom: 15px;
   color: #1ABC9C;
 }
 

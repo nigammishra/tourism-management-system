@@ -67,19 +67,19 @@ const Footer = () => {
                     </h3>
                     <ul className="list-unstyled f_list">
                       <li className="textstyle">
-                        <Link to="#">Home</Link>
+                        <Link to="/">Home</Link>
                       </li>
                       <li>
-                        <Link to="#"> ViewAll</Link>
+                        <Link to="/about-us"> About</Link>
                       </li>
                       <li>
-                        <Link to="#">Create</Link>
+                        <Link to="/Package">Package</Link>
                       </li>
                       <li>
-                        <Link to="#">Developer</Link>
+                        <Link to="/Gallery">Gallery</Link>
                       </li>
-                      {/* <li><Link to="#">Projects</Link></li>
-              <li><Link to="#">My tasks</Link></li> */}
+                      <li><Link to="/Contact">Contact us</Link></li>
+              {/* <li><Link to="#">My tasks</Link></li> */}
                     </ul>
                   </div>
                 </div>
@@ -127,13 +127,14 @@ const Footer = () => {
                     }}
                   >
                     <h3 className="f-title f_600 t_color f_size_18">
-                      Team Solutions
+                      Connect With Us
                     </h3>
                     <div className="f_social_icon">
                       <Link to="#" className="fab fa-facebook" />
                       <Link to="#" className="fab fa-twitter" />
                       <Link to="#" className="fab fa-linkedin" />
                       <Link to="#" className="fab fa-pinterest" />
+                      
                     </div>
                   </div>
                 </div>
