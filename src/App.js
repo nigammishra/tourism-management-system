@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/tourism-management-system" element={<Home/>}/>
          <Route exact path="/about-us" element={<About/>}/>
          <Route exact path="/Package" element={<Package/>} />
         <Route exact path="/Roombook" element={<Roombook/>}/>

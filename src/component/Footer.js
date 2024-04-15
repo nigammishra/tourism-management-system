@@ -67,7 +67,7 @@ const Footer = () => {
                     </h3>
                     <ul className="list-unstyled f_list">
                       <li className="textstyle">
-                        <Link to="/">Home</Link>
+                        <Link to="/tourism-management-system">Home</Link>
                       </li>
                       <li>
                         <Link to="/about-us"> About</Link>
