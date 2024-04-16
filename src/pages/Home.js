@@ -724,7 +724,7 @@ const handleTabClick = (id) => {
         <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri Caves</li>
         <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark Sun Temple</li>
       </ul>
-
+   <div className='container'>
       <div className="contentstyle">
         <div className={`box ${activeTab === 0 ? 'show' : 'hide'}`} data-content="0">
           <img src={puri} alt="" />
@@ -777,6 +777,7 @@ const handleTabClick = (id) => {
             <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
           </div>
         </div>
+      </div>
       </div>
       </>
     </div>

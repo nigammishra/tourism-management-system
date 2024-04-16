@@ -147,9 +147,9 @@ const Footer = () => {
           </div>
           <div className="footer_bottom">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="align-items-center copyright1">
                 <div className="col-lg-6 col-sm-7">
-                  <p className="mb-0 f_400">©  2K24 Tourism Management System.</p>
+                  <p className="mb-0 f_400">©  2024 All rights reserved <Link to=""> Tourism Management System.</Link></p>
                 </div>
               </div>
             </div>

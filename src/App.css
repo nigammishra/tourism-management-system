@@ -15,13 +15,14 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  
 }
 
 .sidenav a {
@@ -1504,7 +1505,7 @@ ul {
 .tabitem {
   position: sticky;
   width: 70%;
-  height: 40px;
+  height: 10vh;
   margin: auto;
   margin-top: 50px;
   display: flex;
@@ -1520,7 +1521,7 @@ ul {
 
 .tabitem li {
   background-color: #4579e1;
-  width: 25%;
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -1556,7 +1557,8 @@ ul {
   border-radius: 10px;
 }
 .contentstyle {
-  width: 80%;
+  width: 100%;
+  height: 100%;
   margin: auto;
   margin-top: 50px;
   display: flex;
@@ -3499,4 +3501,14 @@ html, body {
     opacity: 1;
     transform: translateY(0%);
   }
+}
+
+
+
+.copyright1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: 300;
 }
