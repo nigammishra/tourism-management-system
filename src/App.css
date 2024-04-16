@@ -93,7 +93,7 @@
 }
 
 /* ==========responsive========= */
-
+/* 
 @media all and (max-width: 1172px) {
   .banner-text-item .form {
     display: flex;
@@ -125,7 +125,7 @@
   }
 
   .banner-heading h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 
@@ -142,7 +142,7 @@
     width: 20%;
     font-size: 14px;
   }
-}
+} */
 
 @media all and (max-width: 942px) {
   .nav-bar {
@@ -358,6 +358,7 @@ ul.menu1 {
 .banner-text-item {
   position: sticky;
   width: 100%;
+  /* height: auto; */
   text-align: center;
   display: flex;
   flex-flow: column wrap;
@@ -370,7 +371,7 @@ ul.menu1 {
 }
 
 .banner-heading h1 {
-  font-size: 100px;
+  font-size: 71px;
   font-weight: normal;
   color: #fde02f;
   font-family: "Barlow Condensed";
@@ -423,10 +424,10 @@ ul.menu1 {
   padding: 15px;
   cursor: pointer;
   background-color: #fde02f;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   font-family: "Barlow Condensed";
-  width: 50%;
+  width: 60%;
 }
 .book:hover {
   background-color: #fff;

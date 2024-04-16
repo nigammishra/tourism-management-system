@@ -189,7 +189,7 @@ const handleTabClick = (id) => {
   <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={4000}>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src={odishatour1} className="d-block w-100" style={{height:'80vh',opacity:'999'}} alt="First slide" />
+        <img src={odishatour1} className="d-block w-100" style={{height:'85vh',opacity:'999'}} alt="First slide" />
         <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
           <div className="display-table">
             <div className="table-cell">
@@ -201,7 +201,7 @@ const handleTabClick = (id) => {
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
             <Link to="/Package" className="book lineUp">
-                book Your Package
+                Book Your Packages
               </Link>
           </div>
         </section>
@@ -214,7 +214,7 @@ const handleTabClick = (id) => {
         </div>
       </div>
       <div className="carousel-item active">
-        <img src={odishatour2} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <img src={odishatour2} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
         <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
           <div className="display-table">
             <div className="table-cell">
@@ -227,34 +227,7 @@ const handleTabClick = (id) => {
             </div>
             
             <Link to="/Package" className="book lineUp">
-                book Your Package
-              </Link>
-            
-          </div>
-        </section>
-                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
-                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="carousel-item active">
-        <img src={Odishatourism} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
-        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
-          <div className="display-table">
-            <div className="table-cell">
-              <div className="container">
-                <div className="slider-text ">
-                <section className="banner">
-          <div className="banner-text-item">
-            <div className="banner-heading lineDown">
-              <h1>Explore The Beauty Of Odisha</h1>
-            </div>
-            
-            <Link to="/Package" className="book lineUp">
-                book Your Package
+                Book Your Packages
               </Link>
             
           </div>
@@ -268,7 +241,34 @@ const handleTabClick = (id) => {
         </div>
       </div>
       <div className="carousel-item active">
-        <img src={odishatour3} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <img src={Odishatourism} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
+        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
+          <div className="display-table">
+            <div className="table-cell">
+              <div className="container">
+                <div className="slider-text ">
+                <section className="banner">
+          <div className="banner-text-item">
+            <div className="banner-heading lineDown">
+              <h1>Explore The Beauty Of Odisha</h1>
+            </div>
+            
+            <Link to="/Package" className="book lineUp">
+                Book Your Packages
+              </Link>
+            
+          </div>
+        </section>
+                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="carousel-item active">
+        <img src={odishatour3} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
         <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
           <div className="display-table">
             <div className="table-cell">
@@ -280,7 +280,7 @@ const handleTabClick = (id) => {
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
             <Link to="/Package" className="book lineUp">
-                book Your Package
+                Book Your Packages
               </Link>
           </div>
         </section>
@@ -293,7 +293,7 @@ const handleTabClick = (id) => {
         </div>
       </div>
       <div className="carousel-item active">
-        <img src={odishatour4} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <img src={odishatour4} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
         <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
           <div className="display-table">
             <div className="table-cell">
@@ -305,7 +305,7 @@ const handleTabClick = (id) => {
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
             <Link to="/Package" className="book lineUp">
-                book Your Package
+                Book Your Packages
               </Link>
           </div>
         </section>
@@ -318,7 +318,7 @@ const handleTabClick = (id) => {
         </div>
       </div>
       <div className="carousel-item active">
-        <img src={odishatour5} className="d-block w-100" style={{height:'80vh'}} alt="First slide" />
+        <img src={odishatour5} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
         <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
           <div className="display-table">
             <div className="table-cell">
@@ -330,7 +330,7 @@ const handleTabClick = (id) => {
               <h1>Explore The Beauty Of Odisha</h1>
             </div>
             <Link to="/Package" className="book lineUp">
-                book Your Package
+                Book Your Packages
               </Link>
           </div>
         </section>
