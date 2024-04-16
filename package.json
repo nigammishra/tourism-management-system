@@ -11,6 +11,7 @@
     "lightgallery": "^2.7.2",
     "particles.js": "^2.0.0",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.8",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",

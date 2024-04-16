@@ -2703,7 +2703,7 @@ sub:hover {
 	display: block;
 	background: #162E3F;
 	padding: 25px;
-	margin: 40px auto;
+	/* margin: 40px auto; */
 	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 	color: #fff;
 }
@@ -3477,7 +3477,7 @@ html, body {
 .p-t180{
   padding-top: 180px;
 }
-
+/* 
 .lineUp {
   animation: 4s anim-lineUp ease-out infinite;
 }
@@ -3518,7 +3518,7 @@ html, body {
     opacity: 1;
     transform: translateY(0%);
   }
-}
+} */
 
 
 

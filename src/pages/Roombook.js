@@ -42,7 +42,7 @@ const Roombook = () => {
       id="button"
     >
     </button>
-      <div style={{ display: "flex", marginTop: "7%" }} className="container">
+      <div style={{ display: "flex", marginTop: "3%" }} className="container">
         <div style={{ paddingRight: "5%" }} className="col-sm-7 boxx">
           <div
             id="carouselExampleAutoplaying"
