@@ -91,8 +91,8 @@ const Gallery = () => {
       id="button"
     >
     </button>
-     <div>
-      
+     
+{/*       
   <section className="bannerr">
   <div className="banner-content">
       <h2 className='galo'>Gallery
@@ -119,19 +119,51 @@ const Gallery = () => {
     </g>
   </svg>
   </section>
-</div>
+</div> */}
 
       </>
-      {/* <>
-      <section className="banner">
+      <>
+      {/* <section className="banner1">
           <img className="banner" src={image} alt />
           <div className="banner-text-item">
             <div className="banner-heading">
-              <h1>Explore The Beauty Of Odisha</h1>
+              <h1>The View of Incrediable Odisha</h1>
             </div>
             </div>
-            </section>
-      </> */}
+            </section> */}
+               <div class="context">
+               <h1>The View of Incrediable Odisha</h1>
+               <div className="row" style={{display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
+                <div className="col-md-6 " id="lordjagannatheyes" style={{textAlign:'end'}}>
+                  <img className="gallery-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6biWRc3G_P7t5wnnjEVT96kT9S-KeKv_SD6I1OetZA&s" alt></img>
+                </div>
+                <div className="col-md-6" id="lordjagannatheyes" style={{textAlign:'start'}}>
+                <img className="gallery-item1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6biWRc3G_P7t5wnnjEVT96kT9S-KeKv_SD6I1OetZA&s" alt></img>
+                </div>
+               </div>
+               <div className="row" id="lordjagannathimage"  style={{display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
+                <div className="col-md-12"  id="lordjagannathimage">
+                <img className=""  id="lordjagannathimage" style={{height:'70px',width:'150px',borderRadius:'20px',boxShadow:'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;'}} src="https://qph.cf2.quoracdn.net/main-qimg-2bbf5c96cc8be09f8abd7fa808d80297-lq" alt></img>
+                </div>
+               </div>
+               </div>
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+      </>
         <>
       <div className="section-wrapper p-t80">
           <div className="container">
