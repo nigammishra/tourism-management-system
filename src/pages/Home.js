@@ -361,9 +361,9 @@ const handleTabClick = (id) => {
           <h3 class="head3 spacing secondary-color text-center text-uppercase"style={{top:'130px', position:'relative' }} >
            Travel With Us
           </h3>
-          <h2 class=" head2 spacing secondary-color text-center text-uppercase" style={{top:'150px', position:'relative' }} >
+          {/* <h2 class=" head2 spacing secondary-color text-center text-uppercase" style={{top:'150px', position:'relative' }} >
             Visit The Best Places Ever
-          </h2>
+          </h2> */}
         </div>
         <section className="py-4 services">
           <div className="container">

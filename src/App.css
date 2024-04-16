@@ -3284,19 +3284,19 @@ textarea.input {
 
 
 .sideimg1{
-  border-radius: 20px 20px 40px 130px;
+  border-radius: 10px 50%;
   height: 218px;
 }
 .sideimg2{
-  border-radius: 20px 130px 20px 40px ;
+  border-radius: 50% 10px;
 
 }
 .sideimg3{
-  border-radius: 130px 20px 20px 40px;
+  border-radius:50% 10px ;
   height: 220px;
 }
 .sideimg4{
- border-radius: 20px 20px 130px 40px ;
+ border-radius: 10px 50% ;
 height: 220px;
 }
    /* SECTION-5 END */
