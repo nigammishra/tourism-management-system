@@ -205,7 +205,7 @@ const handleTabClick = (id) => {
             </Slide>
             <Slide direction='up'>
             <Link to="/Package" className="book ">
-                Packages
+                Visit With Us
               </Link>
               </Slide>
           </div>
@@ -234,7 +234,7 @@ const handleTabClick = (id) => {
             </Slide>
             <Slide direction='up'>
             <Link to="/Package" className="book ">
-                Packages
+                Visit With Us
               </Link>
               </Slide>
           </div>
@@ -263,7 +263,7 @@ const handleTabClick = (id) => {
             </Slide>
             <Slide direction='up'>
             <Link to="/Package" className="book ">
-                Packages
+                Visit With Us
               </Link>
               </Slide>
           </div>
@@ -292,7 +292,7 @@ const handleTabClick = (id) => {
             </Slide>
             <Slide direction='up'>
             <Link to="/Package" className="book ">
-                Packages
+                Visit With Us
               </Link>
               </Slide>
           </div>
@@ -321,7 +321,7 @@ const handleTabClick = (id) => {
             </Slide>
             <Slide direction='up'>
             <Link to="/Package" className="book ">
-                Packages
+                Visit With Us
               </Link>
               </Slide>
           </div>
@@ -350,7 +350,7 @@ const handleTabClick = (id) => {
             </Slide>
             <Slide direction='up'>
             <Link to="/Package" className="book ">
-                Packages
+                Visit With Us
               </Link>
               </Slide>
           </div>

@@ -149,7 +149,7 @@ const Footer = () => {
             <div className="container">
               <div className="align-items-center copyright1">
                 <div className="col-lg-6 col-sm-7">
-                  <p className="mb-0 f_400">©  2024 All rights reserved <Link to=""> Tourism Management System.</Link></p>
+                  <p className="mb-0 f_400">©  2024 All rights reserved <Link to="/tourism-management-system"> Tourism Management System.</Link></p>
                 </div>
               </div>
             </div>

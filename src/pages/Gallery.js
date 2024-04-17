@@ -49,6 +49,8 @@ import logo from '../image/gallerylogo.png';
 import image from '../image/puritemple.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
+import { Slide } from "react-awesome-reveal";
 // import ParticleCanvas from "../component/ParticleCanvas";
 
 const Gallery = () => {
@@ -92,7 +94,7 @@ const Gallery = () => {
       id="button"
     >
     </button>
- <div className="linearbackground">
+ <div className="linearbackground" id="galleryherosection">
   <div className="container " >
   <div className="hero p-t40">
   <h1 className="heading">The View Of Incrediable<br />Odisha</h1>
@@ -115,23 +117,27 @@ const Gallery = () => {
 </div>
 </div>
 
-               {/* <div class="context p-t80">
-               <h1>The View of Incrediable Odisha</h1>
-               <div className="row" style={{display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
+<section className="banner1 linearbackground1">
+          <div className="banner-text-item">
+            <Slide direction='down'>
+            <div className="banner-heading ">
+            <h1>The View of Incrediable Odisha</h1>
+            </div>
+            </Slide>
+            <Slide direction='up'>
+            <div className="row" style={{display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
                 <div className="col-md-6 " id="lordjagannatheyes" style={{textAlign:'end'}}>
-                  <img className="gallery-item1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6biWRc3G_P7t5wnnjEVT96kT9S-KeKv_SD6I1OetZA&s" alt></img>
+                  <img className="gallery-item1" src={gallary1} alt></img>
                 </div>
                 <div className="col-md-6" id="lordjagannatheyes" style={{textAlign:'start'}}>
                 <img className="gallery-item2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6biWRc3G_P7t5wnnjEVT96kT9S-KeKv_SD6I1OetZA&s" alt></img>
                 </div>
                </div>
-               <div className="row" id="lordjagannathimage"  style={{display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
-                <div className="col-md-12"  id="lordjagannathimage">
-                <img className=""  id="lordjagannathimage" style={{height:'70px',width:'150px',borderRadius:'20px',boxShadow:'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;'}} src="https://qph.cf2.quoracdn.net/main-qimg-2bbf5c96cc8be09f8abd7fa808d80297-lq" alt></img>
-                </div>
-               </div>
-               </div>
- */}
+              </Slide>
+          </div>
+        </section>
+             
+ 
 
       </>
         <>
