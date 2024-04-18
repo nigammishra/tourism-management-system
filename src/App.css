@@ -2159,6 +2159,19 @@ a:focus {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 0px;
   padding: 0px 0 1rem 0 !important;
+  
+}
+@media screen and (max-width: 988px) {
+  .colorful{
+     margin-top: 50px;
+ }
+
+}
+@media screen and (min-width: 988px) {
+  .colorful{
+    margin-top: 0px;
+ }
+
 }
 
 .form-card {

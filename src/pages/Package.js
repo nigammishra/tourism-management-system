@@ -44,7 +44,7 @@ const Package = () => {
     </button>
         <div>
           {/* jumbotron and nav */}
-          <section className="colorful jumbotron mb-0" role="banner">
+          <section className="colorful jumbotron mb-0 p-t80" role="banner">
             <div className="container hotels-container">
               <div className="row mt-2 justify-content-between">
                 <div className="col-md-8 text-white align-self-center mb-2 p-4">
