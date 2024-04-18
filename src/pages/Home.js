@@ -26,7 +26,9 @@ import konark from "../image/konark.jpg";
 import bbsr from "../image/bhubaneswar-visit-place.jpg";
 import { Link } from 'react-router-dom';
 import { Fade, Slide, Bounce, Zoom } from "react-awesome-reveal";
-
+import location from '../image/location.gif'
+import review from '../image/Review.gif'
+import owner from '../image/owner.gif'
 
 
 const Home = () => {
@@ -39,14 +41,14 @@ const Home = () => {
   };
 
 
-// 
+  // 
 
 
-const [activeTab, setActiveTab] = useState(0);
-  
-const handleTabClick = (id) => {
-  setActiveTab(id);
-};
+  const [activeTab, setActiveTab] = useState(0);
+
+  const handleTabClick = (id) => {
+    setActiveTab(id);
+  };
 
 
 
@@ -142,21 +144,21 @@ const handleTabClick = (id) => {
     });
   }
 
-  
 
 
 
-  
+
+
   return (
     <div>
 
       <>
-      <button
-      className={showButton ? "show" : ""}
-      onClick={scrollToTop}
-      id="button"
-    >
-    </button>
+        <button
+          className={showButton ? "show" : ""}
+          onClick={scrollToTop}
+          id="button"
+        >
+        </button>
         {/* <section className="banner">
           <div className="banner-text-item">
             <div className="banner-heading">
@@ -185,202 +187,202 @@ const handleTabClick = (id) => {
           </div>
         </section> */}
 
-<div>
-  
-  <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={4000}>
-    <div className="carousel-inner">
-      <div className="carousel-item active">
-        <img src={odishatour1} className="d-block w-100" style={{height:'85vh',opacity:'999'}} alt="First slide" />
-        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
-          <div className="display-table">
-            <div className="table-cell">
-              <div className="container">
-                <div className="slider-text ">
-                <section className="banner">
-          <div className="banner-text-item">
-            <Slide direction='down'>
-            <div className="banner-heading lineDown">
-              <h1>Explore The Beauty Of Odisha</h1>
-            </div>
-            </Slide>
-            <Slide direction='up'>
-            <Link to="/Package" className="book ">
-                Visit With Us
-              </Link>
-              </Slide>
-          </div>
-        </section>
-                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
-                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+        <div>
+
+          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={4000}>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src={odishatour1} className="d-block w-100" style={{ height: '85vh', opacity: '999' }} alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="banner">
+                            <div className="banner-text-item">
+                              <Slide direction='down'>
+                                <div className="banner-heading lineDown">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour2} className="d-block w-100" style={{ height: '85vh' }} alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="banner">
+                            <div className="banner-text-item">
+                              <Slide direction='down'>
+                                <div className="banner-heading lineDown">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={Odishatourism} className="d-block w-100" style={{ height: '85vh' }} alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="banner">
+                            <div className="banner-text-item">
+                              <Slide direction='down'>
+                                <div className="banner-heading lineDown">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour3} className="d-block w-100" style={{ height: '85vh' }} alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="banner">
+                            <div className="banner-text-item">
+                              <Slide direction='down'>
+                                <div className="banner-heading lineDown">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour4} className="d-block w-100" style={{ height: '85vh' }} alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="banner">
+                            <div className="banner-text-item">
+                              <Slide direction='down'>
+                                <div className="banner-heading lineDown">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour5} className="d-block w-100" style={{ height: '85vh' }} alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="banner">
+                            <div className="banner-text-item">
+                              <Slide direction='down'>
+                                <div className="banner-heading lineDown">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true" />
+              <span className="visually-hidden">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true" />
+              <span className="visually-hidden">Next</span>
+            </a>
           </div>
         </div>
-      </div>
-      <div className="carousel-item ">
-        <img src={odishatour2} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
-        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
-          <div className="display-table">
-            <div className="table-cell">
-              <div className="container">
-                <div className="slider-text ">
-                <section className="banner">
-                <div className="banner-text-item">
-            <Slide direction='down'>
-            <div className="banner-heading lineDown">
-              <h1>Explore The Beauty Of Odisha</h1>
-            </div>
-            </Slide>
-            <Slide direction='up'>
-            <Link to="/Package" className="book ">
-                Visit With Us
-              </Link>
-              </Slide>
-          </div>
-        </section>
-                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
-                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="carousel-item ">
-        <img src={Odishatourism} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
-        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
-          <div className="display-table">
-            <div className="table-cell">
-              <div className="container">
-                <div className="slider-text ">
-                <section className="banner">
-                <div className="banner-text-item">
-            <Slide direction='down'>
-            <div className="banner-heading lineDown">
-              <h1>Explore The Beauty Of Odisha</h1>
-            </div>
-            </Slide>
-            <Slide direction='up'>
-            <Link to="/Package" className="book ">
-                Visit With Us
-              </Link>
-              </Slide>
-          </div>
-        </section>
-                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
-                  {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="carousel-item ">
-        <img src={odishatour3} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
-        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
-          <div className="display-table">
-            <div className="table-cell">
-              <div className="container">
-                <div className="slider-text ">
-                <section className="banner">
-                <div className="banner-text-item">
-            <Slide direction='down'>
-            <div className="banner-heading lineDown">
-              <h1>Explore The Beauty Of Odisha</h1>
-            </div>
-            </Slide>
-            <Slide direction='up'>
-            <Link to="/Package" className="book ">
-                Visit With Us
-              </Link>
-              </Slide>
-          </div>
-        </section>
-                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
-                  {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="carousel-item ">
-        <img src={odishatour4} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
-        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
-          <div className="display-table">
-            <div className="table-cell">
-              <div className="container">
-                <div className="slider-text ">
-                <section className="banner">
-                <div className="banner-text-item">
-            <Slide direction='down'>
-            <div className="banner-heading lineDown">
-              <h1>Explore The Beauty Of Odisha</h1>
-            </div>
-            </Slide>
-            <Slide direction='up'>
-            <Link to="/Package" className="book ">
-                Visit With Us
-              </Link>
-              </Slide>
-          </div>
-        </section>
-                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
-                  {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="carousel-item ">
-        <img src={odishatour5} className="d-block w-100" style={{height:'85vh'}} alt="First slide" />
-        <div className="nivo-caption" style={{display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center'}}>
-          <div className="display-table">
-            <div className="table-cell">
-              <div className="container">
-                <div className="slider-text ">
-                <section className="banner">
-                <div className="banner-text-item">
-            <Slide direction='down'>
-            <div className="banner-heading lineDown">
-              <h1>Explore The Beauty Of Odisha</h1>
-            </div>
-            </Slide>
-            <Slide direction='up'>
-            <Link to="/Package" className="book ">
-                Visit With Us
-              </Link>
-              </Slide>
-          </div>
-        </section>
-                  {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
-                  {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
-      <span className="carousel-control-prev-icon" aria-hidden="true" />
-      <span className="visually-hidden">Previous</span>
-    </a>
-    <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
-      <span className="carousel-control-next-icon" aria-hidden="true" />
-      <span className="visually-hidden">Next</span>
-    </a>
-  </div>
-</div>
 
       </>
 
       <>
-      <div className="container">
-          <h3 class="head3 spacing secondary-color text-center text-uppercase"style={{top:'130px', position:'relative' }} >
-           Travel With Us
+        <div className="container">
+          <h3 class="head3 spacing secondary-color text-center text-uppercase" style={{ top: '130px', position: 'relative' }} >
+            Travel With Us
           </h3>
           {/* <h2 class=" head2 spacing secondary-color text-center text-uppercase" style={{top:'150px', position:'relative' }} >
             Visit The Best Places Ever
@@ -433,15 +435,15 @@ const handleTabClick = (id) => {
             </div>
           </div>
         </section>
-        
+
       </>
 
       {/* card section */}
-    
+
       <>
         <div className="container-fluid">
           <h3 class="head3 spacing secondary-color text-center text-uppercase">
-           Top 8 City
+            Top 8 City
           </h3>
           <h2 class=" head2 spacing secondary-color text-center text-uppercase">
             Tourist Places
@@ -453,7 +455,7 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title">sambalpur</h2>
               <p className="copy">
-                
+
               </p>
               <button className="btn">View Trips</button>
             </div>
@@ -462,7 +464,7 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title">bhubaneswar</h2>
               <p className="copy">
-              Admire the Rich Architecture
+                Admire the Rich Architecture
               </p>
               <button className="btn">View Trips</button>
             </div>
@@ -471,8 +473,8 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title">chandipur</h2>
               <p className="copy">
-              Seaside Serenity
-                </p>
+                Seaside Serenity
+              </p>
               <button className="btn">Trip Now</button>
             </div>
           </div>
@@ -480,7 +482,7 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title">puri-seabeach</h2>
               <p className="copy">
-              Unique Temples and Sun-kissed Beaches
+                Unique Temples and Sun-kissed Beaches
               </p>
               <button className="btn">Trip Now</button>
             </div>
@@ -489,7 +491,7 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title">puri-temple</h2>
               <p className="copy">
-              Witness the Popular Rath Yatra
+                Witness the Popular Rath Yatra
               </p>
               <button className="btn">Trip Now</button>
             </div>
@@ -498,7 +500,7 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title">Simlipal National Park</h2>
               <p className="copy">
-              For A Glance At The Famous Bengal Tiger
+                For A Glance At The Famous Bengal Tiger
               </p>
               <button className="btn">Trip Now</button>
             </div>
@@ -507,7 +509,7 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title"> Rourkela</h2>
               <p className="copy">
-              The Largest City In Odisha
+                The Largest City In Odisha
               </p>
               <button className="btn">Trip Now</button>
             </div>
@@ -516,7 +518,7 @@ const handleTabClick = (id) => {
             <div className="contentt">
               <h2 className="title"> Gopalpur</h2>
               <p className="copy">
-              Home To The Olive Ridley Sea Turtles
+                Home To The Olive Ridley Sea Turtles
               </p>
               <button className="btn">Trip Now</button>
             </div>
@@ -524,70 +526,70 @@ const handleTabClick = (id) => {
         </main>
       </>
       <>
-   <section className="team-section1 bg-grey bd-bottom circle5 p-t80 shape padding">
-  <div className="container">
-    <div className="section-heading text-center mb-40">
-      <h2>Meet Our Volunteers</h2>
-      <span className="heading-border" />
-      <p>Help today because tomorrow you may be the one who <br /> needs more helping!</p>
-    </div>
-    <div className="team-wrapper row">
-      <div className="col-lg-6 sm-padding">
-        <div className="team-wrap row">
-          <div className="col-md-6">
-            <div className="team-details">
-              <img className='sideimg1' src={ANUGUL} alt="team" />
-              <div className="hover">
-                <h3>Jonathan Smith <span>Communicator</span></h3>
+        <section className="team-section1 bg-grey bd-bottom circle5 p-t80 shape padding">
+          <div className="container">
+            <div className="section-heading text-center mb-40">
+              <h2>Meet Our Volunteers</h2>
+              <span className="heading-border" />
+              <p>Help today because tomorrow you may be the one who <br /> needs more helping!</p>
+            </div>
+            <div className="team-wrapper row">
+              <div className="col-lg-6 sm-padding">
+                <div className="team-wrap row">
+                  <div className="col-md-6">
+                    <div className="team-details">
+                      <img className='sideimg1' src={ANUGUL} alt="team" />
+                      <div className="hover">
+                        <h3>Jonathan Smith <span>Communicator</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="team-details">
+                      <img className='sideimg2' src={Balasore} alt="team" />
+                      <div className="hover">
+                        <h3>Angelina Rose <span>Certified Reader</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6" >
+                    <div className="team-details">
+                      <img className='sideimg3' src={Boudh} alt="team" />
+                      <div className="hover">
+                        <h3>Taylor Swift <span>Event Creator</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="team-details">
+                      <img className='sideimg4' src={Balangir} alt="team" />
+                      <div className="hover">
+                        <h3>Michel Brown <span>Internet Specialist</span></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 sm-padding">
+                <div className="team-content">
+                  <h2>Become a Volunteer?</h2>
+                  <h3 className='section5h3'>Join your hand with us for a better life and beautiful future.</h3>
+                  <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can
+                    make in the lives of the poor, the abused and the helpless.</p>
+                  <ul className="check-list">
+                    <li><i className="fa fa-check" />We are friendly to each other.</li>
+                    <li><i className="fa fa-check" />If you join with us,We will give you free training.</li>
+                    <li><i className="fa fa-check" />Its an opportunity to help poor children.</li>
+                    <li><i className="fa fa-check" />No goal requirements.</li>
+                    <li><i className="fa fa-check" />Joining is tottaly free. We dont need any money from you.
+                    </li>
+                  </ul>
+                  <Link to="#" className="custom-btn btn-9 default-btn">Join With Us</Link>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="team-details">
-              <img className='sideimg2' src={Balasore} alt="team" />
-              <div className="hover">
-                <h3>Angelina Rose <span>Certified Reader</span></h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6" >
-            <div className="team-details">
-              <img className='sideimg3' src={Boudh} alt="team" />
-              <div className="hover">
-                <h3>Taylor Swift <span>Event Creator</span></h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="team-details">
-              <img className='sideimg4' src={Balangir} alt="team" />
-              <div className="hover">
-                <h3>Michel Brown <span>Internet Specialist</span></h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-6 sm-padding">
-        <div className="team-content">
-          <h2>Become a Volunteer?</h2>
-          <h3 className='section5h3'>Join your hand with us for a better life and beautiful future.</h3>
-          <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can
-            make in the lives of the poor, the abused and the helpless.</p>
-          <ul className="check-list">
-            <li><i className="fa fa-check" />We are friendly to each other.</li>
-            <li><i className="fa fa-check" />If you join with us,We will give you free training.</li>
-            <li><i className="fa fa-check" />Its an opportunity to help poor children.</li>
-            <li><i className="fa fa-check" />No goal requirements.</li>
-            <li><i className="fa fa-check" />Joining is tottaly free. We dont need any money from you.
-            </li>
-          </ul>
-          <Link to="#" className="custom-btn btn-9 default-btn">Join With Us</Link>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        </section>
 
       </>
       <>
@@ -596,7 +598,7 @@ const handleTabClick = (id) => {
             Most Demanded Places
           </h3>
           <h2 class=" head2 spacing secondary-color text-center text-uppercase">
-           Have A Glance 
+            Have A Glance
           </h2>
         </div>
         <div className="container first-section">
@@ -607,9 +609,9 @@ const handleTabClick = (id) => {
                   <h2 className="title"> Daringbadi: Kashmir of Odisha</h2>
                   <p className="description">
                     {" "}
-                    The hill stations of Phulbani are an attractive place for people who love pine forests and waterfalls. 
+                    The hill stations of Phulbani are an attractive place for people who love pine forests and waterfalls.
                     This is one of the places to visit in Odisha during summer.
-                     For travelers from different parts of the world, there are different accommodations, such as Daringbadi Nature Camp and Belghar Nature Camp.{" "}
+                    For travelers from different parts of the world, there are different accommodations, such as Daringbadi Nature Camp and Belghar Nature Camp.{" "}
                   </p>
                   <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -635,7 +637,7 @@ const handleTabClick = (id) => {
                   <p className="description">
                     {" "}
                     The Sun Temple in Konark is one of India's most exquisite temples and an architectural wonder.
-                     This is the best place to visit in Odisha! The Annual Dance Festival is a five-day cultural spectacle that brings together exceptional dance talent from throughout the nation. This festival honors the diverse dance styles that our nation has created and is a spectacular celebration of our nation's rich cultural and artistic heritage.
+                    This is the best place to visit in Odisha! The Annual Dance Festival is a five-day cultural spectacle that brings together exceptional dance talent from throughout the nation. This festival honors the diverse dance styles that our nation has created and is a spectacular celebration of our nation's rich cultural and artistic heritage.
                   </p>
                   <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -646,7 +648,7 @@ const handleTabClick = (id) => {
                 <div className="content1">
                   <h2 className="title">Chandipur: Seaside Serenity</h2>
                   <p className="description">
-                  There is no beach like Chandipur. At low tide, the beach retreats up to 5 km, allowing people to stroll on the ocean floor. The beach's equally unusual biodiversity is supported by this unique phenomena.Among other things, it is home to sea urchins, starfish, and endangered horse shoe crabs. The beach's dirty water makes it unsuitable for swimming.
+                    There is no beach like Chandipur. At low tide, the beach retreats up to 5 km, allowing people to stroll on the ocean floor. The beach's equally unusual biodiversity is supported by this unique phenomena.Among other things, it is home to sea urchins, starfish, and endangered horse shoe crabs. The beach's dirty water makes it unsuitable for swimming.
                   </p>
                   <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -657,9 +659,9 @@ const handleTabClick = (id) => {
                 <div className="content1">
                   <h2 className="title"> Barbil: Mining Town with Rustic Charm</h2>
                   <p className="description">
-                  Barbil, located in the Odisha district of Kendujhar/Keonjhar, is a well-liked tourist site and a spot for honeymoon in Odisha.
-                   It is located along the Karo River's bank.
-                   Barbil is a well-liked location with a special fusion of history, mythology, and scenic beauty.
+                    Barbil, located in the Odisha district of Kendujhar/Keonjhar, is a well-liked tourist site and a spot for honeymoon in Odisha.
+                    It is located along the Karo River's bank.
+                    Barbil is a well-liked location with a special fusion of history, mythology, and scenic beauty.
                   </p>
                   <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -693,18 +695,9 @@ const handleTabClick = (id) => {
       </>
 
       <>
-        <div className="container p-t80">
-          <h3 class="head3 spacing secondary-color text-center text-uppercase">
-            Art& Architectures of
-          </h3>
-          <h2 class=" head2 spacing secondary-color text-center text-uppercase">
-            Odisha
-          </h2>
-        </div>
-        <css-doodle style={{position:'absolute', display: 'flex',  alignItems: 'center', }}>
-                    <style dangerouslySetInnerHTML={{ __html: "\n  --color: #51eaea, #fffde1, #ff9d76, #FB3569;\n\n  @grid: 30x1 / 100% 78vh / #270f34; \n  \n  :container {\n    perspective: 30vmin;\n    --deg: @p(-180deg, 180deg);\n  }\n  \n  :after, :before {\n    content: '';\n    background: @p(--color); \n    @place: @r(100%) @r(100%);\n    @size: @r(6px);\n    @shape: heart;\n  }\n\n  @place: center;\n  @size: 18vmin; \n\n  box-shadow: @m2(0 0 50px @p(--color));\n  background: @m100(\n    radial-gradient(@p(--color) 50%, transparent 0) \n    @r(-20%, 120%) @r(-20%, 100%) / 1px 1px\n    no-repeat\n  );\n\n  will-change: transform, opacity;\n  animation: scale-up 26s linear infinite;\n  animation-delay: calc(-12s / @I * @i);\n\n  @keyframes scale-up {\n    0%, 95.01%, 100% {\n      transform: translateZ(0) rotate(0);\n      opacity: 0;\n    }\n    10% { \n      opacity: 1; \n    }\n    95% {\n      transform: \n        translateZ(35vmin) rotateZ(var(--deg));\n    }\n  }\n" }} />
-                </css-doodle>
-        <section id="slideshow" >
+
+
+        {/* <section id="slideshow" >
                 <div class="entire-content">
                     <div class="content-carrousel">
                         <figure class="shadow">
@@ -729,77 +722,118 @@ const handleTabClick = (id) => {
                     </div>
                 </div>
                 
-            </section>
+            </section> */}
 
-       
-      </>
-      <>
-      <div className="container p-t180">
-      <h2 class=" head2 spacing secondary-color text-center text-uppercase">
-           Most Loveble Places In Odisha
+        <div className="container p-t80" style={{ paddingTop: '100px' }}>
+          <h3 class="head3 spacing secondary-color text-center text-uppercase">
+            Art& Architectures of
+          </h3>
+          <h2 class=" head2 spacing secondary-color text-center text-uppercase">
+            Odisha
           </h2>
         </div>
-      <ul className="tabitem">
-        <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
-        <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja Temple </li>
-        <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri Caves</li>
-        <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark Sun Temple</li>
-      </ul>
-   <div className='container'>
-      <div className="contentstyle">
-        <div className={`box ${activeTab === 0 ? 'show' : 'hide'}`} data-content="0">
-          <img src={puri} alt="" />
-          <div>
-            <h3>PURI</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-              a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-              sequi perferendis veritatis! Voluptatem?
-            </p>
-            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+        <div className="container gap-5" style={{ display: 'flex', position: 'absolute', zIndex: '5', height: '78vh', alignItems: 'center', flexWrap: 'wrap' }}>
+          <div className="section-content">
+            <div className="newsletter-section text-center text-white">
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '60px', width: '95vw', flexWrap: 'wrap' }}>
+                <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
+                  <div className="counter-box">
+                    <img src={location} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10,height:'80px' }} />
+                    <div className="counting counter text-black fs-1 fw-bold  " data-count={180}>180</div>
+                    <p className='text-black fs-5'>Locations</p>
+                  </div>
+                </div>
+                <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
+                  <div className="counter-box">
+                    <img src={review} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10,height:'80px' }} />
+                    <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>1400</div>
+                    <h5 className='text-black'>Reviews</h5>
+                  </div>
+                </div>
+                <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
+                  <div className="counter-box">
+                    <img src={owner} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10,height:'80px' }} />
+                    <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
+                    <h5 className='text-black'>Visiters</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <css-doodle style={{ position: 'absolute', display: 'flex', alignItems: 'center', }}>
+          <style dangerouslySetInnerHTML={{ __html: "\n  --color: #51eaea, #fffde1, #ff9d76, #FB3569;\n\n  @grid: 30x1 / 100% 78vh / #270f34; \n  \n  :container {\n    perspective: 30vmin;\n    --deg: @p(-180deg, 180deg);\n  }\n  \n  :after, :before {\n    content: '';\n    background: @p(--color); \n    @place: @r(100%) @r(100%);\n    @size: @r(6px);\n    @shape: heart;\n  }\n\n  @place: center;\n  @size: 18vmin; \n\n  box-shadow: @m2(0 0 50px @p(--color));\n  background: @m100(\n    radial-gradient(@p(--color) 50%, transparent 0) \n    @r(-20%, 120%) @r(-20%, 100%) / 1px 1px\n    no-repeat\n  );\n\n  will-change: transform, opacity;\n  animation: scale-up 26s linear infinite;\n  animation-delay: calc(-12s / @I * @i);\n\n  @keyframes scale-up {\n    0%, 95.01%, 100% {\n      transform: translateZ(0) rotate(0);\n      opacity: 0;\n    }\n    10% { \n      opacity: 1; \n    }\n    95% {\n      transform: \n        translateZ(35vmin) rotateZ(var(--deg));\n    }\n  }\n" }} />
+        </css-doodle>
 
-        <div className={`box ${activeTab === 1 ? 'show' : 'hide'}`} data-content="1">
-          <img src={puri} alt="" />
-          <div>
-            <h3>Lorem ipsum dolor</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-              a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-              sequi perferendis veritatis! Voluptatem?
-            </p>
-            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
-          </div>
-        </div>
 
-        <div className={`box ${activeTab === 2 ? 'show' : 'hide'}`} data-content="2">
-          <img src={puri} alt="" />
-          <div>
-            <h3>Lorem ipsum dolor</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-              a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-              sequi perferendis veritatis! Voluptatem?
-            </p>
-            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
-          </div>
+      </>
+      <>
+        <div className="container p-t180" style={{paddingTop:'600px'}}>
+          <h2 class=" head2 spacing secondary-color text-center text-uppercase">
+            Most Loveble Places In Odisha
+          </h2>
         </div>
+        <ul className="tabitem">
+          <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
+          <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja Temple </li>
+          <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri Caves</li>
+          <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark Sun Temple</li>
+        </ul>
+        <div className='container'>
+          <div className="contentstyle">
+            <div className={`box ${activeTab === 0 ? 'show' : 'hide'}`} data-content="0">
+              <img src={puri} alt="" />
+              <div>
+                <h3>PURI</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
+                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
+                  sequi perferendis veritatis! Voluptatem?
+                </p>
+                <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+              </div>
+            </div>
 
-        <div className={`box ${activeTab === 3 ? 'show' : 'hide'}`} data-content="3">
-          <img src={puri} alt="" />
-          <div>
-            <h3>Lorem ipsum dolor</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-              a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-              sequi perferendis veritatis! Voluptatem?
-            </p>
-            <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+            <div className={`box ${activeTab === 1 ? 'show' : 'hide'}`} data-content="1">
+              <img src={puri} alt="" />
+              <div>
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
+                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
+                  sequi perferendis veritatis! Voluptatem?
+                </p>
+                <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+              </div>
+            </div>
+
+            <div className={`box ${activeTab === 2 ? 'show' : 'hide'}`} data-content="2">
+              <img src={puri} alt="" />
+              <div>
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
+                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
+                  sequi perferendis veritatis! Voluptatem?
+                </p>
+                <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+              </div>
+            </div>
+
+            <div className={`box ${activeTab === 3 ? 'show' : 'hide'}`} data-content="3">
+              <img src={puri} alt="" />
+              <div>
+                <h3>Lorem ipsum dolor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
+                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
+                  sequi perferendis veritatis! Voluptatem?
+                </p>
+                <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
       </>
     </div>
   );

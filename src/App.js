@@ -16,13 +16,12 @@ function App() {
       <Header/>
       <Routes>
         <Route exact path="/tourism-management-system" element={<Home/>}/>
-         <Route exact path="/about-us" element={<About/>}/>
-         <Route exact path="/Package" element={<Package/>} />
+        <Route exact path="/about-us" element={<About/>}/>
+        <Route exact path="/Package" element={<Package/>} />
         <Route exact path="/Roombook" element={<Roombook/>}/>
         <Route exact path="/Gallery" element={<Gallery/>}/> 
-         <Route exact path="/Contact" element={<Contact/>}/> 
+        <Route exact path="/Contact" element={<Contact/>}/> 
       </Routes>
-      {/* <Partners/> */}
       <Footer/>
     </Router>
   );
