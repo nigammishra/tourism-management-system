@@ -3362,7 +3362,7 @@ height: 220px;
 
 
 
-
+/* 
 
 * {
   margin: 0;
@@ -3489,7 +3489,7 @@ html, body {
   } to {
     transform: rotateY(360deg);
   }
-}
+} */
 .p-t180{
   padding-top: 180px;
 }
