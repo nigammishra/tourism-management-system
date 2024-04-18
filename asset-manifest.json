@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/tourism-management-system/static/css/main.50f72576.css",
-    "main.js": "/tourism-management-system/static/js/main.b32180c9.js",
+    "main.js": "/tourism-management-system/static/js/main.74008b11.js",
     "static/js/453.288b35d9.chunk.js": "/tourism-management-system/static/js/453.288b35d9.chunk.js",
     "static/media/puritemple.jpg": "/tourism-management-system/static/media/puritemple.576b6779b435010911c4.jpg",
     "static/media/OdishaTourism.jpg": "/tourism-management-system/static/media/OdishaTourism.f4df0868d7b4c3fb2fed.jpg",
+    "static/media/Review.gif": "/tourism-management-system/static/media/Review.1cf851e4228953531f80.gif",
+    "static/media/location.gif": "/tourism-management-system/static/media/location.8220c99afb25e44cd62a.gif",
+    "static/media/owner.gif": "/tourism-management-system/static/media/owner.2ddb2ec09980367912ae.gif",
     "static/media/NicePng_travel-logo-png_3200042.png": "/tourism-management-system/static/media/NicePng_travel-logo-png_3200042.0323e15fe5cdf9d3a414.png",
     "static/media/similipal-national-park.jpg": "/tourism-management-system/static/media/similipal-national-park.34b18900b88359896828.jpg",
     "static/media/Bargarh.jpg": "/tourism-management-system/static/media/Bargarh.380df1697af23721cdcd.jpg",
@@ -83,11 +86,11 @@
     "static/media/slick.ttf": "/tourism-management-system/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tourism-management-system/static/media/slick.295183786cd8a1389865.woff",
     "main.50f72576.css.map": "/tourism-management-system/static/css/main.50f72576.css.map",
-    "main.b32180c9.js.map": "/tourism-management-system/static/js/main.b32180c9.js.map",
+    "main.74008b11.js.map": "/tourism-management-system/static/js/main.74008b11.js.map",
     "453.288b35d9.chunk.js.map": "/tourism-management-system/static/js/453.288b35d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50f72576.css",
-    "static/js/main.b32180c9.js"
+    "static/js/main.74008b11.js"
   ]
 }
