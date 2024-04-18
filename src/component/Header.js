@@ -55,12 +55,13 @@ const Header = () => {
               ☰ open
             </span> */}
             <span style={{ fontSize: 30, cursor: "pointer" ,float:'right' }} onClick={openNav}>
-              ☰ <img
+               <img
                 src={img}
-                style={{ height: '60px', width: '150px', float: 'right' ,position:'relative',right:'181px' }}
+                style={{ height: '60px', width: '150px' ,position:'relative',right:'181px' }}
                 alt="Bootstrap"
               />
-            </span>
+              ☰ 
+           </span>
           </div>
         </div>
 
