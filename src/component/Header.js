@@ -31,7 +31,7 @@ const Header = () => {
           </ul>
         </section>
         <div id="header1">
-          <div id="mySidenav" className="sidenav">
+          <div id="mySidenav" className="sidenav" >
             <Link
               to="javascript:void(0)"
               className="closebtn"
@@ -54,10 +54,10 @@ const Header = () => {
             >
               ☰ open
             </span> */}
-            <span style={{ fontSize: 30, cursor: "pointer" }} onClick={openNav}>
+            <span style={{ fontSize: 30, cursor: "pointer" ,float:'right' }} onClick={openNav}>
               ☰ <img
                 src={img}
-                style={{ height: '60px', width: '150px', float: 'right' }}
+                style={{ height: '60px', width: '150px', float: 'right' ,position:'relative',right:'181px' }}
                 alt="Bootstrap"
               />
             </span>

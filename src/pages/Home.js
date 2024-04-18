@@ -529,49 +529,62 @@ const Home = () => {
       <>
         <section className="team-section1 bg-grey bd-bottom circle5 p-t80 shape padding">
           <div className="container">
+          <Slide direction='down'>
             <div className="section-heading text-center mb-40">
               <h2>Meet Our Volunteers</h2>
               <span className="heading-border" />
               <p>Help today because tomorrow you may be the one who <br /> needs more helping!</p>
             </div>
+            </Slide>
             <div className="team-wrapper row">
               <div className="col-lg-6 sm-padding">
+              <Slide direction='left'>
                 <div className="team-wrap row">
                   <div className="col-md-6">
+          
                     <div className="team-details">
                       <img className='sideimg1' src={ANUGUL} alt="team" />
                       <div className="hover">
                         <h3>Jonathan Smith <span>Communicator</span></h3>
                       </div>
                     </div>
+                    
                   </div>
                   <div className="col-md-6">
+                 
                     <div className="team-details">
                       <img className='sideimg2' src={Balasore} alt="team" />
                       <div className="hover">
                         <h3>Angelina Rose <span>Certified Reader</span></h3>
                       </div>
                     </div>
+                  
                   </div>
                   <div className="col-md-6" >
+                 
                     <div className="team-details">
                       <img className='sideimg3' src={Boudh} alt="team" />
                       <div className="hover">
                         <h3>Taylor Swift <span>Event Creator</span></h3>
                       </div>
                     </div>
+                   
                   </div>
                   <div className="col-md-6">
+                 
                     <div className="team-details">
                       <img className='sideimg4' src={Balangir} alt="team" />
                       <div className="hover">
                         <h3>Michel Brown <span>Internet Specialist</span></h3>
                       </div>
                     </div>
+                   
                   </div>
                 </div>
+                </Slide>
               </div>
               <div className="col-lg-6 sm-padding">
+              <Slide direction='right'>
                 <div className="team-content">
                   <h2>Become a Volunteer?</h2>
                   <h3 className='section5h3'>Join your hand with us for a better life and beautiful future.</h3>
@@ -587,6 +600,7 @@ const Home = () => {
                   </ul>
                   <Link to="#" className="custom-btn btn-9 default-btn">Join With Us</Link>
                 </div>
+                </Slide>
               </div>
             </div>
           </div>
@@ -614,9 +628,9 @@ const Home = () => {
                     This is one of the places to visit in Odisha during summer.
                     For travelers from different parts of the world, there are different accommodations, such as Daringbadi Nature Camp and Belghar Nature Camp.{" "}
                   </p>
-                  <Link to="">
+                  {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
               {/* Repeat the rest of the list items similarly */}
@@ -627,9 +641,9 @@ const Home = () => {
                     {" "}
                     <p>These are the locations where religion, art, and rock-cut building abound. A pleasant location to take your family is the two hills, which rise sharply from the coastal plain and are divided by a highway around six kilometers west of Bhubaneswar. Among the tourists this is one of the <strong>top place to visit in Odisha. </strong>It has a great deal of historical significance and resembles little Ajanta Ellora caves.</p>
                   </p>
-                  <Link to="">
+                  {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
               <li className="item1 thirdimg">
@@ -640,9 +654,9 @@ const Home = () => {
                     The Sun Temple in Konark is one of India's most exquisite temples and an architectural wonder.
                     This is the best place to visit in Odisha! The Annual Dance Festival is a five-day cultural spectacle that brings together exceptional dance talent from throughout the nation. This festival honors the diverse dance styles that our nation has created and is a spectacular celebration of our nation's rich cultural and artistic heritage.
                   </p>
-                  <Link to="">
+                  {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
               <li className="item1 fourthimg">
@@ -651,9 +665,9 @@ const Home = () => {
                   <p className="description">
                     There is no beach like Chandipur. At low tide, the beach retreats up to 5 km, allowing people to stroll on the ocean floor. The beach's equally unusual biodiversity is supported by this unique phenomena.Among other things, it is home to sea urchins, starfish, and endangered horse shoe crabs. The beach's dirty water makes it unsuitable for swimming.
                   </p>
-                  <Link to="">
+                  {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
               <li className="item1 fivthimg">
@@ -664,9 +678,9 @@ const Home = () => {
                     It is located along the Karo River's bank.
                     Barbil is a well-liked location with a special fusion of history, mythology, and scenic beauty.
                   </p>
-                  <Link to="">
+                  {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
               <li className="item1 sixthimg">
@@ -677,18 +691,18 @@ const Home = () => {
                     The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism
                     The temple is famous for its annual Ratha Yatra, or chariot festival, in which the three principal deities are pulled on huge and elaborately decorated raths, or temple cars.
                   </p>
-                  <Link to="">
+                  {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
             </ul>
             <nav className="navstyle">
-              <button className="custom-btn btn-9 prev" onClick={activate}>
-                Previous
+              <button className="custom-btn1 prev" onClick={activate}>
+              &#8249;
               </button>
-              <button className="custom-btn btn-9 next" onClick={activate}>
-                Next
+              <button className="custom-btn1 next" onClick={activate}>
+              &#8250;
               </button>
             </nav>
           </main>
@@ -738,26 +752,34 @@ const Home = () => {
             <div className="newsletter-section text-center text-white">
               <div style={{ display: 'flex', justifyContent: 'center', gap: '60px', width: '95vw', flexWrap: 'wrap' }}>
                 <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
+                <Slide direction='left'>
                   <div className="counter-box">
                     <img src={location} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10,height:'80px' }} />
                     <div className="counting counter text-black fs-1 fw-bold  " data-count={180}>180</div>
                     <p className='text-black fs-5'>Locations</p>
                   </div>
+                  </Slide>
                 </div>
                 <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
+                <Slide direction='down'>
                   <div className="counter-box">
                     <img src={review} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10,height:'80px' }} />
-                    <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>1400</div>
+                    <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>14000</div>
                     <h5 className='text-black'>Reviews</h5>
                   </div>
+                  </Slide>
                 </div>
+                
                 <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
+                  <Slide direction='right'>
                   <div className="counter-box">
                     <img src={owner} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10,height:'80px' }} />
                     <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
                     <h5 className='text-black'>Visiters</h5>
                   </div>
+                  </Slide>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -773,7 +795,7 @@ const Home = () => {
       </div>
       </>
       <>
-        <div className="container p-t180" style={{paddingTop:'600px'}}>
+        <div className="container  paddingchange" >
           <h2 class=" head2 spacing secondary-color text-center text-uppercase">
             Most Loveble Places In Odisha
           </h2>

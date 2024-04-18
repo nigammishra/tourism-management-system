@@ -331,6 +331,21 @@ ul.menu1 {
   justify-content: center;
   align-items: center;
 }
+.banner2 {
+  background-image: url("image/OdishaTourism.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .banner::before {
   content: "";
@@ -873,6 +888,28 @@ ul.menu1 {
 button {
   margin: 20px;
 }
+.custom-btn1 {
+  /* width: 130px; */
+  /* height: 40px; */
+  color: #f8f7f7;
+  border: none;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  /* background: transparent; */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  /* display: inline-block; */
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+button {
+  margin: 20px;
+}
 
 .first-section {
   height: 625px;
@@ -980,11 +1017,13 @@ button {
 
 .navstyle {
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
   left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateX(50%); */
   z-index: 5;
   user-select: none;
+  display: flex;
+
 
   & .btndesgn {
     background-color: rgba(255, 255, 255, 0.5);
@@ -1945,7 +1984,7 @@ svg {
 
 .ccardd__thumb {
   overflow: hidden;
-  background-color: var(--grey);
+  /* background-color: var(--grey); */
 }
 
 .ccardd__thumb img {
@@ -1966,8 +2005,8 @@ svg {
 }
 
 .ccardd__title {
-  color: var(--dark);
-  font-family: var(--secondary-font);
+  color: rgb(222 160 49);
+  font-family: cursive;
   font-size: 2.1875rem;
   font-weight: 400;
   margin-bottom: 1.25rem;
@@ -1976,6 +2015,9 @@ svg {
 
 .ccardd__text {
   line-height: 1.7;
+  font-weight: 600;
+  color: #070768;
+  font-family: cursive;
 }
 
 .ccardd__btn {
@@ -3809,7 +3851,7 @@ top: 0;
 
 .text {
   width: 70%;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -4026,3 +4068,19 @@ top: 0;
     }
   
   }
+  .paddingchange{
+    padding-top: 600px;
+  }
+  @media screen and (max-width: 988px) {
+     .paddingchange{
+       display: contents;
+    }
+  
+  }
+
+
+
+
+
+
+ 

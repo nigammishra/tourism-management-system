@@ -97,8 +97,9 @@ const Gallery = () => {
  <div className="linearbackground" id="galleryherosection">
   <div className="container " >
   <div className="hero p-t40">
+  <Slide direction='left'>
   <h1 className="heading">The View Of Incrediable<br />Odisha</h1>
-
+</Slide>
   <div className="grid__container">
     <div className="grid__item one" />
     <div className="grid__item two" />
