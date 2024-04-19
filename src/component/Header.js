@@ -7,7 +7,7 @@ const Header = () => {
 
 
   function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "100%";
     document.getElementById("main").style.marginLeft = "250px";
   }
 
@@ -23,7 +23,7 @@ const Header = () => {
         <section className="nav-bar" id='header'>
           <div className="logo"><img className="" src={img} style={{ height: '60px', width: '150px' }} alt /></div>
           <ul className="menu1">
-            <li><Link to="/">home</Link></li>
+            <li><Link to="/tourism-management-system">home</Link></li>
             <li><Link to="/about-us">about</Link></li>
             <li><Link to="/Package">Package</Link></li>
             <li><Link to="/Gallery">gallery</Link></li>
@@ -31,7 +31,7 @@ const Header = () => {
           </ul>
         </section>
         <div id="header1">
-          <div id="mySidenav" className="sidenav">
+          <div id="mySidenav" className="sidenav" >
             <Link
               to="javascript:void(0)"
               className="closebtn"
@@ -40,7 +40,7 @@ const Header = () => {
               ×
             </Link>
             <ul className="">
-              <li><Link to="/">home</Link></li>
+              <li><Link to="/tourism-management-system">home</Link></li>
               <li><Link to="/about-us">about</Link></li>
               <li><Link to="/Package">Package</Link></li>
               <li><Link to="/Gallery">gallery</Link></li>
@@ -54,13 +54,14 @@ const Header = () => {
             >
               ☰ open
             </span> */}
-            <span style={{ fontSize: 30, cursor: "pointer" }} onClick={openNav}>
-              ☰ <img
+            <span style={{ fontSize: 30, cursor: "pointer" ,float:'right' }} onClick={openNav}>
+               <img
                 src={img}
-                style={{ height: '60px', width: '150px', float: 'right' }}
+                style={{ height: '60px', width: '150px' ,position:'relative',right:'181px' }}
                 alt="Bootstrap"
               />
-            </span>
+              ☰ 
+           </span>
           </div>
         </div>
 

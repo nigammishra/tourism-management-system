@@ -44,7 +44,7 @@ const Package = () => {
     </button>
         <div>
           {/* jumbotron and nav */}
-          <section className="colorful jumbotron mb-0" role="banner">
+          <section className="colorful jumbotron mb-0 p-t80" role="banner">
             <div className="container hotels-container">
               <div className="row mt-2 justify-content-between">
                 <div className="col-md-8 text-white align-self-center mb-2 p-4">
@@ -113,7 +113,7 @@ const Package = () => {
                 <div className="col-lg-3">
                   <div className="row my-3">
                     <div className="col-sm-12 map-container-btn text-center">
-                    <a href="https://maps.app.goo.gl/9VMSJmCrocHH7LkYA">
+                    <a to="https://maps.app.goo.gl/9VMSJmCrocHH7LkYA">
                         <button type="button" class="btn btn-outline-primary">MAP</button>
                             </a>
                     </div>
@@ -467,7 +467,7 @@ const Package = () => {
                         <p>Place.com</p>
                         <h5>cost-6500</h5>
                       </div>
-                      <div className="bttn btn-success"><Link className="roo" href="/Roombook">View deal &gt;</Link></div>
+                      <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
                   </div>
                   <div className="row search-card-result">
@@ -529,7 +529,7 @@ const Package = () => {
                         <p>Place.com</p>
                         <h5>cost-6500</h5>
                       </div>
-                      <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
+                      <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
                   </div>
                   <div className="row search-card-result">
@@ -591,7 +591,7 @@ const Package = () => {
                         <p>Place.com</p>
                         <h5>cost-6500</h5>
                       </div>
-                      <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
+                      <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
                   </div>
                   <div className="row search-card-result">
@@ -653,7 +653,7 @@ const Package = () => {
                         <p>Place.com</p>
                         <h5>cost-6500</h5>
                       </div>
-                      <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
+                      <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
                   </div>
                   <div className="row search-card-result">
@@ -715,7 +715,7 @@ const Package = () => {
                         <p>Place.com</p>
                         <h5>cost-6500</h5>
                       </div>
-                      <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
+                     <Link className="roo" to="/Roombook"> <div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
                   </div>
                   <div className="row search-card-result">
@@ -777,7 +777,7 @@ const Package = () => {
                         <p>Place.com</p>
                         <h5>cost-6500</h5>
                       </div>
-                      <div className="bttn btn-success"><a className="roo" href="/Roombook">View deal &gt;</a></div>
+                      <div className="bttn btn-success"><Link className="roo" to="/Roombook">View deal &gt;</Link></div>
                     </div>
                   </div>
                 </div>

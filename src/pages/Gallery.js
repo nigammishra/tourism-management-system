@@ -49,6 +49,9 @@ import logo from '../image/gallerylogo.png';
 import image from '../image/puritemple.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
+import { Slide } from "react-awesome-reveal";
+// import ParticleCanvas from "../component/ParticleCanvas";
 
 const Gallery = () => {
 
@@ -91,47 +94,53 @@ const Gallery = () => {
       id="button"
     >
     </button>
-     <div>
-      
-  <section className="bannerr">
-  <div className="banner-content">
-      <h2 className='galo'>Gallery
-      <p>
-        I'm Gio, a talented frontend developer that loves creating immersive
-        web experiences.
-      </p>
-      </h2>
-    </div>
-    <img style={{height:'300px',width:'500px'}} className='galog' src={logo} />
-    <svg className='sv' xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
-    <defs>
-      <path id="gentle-wave" d="M-160 44c30 0 
-  58-18 88-18s
-  58 18 88 18 
-  58-18 88-18 
-  58 18 88 18
-  v44h-352z" />
-    </defs>
-    <g className="waves">
-      <use xlinkHref="#gentle-wave" x={50} y={0} fill="#03ffff" fillOpacity=".2" />
-      <use xlinkHref="#gentle-wave" x={50} y={3} fill="#03ffff" fillOpacity=".5" />
-      <use xlinkHref="#gentle-wave" x={50} y={6} fill="#03ffff" fillOpacity=".9" />
-    </g>
-  </svg>
-  </section>
+ <div className="linearbackground" id="galleryherosection">
+  <div className="container " >
+  <div className="hero p-t40">
+  <Slide direction='left'>
+  <h1 className="heading">The View Of Incrediable<br />Odisha</h1>
+</Slide>
+  <div className="grid__container">
+    <div className="grid__item one" />
+    <div className="grid__item two" />
+    <div className="grid__item three" />
+    <div className="grid__item four" />
+    <div className="grid__item five" />
+    <div className="grid__item six" />
+    <div className="grid__item seven" />
+    <div className="grid__item eight" />
+    <div className="grid__item nine" />
+    <div className="grid__item ten" />
+    <div className="grid__item eleven" />
+    <div className="grid__item twelve" />
+  </div>
+</div>
+</div>
 </div>
 
-      </>
-      {/* <>
-      <section className="banner">
-          <img className="banner" src={image} alt />
+<section className="banner1 linearbackground1">
           <div className="banner-text-item">
-            <div className="banner-heading">
-              <h1>Explore The Beauty Of Odisha</h1>
+            <Slide direction='down'>
+            <div className="banner-heading ">
+            <h1>The View of Incrediable Odisha</h1>
             </div>
-            </div>
-            </section>
-      </> */}
+            </Slide>
+            <Slide direction='up'>
+            <div className="row" style={{display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
+                <div className="col-md-6 " id="lordjagannatheyes" style={{textAlign:'end'}}>
+                  <img className="gallery-item1" src={gallary1} alt></img>
+                </div>
+                <div className="col-md-6" id="lordjagannatheyes" style={{textAlign:'start'}}>
+                <img className="gallery-item2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6biWRc3G_P7t5wnnjEVT96kT9S-KeKv_SD6I1OetZA&s" alt></img>
+                </div>
+               </div>
+              </Slide>
+          </div>
+        </section>
+             
+ 
+
+      </>
         <>
       <div className="section-wrapper p-t80">
           <div className="container">
