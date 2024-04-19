@@ -57,7 +57,7 @@ const Header = () => {
             <span style={{ fontSize: 30, cursor: "pointer" ,float:'right' }} onClick={openNav}>
                <img
                 src={img}
-                style={{ height: '60px', width: '150px' ,position:'relative',right:'181px' }}
+                style={{ height: '60px', width: '150px' ,position:'relative',right:'177px' }}
                 alt="Bootstrap"
               />
               ☰ 

@@ -383,7 +383,7 @@ const Home = () => {
           <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={3000}>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={odishatour1} className="d-block w-100" style={{  opacity: '999' }} alt="First slide" />
+                <img src={odishatour1} className="d-block w-100"  alt="First slide" />
                 <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
                   <div className="display-table">
                     <div className="table-cell">
