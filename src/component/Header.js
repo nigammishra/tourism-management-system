@@ -22,7 +22,7 @@ const Header = () => {
       <>
         <section className="nav-bar" id='header'>
           <div className="logo"><img className="" src={img} style={{ height: '60px', width: '150px' }} alt /></div>
-          <ul className="menu1">
+          <ul className="menu1 nav-links">
             <li><Link to="/tourism-management-system">home</Link></li>
             <li><Link to="/about-us">about</Link></li>
             <li><Link to="/Package">Package</Link></li>

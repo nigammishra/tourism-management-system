@@ -42,8 +42,9 @@ const Roombook = () => {
       id="button"
     >
     </button>
-      <div style={{ display: "flex", marginTop: "3%" }} className="container">
-        <div style={{ paddingRight: "5%" }} className="col-sm-7 boxx">
+
+      <div style={{ display: "flex", marginTop: "1%" }} className="container ">
+        <div style={{ paddingLeft: "5%" }} className="col-sm-7 boxx">
           <div
             id="carouselExampleAutoplaying"
             className="carousel slide"
@@ -225,7 +226,7 @@ const Roombook = () => {
             </div>
           </section>
         </div>
-        <div className="col-sm-5 boxx">
+        <div  className="col-sm-5 boxx" >
       <form className="form1">
   <fieldset>
     <legend>Personal data</legend>
