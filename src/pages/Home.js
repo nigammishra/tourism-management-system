@@ -441,7 +441,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="carousel-item ">
-                <img src={Odishatourism} className="d-block w-100"  alt="First slide" />
+                <img src={Odishatourism} className="d-block w-100" style={{height:'28vh'}}  alt="First slide" />
                 <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
                   <div className="display-table">
                     <div className="table-cell">
