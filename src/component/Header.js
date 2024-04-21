@@ -22,7 +22,7 @@ const Header = () => {
       <>
         <section className="nav-bar" id='header'>
           <div className="logo"><img className="" src={img} style={{ height: '60px', width: '150px' }} alt /></div>
-          <ul className="menu1">
+          <ul className="menu1 nav-links">
             <li><Link to="/tourism-management-system">home</Link></li>
             <li><Link to="/about-us">about</Link></li>
             <li><Link to="/Package">Package</Link></li>
@@ -30,7 +30,7 @@ const Header = () => {
             <li><Link to="/Contact">Contact us</Link></li>
           </ul>
         </section>
-        <div id="header1">
+        <div id="header1" style={{height:'100px'}}>
           <div id="mySidenav" className="sidenav" >
             <Link
               to="javascript:void(0)"
@@ -57,7 +57,7 @@ const Header = () => {
             <span style={{ fontSize: 30, cursor: "pointer" ,float:'right' }} onClick={openNav}>
                <img
                 src={img}
-                style={{ height: '60px', width: '150px' ,position:'relative',right:'181px' }}
+                style={{ height: '60px', width: '150px' ,position:'relative',right:'177px' }}
                 alt="Bootstrap"
               />
               ☰ 

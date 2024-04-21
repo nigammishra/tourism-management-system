@@ -85,7 +85,7 @@ const Home = () => {
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -93,7 +93,7 @@ const Home = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -189,8 +189,8 @@ const Home = () => {
         </section> */}
 
         <div>
-
-          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={4000}>
+<section id='carousel1'>
+          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={3000}>
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img src={odishatour1} className="d-block w-100" style={{ height: '85vh', opacity: '999' }} alt="First slide" />
@@ -202,7 +202,7 @@ const Home = () => {
                           <section className="banner">
                             <div className="banner-text-item">
                               <Slide direction='down'>
-                                <div className="banner-heading lineDown">
+                                <div className="banner-heading ">
                                   <h1>Explore The Beauty Of Odisha</h1>
                                 </div>
                               </Slide>
@@ -231,7 +231,7 @@ const Home = () => {
                           <section className="banner">
                             <div className="banner-text-item">
                               <Slide direction='down'>
-                                <div className="banner-heading lineDown">
+                                <div className="banner-heading ">
                                   <h1>Explore The Beauty Of Odisha</h1>
                                 </div>
                               </Slide>
@@ -260,7 +260,7 @@ const Home = () => {
                           <section className="banner">
                             <div className="banner-text-item">
                               <Slide direction='down'>
-                                <div className="banner-heading lineDown">
+                                <div className="banner-heading ">
                                   <h1>Explore The Beauty Of Odisha</h1>
                                 </div>
                               </Slide>
@@ -289,7 +289,7 @@ const Home = () => {
                           <section className="banner">
                             <div className="banner-text-item">
                               <Slide direction='down'>
-                                <div className="banner-heading lineDown">
+                                <div className="banner-heading ">
                                   <h1>Explore The Beauty Of Odisha</h1>
                                 </div>
                               </Slide>
@@ -318,7 +318,7 @@ const Home = () => {
                           <section className="banner">
                             <div className="banner-text-item">
                               <Slide direction='down'>
-                                <div className="banner-heading lineDown">
+                                <div className="banner-heading ">
                                   <h1>Explore The Beauty Of Odisha</h1>
                                 </div>
                               </Slide>
@@ -347,7 +347,7 @@ const Home = () => {
                           <section className="banner">
                             <div className="banner-text-item">
                               <Slide direction='down'>
-                                <div className="banner-heading lineDown">
+                                <div className="banner-heading ">
                                   <h1>Explore The Beauty Of Odisha</h1>
                                 </div>
                               </Slide>
@@ -376,13 +376,202 @@ const Home = () => {
               <span className="visually-hidden">Next</span>
             </a>
           </div>
+          </section>
         </div>
-
+        
+           <section id='carousel2'>
+          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={3000}>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src={odishatour1} className="d-block w-100"  alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="">
+                            <div className="banner-text-item1">
+                              <Slide direction='down'>
+                                <div className="banner-heading1 ">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour2} className="d-block w-100"  alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="">
+                            <div className="banner-text-item1">
+                              <Slide direction='down'>
+                                <div className="banner-heading1 ">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={Odishatourism} className="d-block w-100" style={{height:'28vh'}}  alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="">
+                            <div className="banner-text-item1">
+                              <Slide direction='down'>
+                                <div className="banner-heading1 ">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style="color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour3} className="d-block w-100"  alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="">
+                            <div className="banner-text-item1">
+                              <Slide direction='down'>
+                                <div className="banner-heading1 ">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour4} className="d-block w-100" alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="">
+                            <div className="banner-text-item1">
+                              <Slide direction='down'>
+                                <div className="banner-heading1 ">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <img src={odishatour5} className="d-block w-100"  alt="First slide" />
+                <div className="nivo-caption" style={{ display: 'block', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                  <div className="display-table">
+                    <div className="table-cell">
+                      <div className="container">
+                        <div className="slider-text ">
+                          <section className="">
+                            <div className="banner-text-item1">
+                              <Slide direction='down'>
+                                <div className="banner-heading1 ">
+                                  <h1>Explore The Beauty Of Odisha</h1>
+                                </div>
+                              </Slide>
+                              <Slide direction='up'>
+                                <Link to="/Package" className="book ">
+                                  Visit With Us
+                                </Link>
+                              </Slide>
+                            </div>
+                          </section>
+                          {/* <a href="#" className="default-btn lineUp" style={{color: 'white'}}>Join With Us</a> */}
+                          {/* <a href="#" class="default-btn lineUp" style=" color: white;">Donate Now</a> */}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true" />
+              <span className="visually-hidden">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true" />
+              <span className="visually-hidden">Next</span>
+            </a>
+          </div>
+           </section>
       </>
 
       <>
         <div className="container">
-          <h3 class="head3 spacing secondary-color text-center text-uppercase" style={{ top: '130px', position: 'relative' }} >
+          <h3 class="head3 spacing secondary-color text-center text-uppercase p-t80"  >
             Travel With Us
           </h3>
           {/* <h2 class=" head2 spacing secondary-color text-center text-uppercase" style={{top:'150px', position:'relative' }} >
@@ -433,6 +622,8 @@ const Home = () => {
                   </div>
                 </div> */}
               </Slider>
+            
+
             </div>
           </div>
         </section>
@@ -800,12 +991,14 @@ const Home = () => {
             Most Loveble Places In Odisha
           </h2>
         </div>
+        <div className='container'>
         <ul className="tabitem">
           <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
           <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja Temple </li>
           <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri Caves</li>
           <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark Sun Temple</li>
         </ul>
+        </div>
         <div className='container'>
           <div className="contentstyle">
             <div className={`box ${activeTab === 0 ? 'show' : 'hide'}`} data-content="0">

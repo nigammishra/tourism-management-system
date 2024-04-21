@@ -88,8 +88,8 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-form">
-        <span className="circle one" />
-        <span className="circle two" />
+        <span className="circle one1" />
+        <span className="circle two2" />
         <form action="index.html" autoComplete="off">
           <h3 className="title">Contact us</h3>
           <div className="input-container">
@@ -112,7 +112,7 @@ const Contact = () => {
             <label htmlFor>Message</label>
            
           </div>
-          <input type="submit" defaultValue="Send" className="btn" />
+          <input type="submit" defaultValue="Send" className="custom-btn btn-8" />
         </form>
       </div>
     </div>
