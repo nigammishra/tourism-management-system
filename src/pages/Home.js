@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick-theme.css";
 import odishatour from "../image/Odisha-tour.jpg";
 import odishatour1 from "../image/banner1.jpg";
 import odishatour2 from "../image/banner2.jpeg";
@@ -85,7 +85,7 @@ const Home = () => {
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -93,7 +93,7 @@ const Home = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
         },

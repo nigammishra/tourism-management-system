@@ -30,7 +30,7 @@ const Header = () => {
             <li><Link to="/Contact">Contact us</Link></li>
           </ul>
         </section>
-        <div id="header1">
+        <div id="header1" style={{height:'100px'}}>
           <div id="mySidenav" className="sidenav" >
             <Link
               to="javascript:void(0)"

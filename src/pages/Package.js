@@ -113,7 +113,7 @@ const Package = () => {
                 <div className="col-lg-3">
                   <div className="row my-3">
                     <div className="col-sm-12 map-container-btn text-center">
-                    <a to="https://maps.app.goo.gl/9VMSJmCrocHH7LkYA">
+                    <a href="https://maps.app.goo.gl/9VMSJmCrocHH7LkYA">
                         <button type="button" class="btn btn-outline-primary">MAP</button>
                             </a>
                     </div>

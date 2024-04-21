@@ -60,14 +60,14 @@
       font-size: 18px;
   }
 }
-@media screen and (max-width :987px) {
+@media screen and (max-width :768px) {
   #header {
       display: none;
   }
 
 }
 
-@media screen and (min-width: 988px) {
+@media screen and (min-width: 767px) {
   #header1 {
       display: none;
   }
@@ -348,14 +348,14 @@ ul.menu1 {
 }
 
 
-@media screen and (max-width :987px) {
+@media screen and (max-width :768px) {
   #carousel1 {
       display: none;
   }
 
 }
 
-@media screen and (min-width: 988px) {
+@media screen and (min-width: 767px) {
   #carousel2{
       display: none;
   }
@@ -374,17 +374,6 @@ ul.menu1 {
   background-color: rgba(129, 115, 115, 0.2);
   
 } */
-.content1::before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(16, 16, 16, 0.2);
-  /*background-size: 100%;*/
-}
 
 .banner-text-item {
   position: sticky;
@@ -650,10 +639,10 @@ ul.menu1 {
 
 .service-item {
   flex: 1;
-  padding: 50px 10px;
+  padding: 30px 10px;
   border: lightcyan solid 1px;
   text-align: center;
-  margin: 10px 50px;
+  margin: 30px 50px;
   transition: all 1s;
   display: flex;
   flex-flow: column;
@@ -677,8 +666,8 @@ ul.menu1 {
 }
 
 .service-item img {
-  width: 80px;
-  height: 70px;
+  width: 100px;
+  height: 80px;
   /* flex: 1; */
 }
 
@@ -1007,19 +996,33 @@ button {
     opacity: 0;
   }
 }
+.content1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  left: -19px;
+  right: 15px;
+  /*background-size: 100%;*/
+}
 
 .content1 {
   /* width: min(30vw, 400px); */
   position: absolute;
   top: 25%;
-  left: 2rem;
+  left: 30px;
   transform: translateY(-50%);
   font: 400 0.85rem helvetica, sans-serif;
   color: white;
   text-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
   opacity: 0;
   display: none;
-
+  text-align: justify;
+  padding: 20px;
   & .title {
     font-family: "arial-black";
     text-transform: uppercase;
@@ -1029,9 +1032,9 @@ button {
   & .description {
     line-height: 1.7;
     margin: 1rem 0 1.5rem;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-size: 23px;
+    font-family:  sans-serif;
+    font-weight: 600;
   }
 }
 
@@ -3388,6 +3391,8 @@ textarea.input {
   font-weight: 600;
   font-style: italic;
   color: white;
+  position: absolute;
+  left: 110px;
 }
 
 
@@ -4134,194 +4139,282 @@ top: 0;
 
 
  
-  
-  /* Arrows */
-  .slick-prev,
-  .slick-next
-  {
-      font-size: 0;
-      line-height: 0;
-  
-      position: absolute;
-      top: 20%;
-  
-      display: block;
-  
-      width: 20px;
-      height: 20px;
-      padding: 0;
-      -webkit-transform: translate(0, -50%);
-      -ms-transform: translate(0, -50%);
-      transform: translate(0, -50%);
-  
-      cursor: pointer;
-  
-      color: transparent;
-      border: none;
-      outline: none;
-      background: transparent;
+
+
+  /* room booking  */
+
+  input[type="checkbox"] {
+    display: none;
+    z-index: 2;
   }
-  .slick-prev:hover,
-  .slick-prev:focus,
-  .slick-next:hover,
-  .slick-next:focus
-  {
-      color: transparent;
-      outline: none;
-      background: transparent;
-  }
-  .slick-prev:hover:before,
-  .slick-prev:focus:before,
-  .slick-next:hover:before,
-  .slick-next:focus:before
-  {
-      opacity: 1;
-  }
-  .slick-prev.slick-disabled:before,
-  .slick-next.slick-disabled:before
-  {
-      opacity: .25;
+  .Top_most {
+    display: block;
+    margin-top: -80px; /* Adjusted margin-top to position the image under the navbar */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    filter: brightness(85%);
   }
   
-  .slick-prev:before,
-  .slick-next:before
-  {
-      font-family: 'slick';
-      font-size: 20px;
-      line-height: 1;
-  
-      opacity: .75;
-      color: white;
-      background-color: #e6be3a;
-      border-radius: 50%;
-  
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+  .landing-page {
+    position: relative;
   }
   
-  .slick-prev
-  {
-      left: -60px;
-  }
-  [dir='rtl'] .slick-prev
-  {
-      right: -60px;
-      left: auto;
-  }
-  .slick-prev:before
-  {
-      content: '←';
-  }
-  [dir='rtl'] .slick-prev:before
-  {
-      content: '→';
-  }
+  @media (max-width: 920px) {
   
-  .slick-next
-  {
-      right: -60px;
-  }
-  [dir='rtl'] .slick-next
-  {
-      right: auto;
-      left: -60px;
-  }
-  .slick-next:before
-  {
-      content: '→';
-  }
-  [dir='rtl'] .slick-next:before
-  {
-      content: '←';
-  }
+    #click:checked ~ .menu-btn i:before {
+      content: "\f00d";
+    }
+    
   
-  /* Dots */
-  .slick-dotted.slick-slider
-  {
-      margin-bottom: 30px;
-  }
-  
-  .slick-dots
-  {
-      position: absolute;
-      bottom: -60px;
-  
-      display: block;
-  
-      width: 100%;
-      padding: 0;
-      margin: 0;
-  
-      list-style: none;
-  
-      text-align: center;
-  }
-  .slick-dots li
-  {
-      position: relative;
-  
-      display: inline-block;
-  
-      width: 20px;
-      height: 20px;
-      margin: 0 5px;
-      padding: 0;
-  
-      cursor: pointer;
-  }
-  .slick-dots li button
-  {
-      font-size: 0;
-      line-height: 0;
-  
-      display: block;
-  
-      width: 20px;
-      height: 20px;
-      padding: 5px;
-  
-      cursor: pointer;
-  
-      color: transparent;
-      border: 0;
-      outline: none;
-      background: transparent;
-  }
-  .slick-dots li button:hover,
-  .slick-dots li button:focus
-  {
-      outline: none;
-  }
-  .slick-dots li button:hover:before,
-  .slick-dots li button:focus:before
-  {
-      opacity: 1;
-  }
-  .slick-dots li button:before
-  {
-      font-family: 'slick';
-      font-size: 6px;
-      line-height: 20px;
-  
-      position: absolute;
-      top: 0;
+    #click:checked ~ ul {
       left: 0;
+    }
+   
   
-      width: 20px;
-      height: 20px;
+    #click:checked ~ ul li a {
+      margin-left: 0px;
+    }
   
-      content: '•';
-      text-align: center;
-  
-      opacity: .25;
-      color: black;
-  
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+   
   }
-  .slick-dots li.slick-active button:before
-  {
-      opacity: .75;
+  
+     
+  #booking-confirmation {
+      text-decoration: none;
+      font-weight: regular; /* Use 'normal' instead of 'regular' */
+      font-size: 18px;
       color: black;
+      margin: 0 auto; /* Center the container horizontally */
+      max-width: 1050px; /* Set a maximum width to prevent stretching */
+      padding: 20px;
+  }
+  
+  @media (max-width: 480px) {
+      #booking-confirmation {
+          padding: 10px;
+      }
+  }
+  
+  
+  #room-image {
+    max-width: 700px;
+    max-height: 356px;
+    width: 100%; /* Ensure the image doesn't exceed the specified dimensions */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    /* border: 1px solid rgb(172, 162, 162); */
+    height: 250px;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  
+  .royal-suite {
+    font-family: 'Dancing Script', sans-serif; /* Replace 'Your New Font' with the desired font family */
+    text-align: center;
+    position: relative; /* Add position relative to position the bar relative to this element */
+    color: #7C6A46;
+  }
+  .booking-confirmation-text{
+    text-align: center;
+  }
+  .royal-suite::after {
+    content: '';
+    display: block;
+    width: 100px; /* Adjust the width of the bar as needed */
+    height: 2px; /* Adjust the height of the bar as needed */
+    background-color: #7C6A46;; /* Adjust the color of the bar as needed */
+    margin: 10px auto; /* Adjust the margin to control the space between the text and the bar */
+    
+  }
+  
+  #wrapper {
+    flex: 1; /* This will push the footer to the bottom */
+    width: 100%; /* Ensure the wrapper spans the full width */
+    box-sizing: border-box;
+  }
+  
+  #a-i-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #amenities-inclusions {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 20px; /* Adjust padding as needed */
+    width: 100%; /* Adjust the width as needed */
+    max-width: 700px;
+    background-color: rgba(124, 106, 70, 0.1);
+    font-weight: 100;
+    text-align: left; /* Center text within each column */
+  }
+  
+  .column {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-bottom: 10px; /* Adjust as needed for spacing */
+  }
+  
+  .column li i {
+    margin-right: 5px;
+  }
+  
+  #a-i-text {
+      font-family: 'Poppins', sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      color: #333;
+     margin-left: 20px;
+  }
+  
+  #a-i-text-container {
+      text-align: left;
+      max-width: 740px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-left: auto;
+      margin-right: auto;
+     
+  }
+  
+  
+  .column {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-bottom: 10px; /* Adjust as needed for spacing */
+  }
+  
+  .input-container1 {
+      width: 100%;
+      max-width: 740px; /* Set a maximum width to prevent stretching */
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  .column {
+      width: 48%; /* Adjust as needed, leaving some space for margins between columns */
+      margin-bottom: 10px; /* Add some margin between columns */
+  }
+  
+  /* General styling for labels and inputs within the container */
+  .input-container1 label {
+      text-align: center;
+      margin-bottom: 5px;
+  }
+  
+  .input-container1 label img {
+      width: 20px; /* Adjust the width as needed */
+      height: 20px; /* Adjust the height as needed */
+      vertical-align: middle; /* Align the icons vertically to the middle of the line */
+      margin-right: 5px; 
+  }
+  
+  .input-container1 input {
+      width: calc(100% - 30px); /* Adjust the width to account for the icon's width and margin */
+      padding: 10px;
+      box-sizing: border-box;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: rgba(124, 106, 70, 0.1);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: 1px solid #ddd;
+      font-weight: 100;
+  }
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+      .column {
+          width: 100%;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .input-container {
+          padding: 10px;
+      }
+  }
+  
+  
+  #total-container {
+      text-align: center;
+      margin-bottom: 20px;
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto; /* Center the container */
+  }
+  
+  #total-container label {
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  
+  .btnstyle{
+
+  }
+  #total-container input {
+      width: 200px;
+      padding: 5px;
+      box-sizing: border-box;
+      margin-top: 3px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-weight: 100;
+      background-color: rgba(124, 106, 70, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+      #total-container {
+          width: 100%;
+      }
+  }
+  
+  #confirm-booking-container {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto; /* Center the container */
+  }
+  
+  #confirm-booking-btn {
+      background-color: rgba(124, 106, 70, 1);
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 250px;
+      display: inline-block; /* Ensure the button stays in line and respects right alignment */
+      margin: 15px auto; /* Center the button */
+  }
+  
+  #confirm-booking-btn:hover {
+      background-color: rgba(124, 106, 70, 0.9);
   }
   
