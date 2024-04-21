@@ -26,11 +26,12 @@ import konark from "../image/konark.jpg";
 import bbsr from "../image/bhubaneswar-visit-place.jpg";
 import { Link } from 'react-router-dom';
 import { Fade, Slide, Bounce, Zoom } from "react-awesome-reveal";
-import location from '../image/location.gif'
-import review from '../image/Review.gif'
-import owner from '../image/owner.gif'
-import doodleimage from '../image/doodles.png'
-
+import location from '../image/location.gif';
+import review from '../image/Review.gif';
+import owner from '../image/owner.gif';
+import doodleimage from '../image/doodles.png';
+import lingaraj from '../image/lingaraj1.jpg';
+import udaya1 from '../image/udaya1.jpg';
 
 const Home = () => {
   // card  convert to background image
@@ -1006,48 +1007,51 @@ const Home = () => {
               <div>
                 <h3>PURI</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-                  sequi perferendis veritatis! Voluptatem?
+                The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism. It is located in Puri in the state of Odisha, situated on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple of Jagannath at Puri.[2] The present temple was rebuilt from the tenth century onwards, on the site of the pre-existing temples in the compound, but not the main Jagannath temple, and begun by Anantavarman Chodaganga, the first king of the Eastern Ganga dynasty.
                 </p>
+                <h3>History</h3>
+                <p>The temple was rebuilt by the King of the Eastern Ganga dynasty, Anantavarman Chodaganga, in the 10th century CE, as described by the Kendupatna copper-plate inscription of his descendant, Narasimhadeva II.[1] Anantavarman was originally a Shaivite, and became a Vaishnavite sometime after he conquered the Utkala region, in which the temple is located, in 1112 CE. A 1134–1135 CE inscription records his donation to the temple. Therefore, the temple construction must have started sometime after 1112 CE.</p>
                 <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
               </div>
             </div>
 
             <div className={`box ${activeTab === 1 ? 'show' : 'hide'}`} data-content="1">
-              <img src={puri} alt="" />
-              <div>
-                <h3>Lorem ipsum dolor</h3>
+              <img style={{height:"600px"}} className='lin' src={lingaraj} alt="" />
+              <div style={{width:"600px"}} className='ll'>
+                <h3>Lingaraj Temple</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-                  sequi perferendis veritatis! Voluptatem?
+                The Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall. The temple represents the quintessence of the Kalinga architecture and culminating the medieval stages of the architectural tradition at Bhubaneswar.[5] The temple is believed to be built by the kings from the Somavamsi dynasty, with later additions from the Ganga rulers. The temple is built in the Deula style that has four components namely, vimana (structure containing the sanctum), jagamohana (assembly hall), natamandira (festival hall) and bhoga-mandapa (hall of offerings), each increasing in the height to its predecessor. The temple complex has 108 other shrines and is enclosed by a large compound wall.
                 </p>
+                <h3>History</h3>
+                <p>The temple in its present form dates back to the last decade of the eleventh century. There is evidence that part of the temple was built during the sixth century CE as mentioned in some of the seventh century Sanskrit texts.[6] Fergusson believes that the temple might have been initiated by Lalat Indu Keshari who reigned from 615 to 657 CE. The Assembly hall (jagamohana), sanctum and temple tower were built during the eleventh century, while the Hall of offering (bhoga-mandapa) was built during the twelfth century. The natamandira was built by the wife of Salini between 1099 and 1104 CE.</p>
                 <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
               </div>
             </div>
 
             <div className={`box ${activeTab === 2 ? 'show' : 'hide'}`} data-content="2">
-              <img src={puri} alt="" />
+              <img src={udaya1} alt="" />
               <div>
-                <h3>Lorem ipsum dolor</h3>
+                <h3>Udayagiri Cave</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-                  sequi perferendis veritatis! Voluptatem?
+                The Udayagiri Caves are twenty rock-cut caves near Vidisha, Madhya Pradesh primarily denoted to the Hindu gods Vishnu and Shiva from the early years of the 3rd century CE to 5th century CE.[1][2] They contain some of the oldest surviving Hindu temples and iconography in India. They are the only site that can be verifiably associated with a Gupta period monarch from its inscriptions.[5] One of India's most important archaeological sites, the Udayagiri hills and its caves are protected monuments managed by the Archaeological Survey of India.
                 </p>
+                <h3>History</h3>
+                <p>The site at Udayagiri Caves was the patronage of Chandragupta II, who is widely accepted by scholars to have ruled the Gupta Empire in central India between c. 380-414 CE. The Udayagiri Caves were created in final decades of the 4th-century, and consecrated in 401 CE. This is based on three inscriptions.</p>
+                <p>A post-consecration Sanskrit inscription in Cave 6 by a Vaishnava minister, the inscription mentions Chandragupta II and "year 82" (old Indian Gupta calendar, c. 401 CE). This is sometimes referred to as the "inscription in Chandragupta cave" or the "Chandragupta inscription of Udayagiri".</p>
                 <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
               </div>
             </div>
 
             <div className={`box ${activeTab === 3 ? 'show' : 'hide'}`} data-content="3">
-              <img src={puri} alt="" />
+              <img src={konark} alt="" />
               <div>
-                <h3>Lorem ipsum dolor</h3>
+                <h3>Konark Sun Temple</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos accusantium itaque amet ducimus, magni iure
-                  a repudiandae molestias nemo voluptatibus voluptas earum excepturi architecto, iusto necessitatibus
-                  sequi perferendis veritatis! Voluptatem?
+                Dedicated to the Hindu Sun-god Surya, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains. The structures and elements that have survived are famed for their intricate artwork, iconography, and themes, including erotic kama and mithuna scenes. Also called the Surya Devalaya, it is a classic illustration of the Odisha style of Architecture or Kalinga architecture.
+                </p>
+                <h3>History</h3>
+                <p>
+                Konark, also referred to in Indian texts by the name Kainapara, was a significant trading port by the early centuries of the common era. The current Konark temple dates to the 13th century, though evidence suggests that a sun temple was built in the Konark area by at least the 9th century. Several Puranas mention Surya worship centers in Mundira, which may have been the earlier name for Konark, Kalapriya (Mathura), and Multan (now in Pakistan) According to the Madala Panji, there was at one time another temple in the region built by Pundara Kesari. He may have been Puranjaya, the 7th-century ruler of the Somavamshi dynasty.
                 </p>
                 <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
               </div>

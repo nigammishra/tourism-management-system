@@ -299,7 +299,34 @@ ul.menu1 {
   color: rgb(78, 78, 214);
   /* text-decoration: underline; */
 }
+.menu1::after {
+  /* width: 50%; */
+  content:'';
+  display:table;
+  clear:both;
+}
+.menu1 a:hover { color:#ff9d76; }
 
+.menu1 a::before {
+  content:'';
+  display:inline-block;
+  height:4px;
+  /* margin-right: 30px; */
+  background-color:#ff9d76;
+  width:0%;
+  position:absolute;
+  bottom:12px;
+  transition: width ease-in-out 250ms;
+}
+.menu1 li {
+  /* padding-left: 10px; */
+  display:inline-block;
+  padding:25px 0;
+  /* margin-left:50px; */
+  position:relative;
+}
+.menu1 a:hover::before { width: 100%; }
+ 
 /*=============================Banner=============================*/
 .banner {
   /* background-image: url("image/OdishaTourism.jpg"); */
@@ -2764,6 +2791,7 @@ div.elem-group123.inlined {
 }
 
 label {
+  color: rgb(0, 0, 0);
   display: block;
   font-family: "Nanum Gothic";
   padding-bottom: 10px;
@@ -4417,4 +4445,3 @@ top: 0;
   #confirm-booking-btn:hover {
       background-color: rgba(124, 106, 70, 0.9);
   }
-  
