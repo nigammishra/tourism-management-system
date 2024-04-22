@@ -194,9 +194,9 @@
   }
 }
 
-.slick-slider {
+/* .slick-slider {
   height: 300px;
-}
+} */
 
 @media all and (max-width: 928px) {
   .banner .form input,
