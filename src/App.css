@@ -305,17 +305,20 @@ ul.menu1 {
   display:table;
   clear:both;
 }
-.menu1 a:hover { color:#ff9d76; }
+.menu1 a:hover { 
+  /* color:#ff9d76;  */
+}
 
-.menu1 a::before {
+.underline::before {
   content:'';
   display:inline-block;
-  height:4px;
+  height:3px;
   /* margin-right: 30px; */
-  background-color:#ff9d76;
+  background-color:#5d7eeb;
   width:0%;
   position:absolute;
-  bottom:12px;
+  border-radius: 10px;
+  bottom:15px;
   transition: width ease-in-out 250ms;
 }
 .menu1 li {
@@ -325,7 +328,7 @@ ul.menu1 {
   /* margin-left:50px; */
   position:relative;
 }
-.menu1 a:hover::before { width: 100%; }
+.underline:hover::before { width: 40%; }
  
 /*=============================Banner=============================*/
 .banner {
