@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tourism-management-system/static/css/main.e376a287.css",
-    "main.js": "/tourism-management-system/static/js/main.bb68c6a7.js",
+    "main.css": "/tourism-management-system/static/css/main.f9380d08.css",
+    "main.js": "/tourism-management-system/static/js/main.21d536f4.js",
     "static/js/453.288b35d9.chunk.js": "/tourism-management-system/static/js/453.288b35d9.chunk.js",
     "static/media/puritemple.jpg": "/tourism-management-system/static/media/puritemple.576b6779b435010911c4.jpg",
     "static/media/OdishaTourism.jpg": "/tourism-management-system/static/media/OdishaTourism.f4df0868d7b4c3fb2fed.jpg",
@@ -15,6 +15,8 @@
     "static/media/Balasore.jpg": "/tourism-management-system/static/media/Balasore.62caf936f032ca4f9432.jpg",
     "static/media/Cuttack.JPG": "/tourism-management-system/static/media/Cuttack.fb44357dcb4f651cd5c0.JPG",
     "static/media/Gallery5.jpg": "/tourism-management-system/static/media/Gallery5.fc7636a6898f1d15edc4.jpg",
+    "static/media/lingaraj1.jpg": "/tourism-management-system/static/media/lingaraj1.d4554846cc7cdafbe924.jpg",
+    "static/media/udaya1.jpg": "/tourism-management-system/static/media/udaya1.e1d9da51ae1a41e93904.jpg",
     "static/media/clipart4216475.png": "/tourism-management-system/static/media/clipart4216475.a54478c22300930a09e6.png",
     "static/media/Gallery17.jpg": "/tourism-management-system/static/media/Gallery17.dae034d056a73ccc761a.jpg",
     "static/media/Balangir.jpg": "/tourism-management-system/static/media/Balangir.2cb900efd48a31bc801d.jpg",
@@ -86,12 +88,12 @@
     "static/media/slick.eot": "/tourism-management-system/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/tourism-management-system/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tourism-management-system/static/media/slick.295183786cd8a1389865.woff",
-    "main.e376a287.css.map": "/tourism-management-system/static/css/main.e376a287.css.map",
-    "main.bb68c6a7.js.map": "/tourism-management-system/static/js/main.bb68c6a7.js.map",
+    "main.f9380d08.css.map": "/tourism-management-system/static/css/main.f9380d08.css.map",
+    "main.21d536f4.js.map": "/tourism-management-system/static/js/main.21d536f4.js.map",
     "453.288b35d9.chunk.js.map": "/tourism-management-system/static/js/453.288b35d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e376a287.css",
-    "static/js/main.bb68c6a7.js"
+    "static/css/main.f9380d08.css",
+    "static/js/main.21d536f4.js"
   ]
 }
