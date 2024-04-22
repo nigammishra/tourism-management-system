@@ -4456,5 +4456,8 @@ top: 0;
 
   .loader-container{
     text-align: center;
-    margin-top: 5%;
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
