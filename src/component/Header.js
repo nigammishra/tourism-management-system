@@ -23,7 +23,7 @@ const Header = () => {
         <section className="nav-bar" id='header'>
           <div className="logo"><img className="" src={img} style={{ height: '60px', width: '150px' }} alt /></div>
           <ul className="menu1">
-            <li><Link className='underline' to="/tourism-management-system">home</Link></li>
+            <li><Link className='underline active' to="/tourism-management-system">home</Link></li>
             <li><Link className='underline' to="/about-us">about</Link></li>
             <li><Link className='underline' to="/Package">Package</Link></li>
             <li><Link className='underline' to="/Gallery">gallery</Link></li>
@@ -57,7 +57,7 @@ const Header = () => {
             <span style={{ fontSize: 30, cursor: "pointer" ,float:'right' }} onClick={openNav}>
                <img
                 src={img}
-                style={{ height: '60px', width: '150px' ,position:'relative',right:'181px' }}
+                style={{ height: '60px', width: '150px' ,position:'relative',right:'178px' }}
                 alt="Bootstrap"
               />
               ☰ 
