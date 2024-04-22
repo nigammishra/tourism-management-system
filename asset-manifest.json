@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tourism-management-system/static/css/main.f9380d08.css",
-    "main.js": "/tourism-management-system/static/js/main.21d536f4.js",
+    "main.js": "/tourism-management-system/static/js/main.afe2a8d3.js",
     "static/js/453.288b35d9.chunk.js": "/tourism-management-system/static/js/453.288b35d9.chunk.js",
     "static/media/puritemple.jpg": "/tourism-management-system/static/media/puritemple.576b6779b435010911c4.jpg",
     "static/media/OdishaTourism.jpg": "/tourism-management-system/static/media/OdishaTourism.f4df0868d7b4c3fb2fed.jpg",
@@ -89,11 +89,11 @@
     "static/media/slick.ttf": "/tourism-management-system/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tourism-management-system/static/media/slick.295183786cd8a1389865.woff",
     "main.f9380d08.css.map": "/tourism-management-system/static/css/main.f9380d08.css.map",
-    "main.21d536f4.js.map": "/tourism-management-system/static/js/main.21d536f4.js.map",
+    "main.afe2a8d3.js.map": "/tourism-management-system/static/js/main.afe2a8d3.js.map",
     "453.288b35d9.chunk.js.map": "/tourism-management-system/static/js/453.288b35d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9380d08.css",
-    "static/js/main.21d536f4.js"
+    "static/js/main.afe2a8d3.js"
   ]
 }
