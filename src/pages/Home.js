@@ -380,7 +380,7 @@ const Home = () => {
           </section>
         </div>
         
-           <section id='carousel2'>
+           <section id='carousel2' style={{paddingTop:'40px'}}>
           <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval={3000}>
             <div className="carousel-inner">
               <div className="carousel-item active">
