@@ -149,20 +149,24 @@ const Contact = () => {
         <form onSubmit={handleSubmit}>
           <h3 className="title">Contact us</h3>
           <div className="input-container">
+          <label htmlFor="Username">Username</label>
             <input type="text" name="Username" className="input" onChange={handleChange} value={formData.Username} />
-            <label htmlFor="Username">Username</label>
+         
           </div>
           <div className="input-container">
+              <label htmlFor="Email">Email</label>
             <input type="email" name="Email" className="input" onChange={handleChange} value={formData.Email} />
-            <label htmlFor="Email">Email</label>
+          
           </div>
           <div className="input-container">
+             <label htmlFor="Phone">Phone</label>
             <input type="tel" name="Phone" className="input" onChange={handleChange} value={formData.Phone} />
-            <label htmlFor="Phone">Phone</label>
+           
           </div>
-          <div className="input-container textarea">
+          <div className="input-container textarea"> 
+           <label htmlFor="Message">Message</label>
             <textarea name="Message" className="input" onChange={handleChange} value={formData.Message} defaultValue={""} />
-            <label htmlFor="Message">Message</label>
+          
           </div>
           <input type="submit" defaultValue="Send" className="custom-btn btn-8" />
         </form>

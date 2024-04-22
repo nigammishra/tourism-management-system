@@ -4146,13 +4146,13 @@ top: 0;
   
   }
   
-  @media screen and (max-width: 988px) {
+  @media screen and (max-width: 768px) {
      .doodle{
         display: none;
     }
   
   }
-  @media screen and (min-width: 988px) {
+  @media screen and (min-width: 767px) {
      .doodleimage{
         display: none;
     }
@@ -4461,5 +4461,15 @@ top: 0;
     margin: 15%;
     display: flex;
     justify-content: center;
+    align-items: center;
+  }
+
+
+  .counter-box1{
+    height: 173px;
+    width: 208px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
   }

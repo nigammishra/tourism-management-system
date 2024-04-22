@@ -953,14 +953,14 @@ const Home = () => {
 
             <div className="container p-t80" style={{ paddingTop: '100px' }}>
               <h3 class="head3 spacing secondary-color text-center text-uppercase">
-                Art& Architectures of
+                {/* Art& Architectures of */}
               </h3>
               <h2 class=" head2 spacing secondary-color text-center text-uppercase">
-                Odisha
+               Our Customer in Odisha 
               </h2>
             </div>
-            <div className="container gap-5" style={{ display: 'flex', position: 'absolute', zIndex: '5', height: '78vh', alignItems: 'center', flexWrap: 'wrap' }}>
-              <div className="section-content">
+            <div className="container gap-5 " style={{ display: 'flex', position: 'absolute', zIndex: '5', height: '78vh', alignItems: 'center', flexWrap: 'wrap' }}>
+              <div className="section-content doodle">
                 <div className="newsletter-section text-center text-white">
                   <div style={{ display: 'flex', justifyContent: 'center', gap: '60px', width: '95vw', flexWrap: 'wrap' }}>
                     <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
@@ -996,19 +996,84 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="doodle">
+
+            <div className="">
               <css-doodle style={{ position: 'absolute', display: 'flex', alignItems: 'center', }} >
                 <style dangerouslySetInnerHTML={{ __html: "\n  --color: #51eaea, #fffde1, #ff9d76, #FB3569;\n\n  @grid: 30x1 / 100% 78vh / #270f34; \n  \n  :container {\n    perspective: 30vmin;\n    --deg: @p(-180deg, 180deg);\n  }\n  \n  :after, :before {\n    content: '';\n    background: @p(--color); \n    @place: @r(100%) @r(100%);\n    @size: @r(6px);\n    @shape: heart;\n  }\n\n  @place: center;\n  @size: 18vmin; \n\n  box-shadow: @m2(0 0 50px @p(--color));\n  background: @m100(\n    radial-gradient(@p(--color) 50%, transparent 0) \n    @r(-20%, 120%) @r(-20%, 100%) / 1px 1px\n    no-repeat\n  );\n\n  will-change: transform, opacity;\n  animation: scale-up 26s linear infinite;\n  animation-delay: calc(-12s / @I * @i);\n\n  @keyframes scale-up {\n    0%, 95.01%, 100% {\n      transform: translateZ(0) rotate(0);\n      opacity: 0;\n    }\n    10% { \n      opacity: 1; \n    }\n    95% {\n      transform: \n        translateZ(35vmin) rotateZ(var(--deg));\n    }\n  }\n" }} />
               </css-doodle>
             </div>
 
             <div className='doodleimage'>
-              <img src={doodleimage} className="img-fluid" style={{ height: '500px' }} />
-            </div>
+
+              <div class="row" >
+                <div class="col-md-4" style={{ display: 'flex', justifyContent: 'center' }}>
+                  
+                    
+                      {/* <div className="counter-box">
+                        <img src={location} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+                        <div className="counting counter text-black fs-1 fw-bold  " data-count={180}>180</div>
+                        <p className='text-black fs-5'>Locations</p>
+                      </div> */}
+                      <div className="card  counter-box1">
+                        <Slide direction='left'>
+                        <img src={location} className="card-img-top"style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt="..." />
+                        <div className="card-body">
+                          <div className="counting counter text-black fs-1 fw-bold  " data-count={180}>180</div>
+                          <p className='text-black fs-5'>Locations</p>
+                        </div>
+                        </Slide>
+                      </div>
+
+                    
+                  </div>
+                <div class="col-md-4" style={{ display: 'flex', justifyContent: 'center' }}>
+                 
+                    
+                      {/* <div className="counter-box">
+                        <img src={review} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+                        <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>14000</div>
+                        <h5 className='text-black'>Reviews</h5>
+                      </div> */}
+                      <div className="card  counter-box1">
+                      <Slide direction='down'>
+                        <img src={review} className="card-img-top"style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt="..." />
+                        <div className="card-body">
+                          <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>14000</div>
+                          <h5 className='text-black'>Reviews</h5>
+                        </div>
+                        </Slide>
+                      </div>
+
+                   
+                  </div>
+                
+                <div class="col-md-4" style={{ display: 'flex', justifyContent: 'center' }}>
+                
+                    
+                      {/* <div className="counter-box">
+                        <img src={owner} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+                        <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
+                        <h5 className='text-black'>Visiters</h5>
+                      </div> */}
+                      <div className="card  counter-box1">
+                      <Slide direction='right'>
+                        <img src={owner} className="card-img-top" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }}alt="..." />
+                        <div className="card-body">
+                        <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
+                        <h5 className='text-black'>Visiters</h5>
+                        </div>
+                        </Slide>
+                      </div>
+
+                    
+                  </div>
+                </div>
+             </div>
+          
           </>
           <>
             <div className="container  paddingchange" >
-              <h2 class=" head2 spacing secondary-color text-center text-uppercase">
+              <h2 class=" head2 spacing secondary-color text-center text-uppercase " style={{paddingTop:"50px"}}>
                 Most Loveble Places In Odisha
               </h2>
             </div>
@@ -1026,34 +1091,34 @@ const Home = () => {
                   <div class="row">
                     <div class="col-md-6"><img src={puri} alt="" /></div>
                     <div class="col-md-6">   <div>
-                    <h3>PURI</h3>
-                    <p>
-                      The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism. It is located in Puri in the state of Odisha, situated on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple of Jagannath at Puri.[2] The present temple was rebuilt from the tenth century onwards, on the site of the pre-existing temples in the compound, but not the main Jagannath temple, and begun by Anantavarman Chodaganga, the first king of the Eastern Ganga dynasty.
-                    </p>
-                    <h3>History</h3>
-                    <p>The temple was rebuilt by the King of the Eastern Ganga dynasty, Anantavarman Chodaganga, in the 10th century CE, as described by the Kendupatna copper-plate inscription of his descendant, Narasimhadeva II.[1] Anantavarman was originally a Shaivite, and became a Vaishnavite sometime after he conquered the Utkala region, in which the temple is located, in 1112 CE. A 1134–1135 CE inscription records his donation to the temple. Therefore, the temple construction must have started sometime after 1112 CE.</p>
-                    <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
-                  </div></div>
+                      <h3>PURI</h3>
+                      <p>
+                        The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism. It is located in Puri in the state of Odisha, situated on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple of Jagannath at Puri.[2] The present temple was rebuilt from the tenth century onwards, on the site of the pre-existing temples in the compound, but not the main Jagannath temple, and begun by Anantavarman Chodaganga, the first king of the Eastern Ganga dynasty.
+                      </p>
+                      <h3>History</h3>
+                      <p>The temple was rebuilt by the King of the Eastern Ganga dynasty, Anantavarman Chodaganga, in the 10th century CE, as described by the Kendupatna copper-plate inscription of his descendant, Narasimhadeva II.[1] Anantavarman was originally a Shaivite, and became a Vaishnavite sometime after he conquered the Utkala region, in which the temple is located, in 1112 CE. A 1134–1135 CE inscription records his donation to the temple. Therefore, the temple construction must have started sometime after 1112 CE.</p>
+                      <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+                    </div></div>
                   </div>
-                  
-               
+
+
                 </div>
 
                 <div className={`box ${activeTab === 1 ? 'show' : 'hide'}`} data-content="1">
                   <div class="row">
-                    <div class="col-md-6"> <img  className='lin' src={lingaraj} alt="" /></div>
+                    <div class="col-md-6"> <img className='lin' src={lingaraj} alt="" /></div>
                     <div class="col-md-6"><div className='ll'>
-                    <h3>Lingaraj Temple</h3>
-                    <p>
-                      The Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall. The temple represents the quintessence of the Kalinga architecture and culminating the medieval stages of the architectural tradition at Bhubaneswar.[5] The temple is believed to be built by the kings from the Somavamsi dynasty, with later additions from the Ganga rulers. The temple is built in the Deula style that has four components namely, vimana (structure containing the sanctum), jagamohana (assembly hall), natamandira (festival hall) and bhoga-mandapa (hall of offerings), each increasing in the height to its predecessor. The temple complex has 108 other shrines and is enclosed by a large compound wall.
-                    </p>
-                    <h3>History</h3>
-                    <p>The temple in its present form dates back to the last decade of the eleventh century. There is evidence that part of the temple was built during the sixth century CE as mentioned in some of the seventh century Sanskrit texts.[6] Fergusson believes that the temple might have been initiated by Lalat Indu Keshari who reigned from 615 to 657 CE. The Assembly hall (jagamohana), sanctum and temple tower were built during the eleventh century, while the Hall of offering (bhoga-mandapa) was built during the twelfth century. The natamandira was built by the wife of Salini between 1099 and 1104 CE.</p>
-                    <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
-                  </div></div>
+                      <h3>Lingaraj Temple</h3>
+                      <p>
+                        The Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall. The temple represents the quintessence of the Kalinga architecture and culminating the medieval stages of the architectural tradition at Bhubaneswar.[5] The temple is believed to be built by the kings from the Somavamsi dynasty, with later additions from the Ganga rulers. The temple is built in the Deula style that has four components namely, vimana (structure containing the sanctum), jagamohana (assembly hall), natamandira (festival hall) and bhoga-mandapa (hall of offerings), each increasing in the height to its predecessor. The temple complex has 108 other shrines and is enclosed by a large compound wall.
+                      </p>
+                      <h3>History</h3>
+                      <p>The temple in its present form dates back to the last decade of the eleventh century. There is evidence that part of the temple was built during the sixth century CE as mentioned in some of the seventh century Sanskrit texts.[6] Fergusson believes that the temple might have been initiated by Lalat Indu Keshari who reigned from 615 to 657 CE. The Assembly hall (jagamohana), sanctum and temple tower were built during the eleventh century, while the Hall of offering (bhoga-mandapa) was built during the twelfth century. The natamandira was built by the wife of Salini between 1099 and 1104 CE.</p>
+                      <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
+                    </div></div>
                   </div>
-                 
-                  
+
+
                 </div>
 
                 <div className={`box ${activeTab === 2 ? 'show' : 'hide'}`} data-content="2">
