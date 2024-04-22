@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Roombook = () => {
   const initialFormData = {
-    price: "",
+    name: "",
     checkIn: "",
     checkOut: "",
     noGuest: "",
@@ -199,18 +199,21 @@ const Roombook = () => {
           <div className="input-container1">
             <div className="row">
               <div className="col-md-4">
-                <label htmlFor="price">Price</label>
+                <label htmlFor="price">
+                  <i className="fa fa-user-circle-o" style={{fontSize: 20, color: 'gold'}}>Name</i>
+                  </label>
                 <input
                   type="text"
                   id="price"
-                  name="price"
+                  name="name"
                   onChange={handleChange}
-                  value={formData.price}
+                  value={formData.name}
                 />
               </div>
               <div className="col-md-4">
                 <label htmlFor="check-in">
-                  <img src="check_in_icon_url" alt="Icon" />Check in
+                <i className="fa fa-calendar" style={{fontSize: 20, color:'gold'}}>Check in</i>
+
                 </label>
                 <input
                   type="date"
@@ -222,7 +225,8 @@ const Roombook = () => {
               </div>
               <div className="col-md-4">
                 <label htmlFor="check-out">
-                  <img src="check_out_icon_url" alt="Icon" />Check out
+               <i className="fa fa-calendar" style={{fontSize: 20, color: 'gold'}}>Check out</i>
+
                 </label>
                 <input
                   type="date"
@@ -235,7 +239,10 @@ const Roombook = () => {
             </div>
             <div className="row" style={{ paddingTop: "30px" }}>
               <div className="column">
-                <label htmlFor="no-guest">No. of Guest</label>
+                <label htmlFor="no-guest">
+              <i className="fa fa-user-circle-o" style={{fontSize: 20, color: 'gold'}}>No. of Guest</i>
+
+                  </label>
                 <input
                   type="text"
                   id="no-guest"
@@ -246,7 +253,8 @@ const Roombook = () => {
               </div>
               <div className="column">
                 <label htmlFor="no-room">
-                  <img src="no_room_icon_url" alt="Icon" />No. of Room
+             <i className="fas fa-bed" style={{fontSize: 20, color: 'gold'}}>No. of Room</i>
+
                 </label>
                 <input
                   type="text"
@@ -259,7 +267,10 @@ const Roombook = () => {
             </div>
             <div className="row" style={{ paddingTop: "30px" }}>
               <div className="column">
-                <label htmlFor="mobile-number">Mobile Number</label>
+                <label htmlFor="mobile-number">
+                <i className="fas fa-mobile-alt" style={{fontSize: 20, color: 'gold'}}>Mobile Number</i>
+
+                </label>
                 <input
                   type="text"
                   id="mobile-number"
@@ -269,7 +280,10 @@ const Roombook = () => {
                 />
               </div>
               <div className="column">
-                <label htmlFor="email">E-mail</label>
+                <label htmlFor="email">
+               <i className="fas fa-envelope" style={{fontSize: 20, color: 'gold'}}>E-mail</i>
+
+                  </label>
                 <input
                   placeholder="xyz@gmail.com"
                   type="email"

@@ -34,6 +34,14 @@ import lingaraj from '../image/lingaraj1.jpg';
 import udaya1 from '../image/udaya1.jpg';
 
 const Home = () => {
+
+// loading
+
+
+
+
+
+
   // card  convert to background image
   const activate = (e) => {
     const sliderss = document.querySelector(".sliderss");

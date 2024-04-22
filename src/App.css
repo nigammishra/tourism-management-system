@@ -306,7 +306,7 @@ ul.menu1 {
   clear:both;
 }
 .menu1 a:hover { 
-  /* color:#ff9d76;  */
+  color:#ff9d76; 
 }
 
 .underline::before {
@@ -4333,6 +4333,10 @@ top: 0;
       max-width: 740px; /* Set a maximum width to prevent stretching */
       margin: 0 auto;
       padding: 20px;
+      border: 1px solid rgb(223, 210, 136);
+      border-radius: 15px;
+      box-shadow: rgba(233, 239, 158, 0.874) 0px 8px 20px;
+      padding: 40px;
   }
   
   .row {
@@ -4433,7 +4437,8 @@ top: 0;
   }
   
   #confirm-booking-btn {
-      background-color: rgba(124, 106, 70, 1);
+      background-color: rgb(192, 158, 90);
+      box-shadow: rgba(233, 239, 158, 0.874) 0px 8px 20px;
       color: white;
       padding: 10px 20px;
       font-size: 16px;
