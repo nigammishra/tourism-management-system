@@ -32,11 +32,17 @@ import owner from '../image/owner.gif';
 import doodleimage from '../image/doodles.png';
 import lingaraj from '../image/lingaraj1.jpg';
 import udaya1 from '../image/udaya1.jpg';
+import { PulseLoader } from 'react-spinners';
 
 const Home = () => {
 
 // loading
-
+const [loaderStatus, setLoaderStatus] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaderStatus(false);
+    }, 2000); 
+  }, []);
 
 
 
@@ -161,7 +167,13 @@ const Home = () => {
 
   return (
     <div>
-
+       {loaderStatus ? (
+        <div className="loader-container">
+          <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
+        </div>
+      ) : (
+      <>
+      
       <>
         <button
           className={showButton ? "show" : ""}
@@ -1067,6 +1079,8 @@ const Home = () => {
           </div>
         </div>
       </>
+      </>
+      )}
     </div>
   );
 };

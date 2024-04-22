@@ -11,6 +11,10 @@ import Debagarh  from '../image/Debagarh.jpg';
 import Dhenkanal  from '../image/Dhenkanal.jpg';
 import Gajapati  from '../image/Gajapati.jpg';
 import { Slide } from "react-awesome-reveal";
+import PulseLoader from "react-spinners/PulseLoader";
+
+
+
 const About = () => {
 
 
@@ -41,8 +45,26 @@ const About = () => {
     });
   }
 
+
+
+  const [loaderStatus, setLoaderStatus] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaderStatus(false);
+    }, 2000); 
+  }, []);
+
+
+
   return (
     <div>
+      {loaderStatus ? (
+        <div className="loader-container">
+          <PulseLoader loading={loaderStatus} size={50} color=" #fde02f" />
+        </div>
+      ) : (
+      <>
+      
         <>
 
         <button
@@ -190,6 +212,8 @@ const About = () => {
 </div>
 
         </>
+</>
+        )}
     </div>
   )
 }

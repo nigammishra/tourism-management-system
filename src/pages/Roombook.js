@@ -2,6 +2,8 @@ import React, {useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Swal from "sweetalert2";
+import { PulseLoader } from "react-spinners";
 
 const Roombook = () => {
   const initialFormData = {
@@ -38,7 +40,15 @@ const Roombook = () => {
     e.preventDefault();
     // Store form data in local storage
     localStorage.setItem("formData", JSON.stringify(formData));
-    sendEmail();
+    
+    Swal.fire({
+      title: 'Success!',
+      text: 'Your room has been booked successfully.',
+      icon: 'success',
+      confirmButtonText: 'OK'
+    }).then(() => {
+      sendEmail();
+    });
     
   };
 
@@ -133,10 +143,24 @@ const Roombook = () => {
     });
   }
 
+
+  const [loaderStatus, setLoaderStatus] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaderStatus(false);
+    }, 2000); 
+  }, []);
+
+
+
   return (
     <div>
 
-
+{loaderStatus ? (
+        <div className="loader-container">
+          <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
+        </div>
+      ) : (<>
 <button
           className={showButton ? "show" : ""}
           onClick={scrollToTop}
@@ -303,6 +327,8 @@ const Roombook = () => {
           </div>
         </form>
       </div>
+      </>
+    )}
     </div>
   );
 };

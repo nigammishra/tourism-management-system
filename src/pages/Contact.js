@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom'
+import { PulseLoader } from "react-spinners";
+import Swal from 'sweetalert2';
 
 const Contact = () => {
     const initialFormData = {
@@ -32,7 +34,14 @@ const Contact = () => {
     const handleSubmit = (e) => {
       e.preventDefault();
       localStorage.setItem("Message", JSON.stringify(formData));
-      sendEmail();
+      Swal.fire({
+        title: 'Success!',
+        text: 'Your request has been send successfully.',
+        icon: 'success',
+        confirmButtonText: 'OK'
+      }).then(() => {
+        sendEmail();
+      });
     };
   
   const [showButton, setShowButton] = useState(false);
@@ -60,8 +69,22 @@ const Contact = () => {
     });
   }
 
+
+  const [loaderStatus, setLoaderStatus] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaderStatus(false);
+    }, 2000); 
+  }, []);
+
+
   return (
     <div>
+         {loaderStatus ? (
+        <div className="loader-container">
+          <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
+        </div>
+      ) : (<>
 
       <button
         className={showButton ? "show" : ""}
@@ -150,6 +173,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      </>
+    )}
     </div>
   )
 }

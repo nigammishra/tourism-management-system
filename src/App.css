@@ -2078,7 +2078,7 @@ svg {
 
 .ccardd__title {
   color: rgb(222 160 49);
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 2.1875rem;
   font-weight: 400;
   margin-bottom: 1.25rem;
@@ -2087,9 +2087,9 @@ svg {
 
 .ccardd__text {
   line-height: 1.7;
-  font-weight: 600;
+  font-weight: 700;
   color: #070768;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .ccardd__btn {
@@ -4451,5 +4451,10 @@ top: 0;
   }
   
   #confirm-booking-btn:hover {
-      background-color: rgba(124, 106, 70, 0.9);
+      background-color: rgba(219, 170, 72, 0.9);
+  }
+
+  .loader-container{
+    text-align: center;
+    margin-top: 5%;
   }

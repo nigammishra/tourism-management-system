@@ -51,6 +51,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
+import { PulseLoader } from "react-spinners";
 // import ParticleCanvas from "../component/ParticleCanvas";
 
 const Gallery = () => {
@@ -83,8 +84,23 @@ const Gallery = () => {
     });
   }
 
+  const [loaderStatus, setLoaderStatus] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaderStatus(false);
+    }, 2000); 
+  }, []);
+
+
+
   return (
     <div>
+         {loaderStatus ? (
+        <div className="loader-container">
+          <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
+        </div>
+      ) : (
+      <>
       <>
 
 
@@ -94,6 +110,7 @@ const Gallery = () => {
       id="button"
     >
     </button>
+
  <div className="linearbackground" id="galleryherosection">
   <div className="container " >
   <div className="hero p-t40">
@@ -582,6 +599,8 @@ const Gallery = () => {
                 </div>
               </div>
     </>
+    </>
+  )}
     </div>
   )
 }

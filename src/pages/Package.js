@@ -5,6 +5,8 @@ import img2 from "../image/room1.webp";
 import img3 from "../image/room1.webp";
 import { Form } from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import { Slide } from "react-awesome-reveal";
+import { PulseLoader } from "react-spinners";
 
 const Package = () => {
 
@@ -33,8 +35,22 @@ const Package = () => {
     });
   }
 
+
+  const [loaderStatus, setLoaderStatus] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaderStatus(false);
+    }, 2000); 
+  }, []);
+
+
   return (
     <div>
+         {loaderStatus ? (
+        <div className="loader-container">
+          <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
+        </div>
+      ) : (<>
       <>
       <button
       className={showButton ? "show" : ""}
@@ -408,6 +424,7 @@ const Package = () => {
                       </div>
                     </div>
                   </div>
+                  {/* <Slide direction="b" */}
                   <div className="row search-card-result">
                     <div className="col-md-3">
                     <div className="inner">
@@ -786,6 +803,8 @@ const Package = () => {
           </section>
         </div>
       </>
+      </>
+    )}
     </div>
   );
 };
