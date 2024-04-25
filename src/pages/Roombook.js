@@ -2,6 +2,11 @@ import React, {useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import img1 from "../image/room2.webp";
+import img2 from "../image/room3.webp";
+import img3 from "../image/room4.webp";
+import img4 from "../image/room5.jpeg";
+import img5 from "../image/room6.jpeg";
 import Swal from "sweetalert2";
 import { PulseLoader } from "react-spinners";
 
@@ -177,15 +182,15 @@ const Roombook = () => {
             <div className="row" id="room-image ">
               <Slider {...settings1}>
                 <div class="col-md-4">
-                  <img id="room-image" src="https://c4.wallpaperflare.com/wallpaper/844/53/319/miami-florida-hotel-room-wallpaper-preview.jpg" alt="Room Image" /></div>
+                  <img id="room-image" src={img1} alt="Room Image" /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src="https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_640.jpg" alt="Room Image" /></div>
+                  <img id="room-image" src={img2} alt="Room Image" /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src="https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_640.jpg" alt="Room Image" /></div>
+                  <img id="room-image" src={img3} alt="Room Image" /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src="https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_640.jpg" alt="Room Image" /></div>
+                  <img id="room-image" src={img4} alt="Room Image" /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src="https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_640.jpg" alt="Room Image" /></div>
+                  <img id="room-image" src={img5} alt="Room Image" /></div>
               </Slider>
             </div>
           </div>

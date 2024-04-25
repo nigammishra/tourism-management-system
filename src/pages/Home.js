@@ -1154,14 +1154,14 @@ const Home = () => {
             </div>
             <div className='container'>
               <ul className="tabitem" id='tabitm'>
-                <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
+                <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">Puri</li>
                 <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja Temple </li>
                 <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri Caves</li>
                 <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark Sun Temple</li>
               </ul>
               <ul className="tabitemresponsive" id='tabitmresponsive'>
                 <Slide direction='left'>
-                  <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li> 
+                  <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">Puri</li> 
                 <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja </li>
                 </Slide> 
                 <Slide direction='right'>
@@ -1193,7 +1193,7 @@ const Home = () => {
                   <div class="row">
                     <div class="col-md-6"> <img className='lin' src={lingarajtemple} alt="" /></div>
                     <div class="col-md-6"><div className='ll'>
-                      <h3>Lingaraj Temple</h3>
+                      <h3>LINGARAJA TEMPLE</h3>
                       <p>
                         The Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall. The temple represents the quintessence of the Kalinga architecture and culminating the medieval stages of the architectural tradition at Bhubaneswar.[5] The temple is believed to be built by the kings from the Somavamsi dynasty, with later additions from the Ganga rulers. 
                       </p>
@@ -1210,7 +1210,7 @@ const Home = () => {
                   <div class="row">
                     <div class="col-md-6"><img src={udaya1} alt="" /></div>
                     <div class="col-md-6">  <div>
-                      <h3>Udayagiri Cave</h3>
+                      <h3>UDAYAGIRI</h3>
                       <p>
                         The Udayagiri Caves are twenty rock-cut caves near Vidisha, Madhya Pradesh primarily denoted to the Hindu gods Vishnu and Shiva from the early years of the 3rd century CE to 5th century CE.[1][2] They contain some of the oldest surviving Hindu temples and iconography in India. They are the only site that can be verifiably associated with a Gupta period monarch from its inscriptions.
                       </p>
@@ -1228,7 +1228,7 @@ const Home = () => {
                   <div class="row">
                     <div class="col-md-6"><img src={konark} alt="" /></div>
                     <div class="col-md-6"> <div>
-                      <h3>Konark Sun Temple</h3>
+                      <h3>KONARK</h3>
                       <p>
                         Dedicated to the Hindu Sun-god Surya, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains.
                       </p>

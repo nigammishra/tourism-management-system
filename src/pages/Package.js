@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import img from "../image/room1.webp";
-import img1 from "../image/room1.webp";
-import img2 from "../image/room1.webp";
-import img3 from "../image/room1.webp";
+import img1 from "../image/room2.webp";
+import img2 from "../image/room3.webp";
+import img3 from "../image/room4.webp";
+import img4 from "../image/room5.jpeg";
+import img5 from "../image/room6.jpeg";
 import { Form } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
@@ -435,13 +437,13 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-5">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
                         <span className="fa fa-star checked" />
                         <span className="fa fa-star checked" />
-                        <span className="fa fa-star" />
+                        <span className="fa fa-star checked" />
                         <span className="fa fa-star" />
                       </div>
                       <p>
@@ -449,7 +451,7 @@ const Package = () => {
                         vitae velit veniam
                       </p>
                       <p>
-                        <span className="badgee badge-primary">8.5</span>{" "}
+                        <span className="badgee badge-primary">8.8</span>{" "}
                         Excellent (2323 reviews)
                       </p>
                       <p>
@@ -459,30 +461,31 @@ const Package = () => {
                         <i className="fa fa-tv" />
                       </p>
                     </div>
-                    <div className="col-md-2 border-left text-center more-offers">
-                      <p>place.com</p>
+                    {/* <div className="col-md-2 border-left text-center more-offers">
+                      // <p>place.com</p>
                       <p>
                         <s>cost-123</s>
                       </p>
-                      <p>Place.com</p>
+                      // <p>Place.com</p>
                       <p>cost-6500</p>
                       <p className="border-top additional">
                         More Deals from cost-6500
                       </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-2 border-left text-center more-offers">
                       <h4>
                         <span className="badge badge-success">Top Deal</span>
                       </h4>
                       <div className="text-warning">
-                        <p>place.com</p>
+                        {/* <p>place.com</p> */}
+                        {/* <h5>₹10,999</h5> */}
                         <p>
-                          <s>cost-123</s>
+                          <s>₹12,299</s>
                         </p>
                       </div>
                       <div className="text-success">
-                        <p>Place.com</p>
-                        <h5>cost-6500</h5>
+                        {/* <p>Place.com</p> */}
+                        <h5>₹10,999</h5>
                       </div>
                       <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
@@ -497,7 +500,7 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-5">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
@@ -511,7 +514,7 @@ const Package = () => {
                         vitae velit veniam
                       </p>
                       <p>
-                        <span className="badgee badge-primary">8.5</span>{" "}
+                        <span className="badgee badge-primary">7.6</span>{" "}
                         Excellent (2323 reviews)
                       </p>
                       <p>
@@ -521,30 +524,30 @@ const Package = () => {
                         <i className="fa fa-tv" />
                       </p>
                     </div>
-                    <div className="col-md-2 border-left text-center more-offers">
-                      <p>place.com</p>
+                    {/* <div className="col-md-2 border-left text-center more-offers">
+                      // <p>place.com</p>
                       <p>
                         <s>cost-123</s>
                       </p>
-                      <p>Place.com</p>
+                      // <p>Place.com</p>
                       <p>cost-6500</p>
                       <p className="border-top additional">
                         More Deals from cost-6500
                       </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-2 border-left text-center more-offers">
                       <h4>
                         <span className="badge badge-success">Top Deal</span>
                       </h4>
                       <div className="text-warning">
-                        <p>place.com</p>
+                        {/* <p>place.com</p> */}
                         <p>
-                          <s>cost-123</s>
+                          <s>₹1500</s>
                         </p>
                       </div>
                       <div className="text-success">
-                        <p>Place.com</p>
-                        <h5>cost-6500</h5>
+                        {/* <p>Place.com</p> */}
+                        <h5>₹7999</h5>
                       </div>
                       <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
@@ -554,17 +557,17 @@ const Package = () => {
                     <div className="inner">
                       <img
                         className="img-fluid"
-                        src={img1}
+                        src={img2}
                         alt="Card image cap"
                       />
                       </div>
                     </div>
-                    <div className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-5">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
                         <span className="fa fa-star checked" />
-                        <span className="fa fa-star checked" />
+                        <span className="fa fa-star" />
                         <span className="fa fa-star" />
                         <span className="fa fa-star" />
                       </div>
@@ -573,7 +576,7 @@ const Package = () => {
                         vitae velit veniam
                       </p>
                       <p>
-                        <span className="badgee badge-primary">8.5</span>{" "}
+                        <span className="badgee badge-primary">6.5</span>{" "}
                         Excellent (2323 reviews)
                       </p>
                       <p>
@@ -583,30 +586,30 @@ const Package = () => {
                         <i className="fa fa-tv" />
                       </p>
                     </div>
-                    <div className="col-md-2 border-left text-center more-offers">
-                      <p>place.com</p>
+                    {/* <div className="col-md-2 border-left text-center more-offers">
+                      // <p>place.com</p>
                       <p>
                         <s>cost-123</s>
                       </p>
-                      <p>Place.com</p>
+                      // <p>Place.com</p>
                       <p>cost-6500</p>
                       <p className="border-top additional">
                         More Deals from cost-6500
                       </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-2 border-left text-center more-offers">
                       <h4>
                         <span className="badge badge-success">Top Deal</span>
                       </h4>
                       <div className="text-warning">
-                        <p>place.com</p>
+                        {/* <p>place.com</p> */}
                         <p>
-                          <s>cost-123</s>
+                          <s>₹1200</s>
                         </p>
                       </div>
                       <div className="text-success">
-                        <p>Place.com</p>
-                        <h5>cost-6500</h5>
+                        {/* <p>Place.com</p> */}
+                        <h5>₹4500</h5>
                       </div>
                       <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
@@ -616,12 +619,12 @@ const Package = () => {
                     <div className="inner">
                       <img
                         className="img-fluid"
-                        src={img1}
+                        src={img3}
                         alt="Card image cap"
                       />
                       </div>
                     </div>
-                    <div className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-5">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
@@ -645,30 +648,30 @@ const Package = () => {
                         <i className="fa fa-tv" />
                       </p>
                     </div>
-                    <div className="col-md-2 border-left text-center more-offers">
-                      <p>place.com</p>
+                    {/* <div className="col-md-2 border-left text-center more-offers">
+                      // <p>place.com</p>
                       <p>
                         <s>cost-123</s>
                       </p>
-                      <p>Place.com</p>
+                      // <p>Place.com</p>
                       <p>cost-6500</p>
                       <p className="border-top additional">
                         More Deals from cost-6500
                       </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-2 border-left text-center more-offers">
                       <h4>
                         <span className="badgee badge-success">Top Deal</span>
                       </h4>
                       <div className="text-warning">
-                        <p>place.com</p>
+                        {/* <p>place.com</p> */}
                         <p>
-                          <s>cost-123</s>
+                          <s>₹2100</s>
                         </p>
                       </div>
                       <div className="text-success">
-                        <p>Place.com</p>
-                        <h5>cost-6500</h5>
+                        {/* <p>Place.com</p> */}
+                        <h5>₹3599</h5>
                       </div>
                       <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
@@ -678,18 +681,18 @@ const Package = () => {
                     <div className="inner">
                       <img
                         className="img-fluid"
-                        src={img1}
+                        src={img4}
                         alt="Card image cap"
                       />
                       </div>
                     </div>
-                    <div className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-5">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
                         <span className="fa fa-star checked" />
                         <span className="fa fa-star checked" />
-                        <span className="fa fa-star" />
+                        <span className="fa fa-star checked" />
                         <span className="fa fa-star" />
                       </div>
                       <p>
@@ -697,7 +700,7 @@ const Package = () => {
                         vitae velit veniam
                       </p>
                       <p>
-                        <span className="badgee badge-primary">8.5</span>{" "}
+                        <span className="badgee badge-primary">9.1</span>{" "}
                         Excellent (2323 reviews)
                       </p>
                       <p>
@@ -707,30 +710,30 @@ const Package = () => {
                         <i className="fa fa-tv" />
                       </p>
                     </div>
-                    <div className="col-md-2 border-left text-center more-offers">
-                      <p>place.com</p>
+                    {/* <div className="col-md-2 border-left text-center more-offers">
+                      // <p>place.com</p>
                       <p>
                         <s>cost-123</s>
                       </p>
-                      <p>Place.com</p>
+                      // <p>Place.com</p>
                       <p>cost-6500</p>
                       <p className="border-top additional">
                         More Deals from cost-6500
                       </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-2 border-left text-center more-offers">
                       <h4>
                         <span className="badge badge-success">Top Deal</span>
                       </h4>
                       <div className="text-warning">
-                        <p>place.com</p>
+                        {/* <p>place.com</p> */}
                         <p>
-                          <s>cost-123</s>
+                          <s>₹999</s>
                         </p>
                       </div>
                       <div className="text-success">
-                        <p>Place.com</p>
-                        <h5>cost-6500</h5>
+                        {/* <p>Place.com</p> */}
+                        <h5>₹8999</h5>
                       </div>
                      <Link className="roo" to="/Roombook"> <div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
@@ -740,26 +743,26 @@ const Package = () => {
                     <div className="inner">
                       <img
                         className="img-fluid"
-                        src={img1}
+                        src={img5}
                         alt="Card image cap"
                       />
                       </div>
                     </div>
-                    <div className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-5">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
                         <span className="fa fa-star checked" />
                         <span className="fa fa-star checked" />
-                        <span className="fa fa-star" />
-                        <span className="fa fa-star" />
+                        <span className="fa fa-star checked" />
+                        <span className="fa fa-star checked" />
                       </div>
                       <p>
                         Join over 1 Million of users. Dignissimos asperiores
                         vitae velit veniam
                       </p>
                       <p>
-                        <span className="badgee badge-primary">8.5</span>{" "}
+                        <span className="badgee badge-primary">9.7</span>{" "}
                         Excellent (2323 reviews)
                       </p>
                       <p>
@@ -769,30 +772,30 @@ const Package = () => {
                         <i className="fa fa-tv" />
                       </p>
                     </div>
-                    <div className="col-md-2 border-left text-center more-offers">
-                      <p>place.com</p>
+                    {/* <div className="col-md-2 border-left text-center more-offers">
+                      // <p>place.com</p>
                       <p>
                         <s>cost-123</s>
                       </p>
-                      <p>Place.com</p>
+                      // <p>Place.com</p>
                       <p>cost-6500</p>
                       <p className="border-top additional">
                         More Deals from cost-6500
                       </p>
-                    </div>
+                    </div> */}
                     <div className="col-md-2 border-left text-center more-offers">
                       <h4>
                         <span className="badge badge-success">Top Deal</span>
                       </h4>
                       <div className="text-warning">
-                        <p>place.com</p>
+                        {/* <p>place.com</p> */}
                         <p>
-                          <s>cost-123</s>
+                          <s>₹7599</s>
                         </p>
                       </div>
                       <div className="text-success">
-                        <p>Place.com</p>
-                        <h5>cost-6500</h5>
+                        {/* <p>Place.com</p> */}
+                        <h5>₹15,999</h5>
                       </div>
                       <div className="bttn btn-success"><Link className="roo" to="/Roombook">View deal &gt;</Link></div>
                     </div>
