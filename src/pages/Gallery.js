@@ -376,15 +376,17 @@ const Gallery = () => {
               >
                 {/* <div className="container"> */}
                 {/* TITLE START*/}
-                <div className="section-head text-center">
-                  {/* <div className="section-sub-title">FIND OUT MORE</div> */}
-                  {/* <h3 data-title="Top Services">Top Services</h3> */}
-                  <div className="wt-separator bg-primarys" />
-                  <div className="wt-separator2 bg-primarys" />
-                  <p className='gall'>MOST POPULAR PHOTO'S OF 2K24</p>
-                </div>
+                
+                <div className="section-head text-center p-t80  ">
+              <h3 className='h3' data-title="BEAUTY">MOST POPULAR PHOTO'S OF 2K24</h3>
+              <div className="wt-separator bg-primarys">
+              </div>
+              <div className="wt-separator2 bg-primarys">
+              </div>
+              {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
+            </div>
                 {/* TITLE END*/}
-                <div className="section-content" style={{position:'sticky'}}>
+                <div className="section-content " id="header" style={{position:'sticky'}}>
                   <div className="row justify-content-center ">
                     <div classname="swiper-wrapper d-flex align-items-center">
                       <Swiper

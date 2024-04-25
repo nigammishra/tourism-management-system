@@ -167,7 +167,7 @@ const Roombook = () => {
           id="button"
         >
         </button>
-        <div className="landing-page p-t80">
+        <div className="landing-page ">
             <img className="Top_most" src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/f4317cf1-564c-43a7-a40a-37e705efe473/89c15330-4099-4880-a6d2-0b15a547e71f?org_if_sml=1972044&force_format=original" alt="Landing Page Picture" />
           </div>
           <div id="wrapper">

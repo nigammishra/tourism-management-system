@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import odishatour from "../image/Odisha-tour.jpg";
+// import odishatour from "../image/Odisha-tour.jpg";
 import odishatour1 from "../image/banner1.jpg";
 import odishatour2 from "../image/banner2.jpeg";
 import odishatour3 from "../image/banner3.jpeg";
@@ -20,16 +20,16 @@ import ANUGUL from "../image/ANUGUL.jpg";
 import Balasore from "../image/Balasore.jpg";
 import Boudh from "../image/Boudh.jpg";
 import Balangir from "../image/Balangir.jpg";
-import sambalpur from "../image/Daringbadi.jpg";
-import Chandipur from "../image/Chandipur.jpg";
+// import sambalpur from "../image/Daringbadi.jpg";
+// import Chandipur from "../image/Chandipur.jpg";
 import konark from "../image/konark.jpg";
-import bbsr from "../image/bhubaneswar-visit-place.jpg";
+// import bbsr from "../image/bhubaneswar-visit-place.jpg";
 import { Link } from 'react-router-dom';
 import { Fade, Slide, Bounce, Zoom } from "react-awesome-reveal";
 import location from '../image/location.gif';
 import review from '../image/Review.gif';
 import owner from '../image/owner.gif';
-import doodleimage from '../image/doodles.png';
+// import doodleimage from '../image/doodles.png';
 import lingaraj from '../image/lingaraj1.jpg';
 import udaya1 from '../image/udaya1.jpg';
 import { PulseLoader } from 'react-spinners';
@@ -591,7 +591,15 @@ const Home = () => {
           </>
 
           <>
-            <div className="container">
+            <div className="section-head text-center p-t80">
+              <h3 className='h3style' data-title="Travel With Us">Travel With Us</h3>
+              <div className="wt-separator bg-primarys">
+              </div>
+              <div className="wt-separator2 bg-primarys">
+              </div>
+              {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
+            </div>
+            <div className="container responiveheading">
               <h3 class="head3 spacing secondary-color text-center text-uppercase p-t80"  >
                 Travel With Us
               </h3>
@@ -654,7 +662,15 @@ const Home = () => {
           {/* card section */}
 
           <>
-            <div className="container-fluid">
+            <div className="section-head text-center p-t80">
+              <h3 className='h3style' data-title=" Tourist Places">Top 8 City</h3>
+              <div className="wt-separator bg-primarys">
+              </div>
+              <div className="wt-separator2 bg-primarys">
+              </div>
+              {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
+            </div>
+            <div className="container-fluid responiveheading">
               <h3 class="head3 spacing secondary-color text-center text-uppercase">
                 Top 8 City
               </h3>
@@ -820,7 +836,15 @@ const Home = () => {
 
           </>
           <>
-            <div className="container p-t80">
+            <div className="section-head text-center p-t80">
+              <h3 className='h3style' data-title=" Most Demanded Places">Have A Glance</h3>
+              <div className="wt-separator bg-primarys">
+              </div>
+              <div className="wt-separator2 bg-primarys">
+              </div>
+              {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
+            </div>
+            <div className="container p-t80 responiveheading">
               <h3 class="head3 spacing secondary-color text-center text-uppercase">
                 Most Demanded Places
               </h3>
@@ -838,7 +862,7 @@ const Home = () => {
                         {" "}
                         The hill stations of Phulbani are an attractive place for people who love pine forests and waterfalls.
                         This is one of the places to visit in Odisha during summer.
-                        For travelers from different parts of the world, there are different accommodations, such as Daringbadi Nature Camp and Belghar Nature Camp.{" "}
+                        {" "}
                       </p>
                       {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -846,12 +870,12 @@ const Home = () => {
                     </div>
                   </li>
                   {/* Repeat the rest of the list items similarly */}
-                  <li className="item1 secondimg">
+                  <li className="item1 fourthimg">
                     <div className="content1">
-                      <h2 className="title"> Udayagiri and Kandagiri Caves</h2>
+                      <h2 className="title"> Chandipur: Seaside Serenity</h2>
                       <p className="description">
                         {" "}
-                        <p>These are the locations where religion, art, and rock-cut building abound. A pleasant location to take your family is the two hills, which rise sharply from the coastal plain and are divided by a highway around six kilometers west of Bhubaneswar. Among the tourists this is one of the <strong>top place to visit in Odisha. </strong>It has a great deal of historical significance and resembles little Ajanta Ellora caves.</p>
+                        <p> There is no beach like Chandipur. At low tide, the beach retreats up to 5 km, allowing people to stroll on the ocean floor. The beach's equally unusual biodiversity is supported by this unique phenomena.</p>
                       </p>
                       {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -864,18 +888,18 @@ const Home = () => {
                       <p className="description">
                         {" "}
                         The Sun Temple in Konark is one of India's most exquisite temples and an architectural wonder.
-                        This is the best place to visit in Odisha! The Annual Dance Festival is a five-day cultural spectacle that brings together exceptional dance talent from throughout the nation. This festival honors the diverse dance styles that our nation has created and is a spectacular celebration of our nation's rich cultural and artistic heritage.
+                        This is the best place to visit in Odisha! The Annual Dance Festival is a five-day cultural spectacle that brings together exceptional dance talent from throughout the nation.
                       </p>
                       {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
                   </Link> */}
                     </div>
                   </li>
-                  <li className="item1 fourthimg">
+                  <li className="item1 secondimg">
                     <div className="content1">
-                      <h2 className="title">Chandipur: Seaside Serenity</h2>
+                      <h2 className="title">Udayagiri and Kandagiri Caves</h2>
                       <p className="description">
-                        There is no beach like Chandipur. At low tide, the beach retreats up to 5 km, allowing people to stroll on the ocean floor. The beach's equally unusual biodiversity is supported by this unique phenomena.Among other things, it is home to sea urchins, starfish, and endangered horse shoe crabs. The beach's dirty water makes it unsuitable for swimming.
+                      These are the locations where religion, art, and rock-cut building abound. A pleasant location to take your family is the two hills, which rise sharply from the coastal plain and are divided by a highway around six kilometers west of Bhubaneswar.
                       </p>
                       {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -888,7 +912,7 @@ const Home = () => {
                       <p className="description">
                         Barbil, located in the Odisha district of Kendujhar/Keonjhar, is a well-liked tourist site and a spot for honeymoon in Odisha.
                         It is located along the Karo River's bank.
-                        Barbil is a well-liked location with a special fusion of history, mythology, and scenic beauty.
+
                       </p>
                       {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -901,7 +925,7 @@ const Home = () => {
                       <p className="description">
                         {" "}
                         The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism
-                        The temple is famous for its annual Ratha Yatra, or chariot festival, in which the three principal deities are pulled on huge and elaborately decorated raths, or temple cars.
+                        The temple is famous for its annual Ratha Yatra, or chariot festival
                       </p>
                       {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -951,12 +975,21 @@ const Home = () => {
                 
             </section> */}
 
-            <div className="container p-t80" style={{ paddingTop: '100px' }}>
-              <h3 class="head3 spacing secondary-color text-center text-uppercase">
-                {/* Art& Architectures of */}
-              </h3>
+            <div className="section-head text-center p-t80 ">
+              <h3 className='h3style' data-title=" Our Customer in Odisha"> Our Customer in Odisha</h3>
+              <div className="wt-separator bg-primarys">
+              </div>
+              <div className="wt-separator2 bg-primarys">
+              </div>
+              {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
+            </div>
+
+            <div className="container p-t80 responiveheading" style={{ paddingTop: '100px' }}>
+              {/* <h3 class="head3 spacing secondary-color text-center text-uppercase">
+                Art& Architectures of
+              </h3> */}
               <h2 class=" head2 spacing secondary-color text-center text-uppercase">
-               Our Customer in Odisha 
+                Our Customer in Odisha
               </h2>
             </div>
             <div className="container gap-5 " style={{ display: 'flex', position: 'absolute', zIndex: '5', height: '78vh', alignItems: 'center', flexWrap: 'wrap' }}>
@@ -1004,85 +1037,138 @@ const Home = () => {
             </div>
 
             <div className='doodleimage'>
-              
-              <div class="row" >
+
+              {/* <div class="row" >
                 <div class="col-md-4" style={{ display: 'flex', justifyContent: 'center' }}>
-                  
-                    
-                      {/* <div className="counter-box">
-                        <img src={location} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+
+
+          
+                  <div className="card  counter-box1">
+                    <Slide direction='left'>
+                      <img src={location} className="card-img-top" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt="..." />
+                      <div className="card-body">
                         <div className="counting counter text-black fs-1 fw-bold  " data-count={180}>180</div>
                         <p className='text-black fs-5'>Locations</p>
-                      </div> */}
-                      <div className="card  counter-box1">
-                        <Slide direction='left'>
-                        <img src={location} className="card-img-top"style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt="..." />
-                        <div className="card-body">
-                          <div className="counting counter text-black fs-1 fw-bold  " data-count={180}>180</div>
-                          <p className='text-black fs-5'>Locations</p>
-                        </div>
-                        </Slide>
                       </div>
-
-                    
+                    </Slide>
                   </div>
+
+
+                </div>
                 <div class="col-md-4" style={{ display: 'flex', justifyContent: 'center' }}>
-                 
-                    
-                      {/* <div className="counter-box">
-                        <img src={review} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+
+
+                  <div className="card  counter-box1">
+                    <Slide direction='down'>
+                      <img src={review} className="card-img-top" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt="..." />
+                      <div className="card-body">
                         <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>14000</div>
                         <h5 className='text-black'>Reviews</h5>
-                      </div> */}
-                      <div className="card  counter-box1">
-                      <Slide direction='down'>
-                        <img src={review} className="card-img-top"style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt="..." />
-                        <div className="card-body">
-                          <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>14000</div>
-                          <h5 className='text-black'>Reviews</h5>
-                        </div>
-                        </Slide>
                       </div>
-
-                   
+                    </Slide>
                   </div>
-                
-                <div class="col-md-4" style={{ display: 'flex', justifyContent: 'center' }}>
-                
-                    
-                      {/* <div className="counter-box">
-                        <img src={owner} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
-                        <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
-                        <h5 className='text-black'>Visiters</h5>
-                      </div> */}
-                      <div className="card  counter-box1">
-                      <Slide direction='right'>
-                        <img src={owner} className="card-img-top" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }}alt="..." />
-                        <div className="card-body">
-                        <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
-                        <h5 className='text-black'>Visiters</h5>
-                        </div>
-                        </Slide>
-                      </div>
 
-                    
+
+                </div>
+
+                <div class="col-md-4" style={{ display: 'flex', justifyContent: 'center' }}>
+
+
+                 
+                  <div className="card  counter-box1">
+                    <Slide direction='right'>
+                      <img src={owner} className="card-img-top" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt="..." />
+                      <div className="card-body">
+                        <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
+                        <h5 className='text-black'>Visiters</h5>
+                      </div>
+                    </Slide>
+                  </div>
+
+
+                </div>
+              </div> */}
+              <div className="row row-cols-1 row-cols-md-3 g-4">
+                <div className="col">
+                  <div className="card h-90 "style={{margin:'20px',borderRadius:'15px'}}>
+                    <Slide direction='left'>
+                    <img src={location} className="card-img-top" style={{height:'150px',width:'150px',position:'relative',left:'30%'}} alt="..." />
+                    </Slide>
+                    <div className="card-body">
+                    <Slide direction='right'>
+                    <div className="counting counter text-black fs-1 fw-bold  text-center " data-count={180}>180</div>
+                        <p className='text-black fs-5  text-center'>Locations</p>
+                        </Slide>
+                    </div>
                   </div>
                 </div>
-             </div>
-          
+                <div className="col">
+                  <div className="card h-90 " style={{margin:'20px',borderRadius:'15px'}}>
+                  <Slide direction='right'>
+                    <img src={review} className="card-img-top" style={{height:'150px',width:'150px',position:'relative',left:'30%'}} alt="..." />
+                    </Slide>
+                    <div className="card-body">
+                    <Slide direction='left'>
+                    <div className="counting counter text-black  text-center fs-1 fw-bold" data-count={1400}>14000</div>
+                        <h5 className='text-black  text-center'>Reviews</h5>
+                   </Slide> 
+                   </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="card h-90" style={{margin:'20px',borderRadius:'15px'}}>
+                  <Slide direction='left'>
+                    <img src={owner} className="card-img-top" style={{height:'150px',width:'150px',position:'relative',left:'30%'}} alt="..." />
+                    </Slide>
+                    <div className="card-body">
+                    <Slide direction='right'>
+                    <div className="counting counter text-black  text-center fs-1 fw-bold" data-count={40000}>40,000</div>
+                        <h5 className='text-black text-center'>Visiters</h5>
+                    </Slide>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+
+            </div>
+
           </>
           <>
-            <div className="container  paddingchange" >
-              <h2 class=" head2 spacing secondary-color text-center text-uppercase " style={{paddingTop:"50px"}}>
+            <div className="section-head text-center  paddingchange">
+              <h1 className='h3style' data-title="Most Loveble Places In Odisha">Most Loveble Places In Odisha</h1>
+              <div className="wt-separator bg-primarys">
+              </div>
+              <div className="wt-separator2 bg-primarys">
+              </div>
+              {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
+            </div>
+
+            <div className="container responiveheading  paddingchange" >
+              <h2 class=" head2 spacing secondary-color text-center text-uppercase " style={{ paddingTop: "50px" }}>
                 Most Loveble Places In Odisha
               </h2>
             </div>
             <div className='container'>
-              <ul className="tabitem">
+              <ul className="tabitem" id='tabitm'>
                 <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
                 <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja Temple </li>
                 <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri Caves</li>
                 <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark Sun Temple</li>
+              </ul>
+              <ul className="tabitemresponsive" id='tabitmresponsive'>
+                <Slide direction='left'>
+                <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
+                </Slide> 
+                <Slide direction='down'>
+                <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja </li>
+                </Slide>
+                <Slide direction='down'>
+                <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri</li>
+                </Slide>
+                <Slide direction='right'>
+                <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark</li>
+                </Slide>
               </ul>
             </div>
             <div className='container'>
