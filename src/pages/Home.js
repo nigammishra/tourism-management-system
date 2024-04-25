@@ -34,6 +34,7 @@ import lingaraj from '../image/lingaraj1.jpg';
 import udaya1 from '../image/udaya1.jpg';
 import { PulseLoader } from 'react-spinners';
 
+
 const Home = () => {
 
   // loading
@@ -591,7 +592,7 @@ const Home = () => {
           </>
 
           <>
-            <div className="section-head text-center p-t80">
+            <div className="section-head text-center p-t80" >
               <h3 className='h3style' data-title="Travel With Us">Travel With Us</h3>
               <div className="wt-separator bg-primarys">
               </div>
@@ -599,7 +600,7 @@ const Home = () => {
               </div>
               {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
             </div>
-            <div className="container responiveheading">
+            <div className="container responiveheading" style={{ backgroundColor: '#fff' }}>
               <h3 class="head3 spacing secondary-color text-center text-uppercase p-t80"  >
                 Travel With Us
               </h3>
@@ -607,7 +608,7 @@ const Home = () => {
             Visit The Best Places Ever
           </h2> */}
             </div>
-            <section className="py-4 services">
+            <section className="py-4 services" style={{ backgroundColor: '#fff' }}>
               <div className="container">
                 {/* <h1>Tourism</h1> */}
                 <div className="">
@@ -836,7 +837,7 @@ const Home = () => {
 
           </>
           <>
-            <div className="section-head text-center p-t80">
+            <div className="section-head text-center p-t80" style={{ paddingBottom: '30px' }}>
               <h3 className='h3style' data-title=" Most Demanded Places">Have A Glance</h3>
               <div className="wt-separator bg-primarys">
               </div>
@@ -899,7 +900,7 @@ const Home = () => {
                     <div className="content1">
                       <h2 className="title">Udayagiri and Kandagiri Caves</h2>
                       <p className="description">
-                      These are the locations where religion, art, and rock-cut building abound. A pleasant location to take your family is the two hills, which rise sharply from the coastal plain and are divided by a highway around six kilometers west of Bhubaneswar.
+                        These are the locations where religion, art, and rock-cut building abound. A pleasant location to take your family is the two hills, which rise sharply from the coastal plain and are divided by a highway around six kilometers west of Bhubaneswar.
                       </p>
                       {/* <Link to="">
                     <button class="custom-btn btn-9">Read More...</button>
@@ -975,7 +976,7 @@ const Home = () => {
                 
             </section> */}
 
-            <div className="section-head text-center p-t80 ">
+            <div className="section-head text-center p-t80 " style={{ paddingBottom: '30px' }} >
               <h3 className='h3style' data-title=" Our Customer in Odisha"> Our Customer in Odisha</h3>
               <div className="wt-separator bg-primarys">
               </div>
@@ -984,7 +985,7 @@ const Home = () => {
               {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
             </div>
 
-            <div className="container p-t80 responiveheading" style={{ paddingTop: '100px' }}>
+            <div className="container p-t80 responiveheading" style={{ paddingTop: '100px', paddingBottom: '30px' }}>
               {/* <h3 class="head3 spacing secondary-color text-center text-uppercase">
                 Art& Architectures of
               </h3> */}
@@ -1088,47 +1089,48 @@ const Home = () => {
 
                 </div>
               </div> */}
+
               <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
-                  <div className="card h-90 "style={{margin:'20px',borderRadius:'15px'}}>
+                  <div className="card h-90 " style={{ margin: '20px', borderRadius: '15px' }}>
                     <Slide direction='left'>
-                    <img src={location} className="card-img-top" style={{height:'150px',width:'150px',position:'relative',left:'30%'}} alt="..." />
+                      <img src={location} className="card-img-top" style={{ height: '150px', width: '150px', position: 'relative', left: '30%' }} alt="..." />
                     </Slide>
                     <div className="card-body">
-                    <Slide direction='right'>
-                    <div className="counting counter text-black fs-1 fw-bold  text-center " data-count={180}>180</div>
+                      <Slide direction='right'>
+                        <div className="counting counter text-black fs-1 fw-bold  text-center " data-count={180}>180</div>
                         <p className='text-black fs-5  text-center'>Locations</p>
-                        </Slide>
+                      </Slide>
                     </div>
                   </div>
                 </div>
                 <div className="col">
-                  <div className="card h-90 " style={{margin:'20px',borderRadius:'15px'}}>
-                  <Slide direction='right'>
-                    <img src={review} className="card-img-top" style={{height:'150px',width:'150px',position:'relative',left:'30%'}} alt="..." />
-                    </Slide>
-                    <div className="card-body">
-                    <Slide direction='left'>
-                    <div className="counting counter text-black  text-center fs-1 fw-bold" data-count={1400}>14000</div>
-                        <h5 className='text-black  text-center'>Reviews</h5>
-                   </Slide> 
-                   </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="card h-90" style={{margin:'20px',borderRadius:'15px'}}>
-                  <Slide direction='left'>
-                    <img src={owner} className="card-img-top" style={{height:'150px',width:'150px',position:'relative',left:'30%'}} alt="..." />
-                    </Slide>
-                    <div className="card-body">
+                  <div className="card h-90 " style={{ margin: '20px', borderRadius: '15px' }}>
                     <Slide direction='right'>
-                    <div className="counting counter text-black  text-center fs-1 fw-bold" data-count={40000}>40,000</div>
-                        <h5 className='text-black text-center'>Visiters</h5>
+                      <img src={review} className="card-img-top" style={{ height: '150px', width: '150px', position: 'relative', left: '30%' }} alt="..." />
                     </Slide>
+                    <div className="card-body">
+                      <Slide direction='left'>
+                        <div className="counting counter text-black  text-center fs-1 fw-bold" data-count={1400}>14000</div>
+                        <h5 className='text-black  text-center'>Reviews</h5>
+                      </Slide>
                     </div>
                   </div>
                 </div>
-              
+                <div className="col">
+                  <div className="card h-90" style={{ margin: '20px', borderRadius: '15px' }}>
+                    <Slide direction='left'>
+                      <img src={owner} className="card-img-top" style={{ height: '150px', width: '150px', position: 'relative', left: '30%' }} alt="..." />
+                    </Slide>
+                    <div className="card-body">
+                      <Slide direction='right'>
+                        <div className="counting counter text-black  text-center fs-1 fw-bold" data-count={40000}>40,000</div>
+                        <h5 className='text-black text-center'>Visiters</h5>
+                      </Slide>
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
             </div>
@@ -1158,16 +1160,12 @@ const Home = () => {
               </ul>
               <ul className="tabitemresponsive" id='tabitmresponsive'>
                 <Slide direction='left'>
-                <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li>
-                </Slide> 
-                <Slide direction='down'>
+                  <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">PURI</li> 
                 <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja </li>
-                </Slide>
-                <Slide direction='down'>
-                <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri</li>
-                </Slide>
+                </Slide> 
                 <Slide direction='right'>
-                <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark</li>
+                  <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri</li> 
+                  <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark</li>
                 </Slide>
               </ul>
             </div>
