@@ -1795,14 +1795,13 @@ ul {
   font-size: 2rem;
   margin-bottom: 20px;
 }
-
 .box p {
-  color: #000000;
+  color: #000;
   opacity: 0.5;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
-
 .show {
   display: flex;
 }
@@ -4563,7 +4562,7 @@ top: 0;
 		hsl(240, 50%, 89%) 21%,
 		hsl(240, 64%, 87%) 30%,
 		hsl(226, 73%, 84%) 39%,
-		hsl(229, 80%, 82%) 46%,
+		hsl(229, 66%, 85%) 46%,
 		hsl(69, 100%, 86%) 54%,
 		hsl(66, 79%, 82%) 61%,
 		hsl(55, 66%, 81%) 69%,
@@ -4599,7 +4598,7 @@ top: 0;
     color: #fff;
   }
   .section-head {
-    margin-bottom: 60px;
+    margin-top: 60px;
     position: relative;
     z-index: 1;
   }
