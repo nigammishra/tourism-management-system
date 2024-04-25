@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tourism-management-system/static/css/main.2faf6be0.css",
-    "main.js": "/tourism-management-system/static/js/main.d6eeb917.js",
+    "main.css": "/tourism-management-system/static/css/main.11d82083.css",
+    "main.js": "/tourism-management-system/static/js/main.f7b7f987.js",
     "static/js/453.288b35d9.chunk.js": "/tourism-management-system/static/js/453.288b35d9.chunk.js",
     "static/media/puritemple.jpg": "/tourism-management-system/static/media/puritemple.576b6779b435010911c4.jpg",
     "static/media/OdishaTourism.jpg": "/tourism-management-system/static/media/OdishaTourism.f4df0868d7b4c3fb2fed.jpg",
@@ -40,7 +40,6 @@
     "static/media/Kandhamal.jpg": "/tourism-management-system/static/media/Kandhamal.515c4ae7f72015582d95.jpg",
     "static/media/galle10.jpg": "/tourism-management-system/static/media/galle10.ec25fca3e68db27593e0.jpg",
     "static/media/Gallery11.jpg": "/tourism-management-system/static/media/Gallery11.e7dc1b96191209218a0f.jpg",
-    "static/media/doodles.png": "/tourism-management-system/static/media/doodles.37f0612f743968ccff86.png",
     "static/media/Daringbadi.jpg": "/tourism-management-system/static/media/Daringbadi.4b86a95d8ae90bf5a3c7.jpg",
     "static/media/Debagarh.jpg": "/tourism-management-system/static/media/Debagarh.4ab05eda3ebfb474dbde.jpg",
     "static/media/banner3.jpeg": "/tourism-management-system/static/media/banner3.15e8b578efd8f3121607.jpeg",
@@ -59,7 +58,6 @@
     "static/media/galle12.jpg": "/tourism-management-system/static/media/galle12.5a6b29c38d9c2ef483ce.jpg",
     "static/media/Shri_Jagannatha_Temple.jpg": "/tourism-management-system/static/media/Shri_Jagannatha_Temple.103174e2c150ecc91bbb.jpg",
     "static/media/Barbil.jpg": "/tourism-management-system/static/media/Barbil.c3cd6ac3aeca4d70b426.jpg",
-    "static/media/Odisha-tour.jpg": "/tourism-management-system/static/media/Odisha-tour.c262a3dee095417912d5.jpg",
     "static/media/galle2.jpg": "/tourism-management-system/static/media/galle2.9a460308a2c9748ee81a.jpg",
     "static/media/banner5.jpeg": "/tourism-management-system/static/media/banner5.257ab5b50c5e87e2895c.jpeg",
     "static/media/Gallery15.jpg": "/tourism-management-system/static/media/Gallery15.2621881d648a0f24fbff.jpg",
@@ -106,12 +104,12 @@
     "static/media/slick.eot": "/tourism-management-system/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/tourism-management-system/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tourism-management-system/static/media/slick.295183786cd8a1389865.woff",
-    "main.2faf6be0.css.map": "/tourism-management-system/static/css/main.2faf6be0.css.map",
-    "main.d6eeb917.js.map": "/tourism-management-system/static/js/main.d6eeb917.js.map",
+    "main.11d82083.css.map": "/tourism-management-system/static/css/main.11d82083.css.map",
+    "main.f7b7f987.js.map": "/tourism-management-system/static/js/main.f7b7f987.js.map",
     "453.288b35d9.chunk.js.map": "/tourism-management-system/static/js/453.288b35d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2faf6be0.css",
-    "static/js/main.d6eeb917.js"
+    "static/css/main.11d82083.css",
+    "static/js/main.f7b7f987.js"
   ]
 }
