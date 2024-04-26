@@ -9,7 +9,15 @@
   color: #2f58fd;
 }
 
-
+.con{
+  width: 100%;
+  height: 20px;
+  background-color:#fde02f;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 500;
+}
 
 .sidenav {
   height: 100%;

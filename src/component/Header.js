@@ -18,7 +18,12 @@ const Header = () => {
 
   return (
     <div>
+      <>
+        <div className="container-fluid con">
+          <marquee behavior derection>In today’s world, almost everybody chooses to travel and tourism as their leisure. Traveling is a good way to learn about the world.</marquee>
+        </div>
 
+      </>
       <>
         <section className="nav-bar" id='header'>
           <div className="logo"><img className="" src={img} style={{ height: '70px', width: '150px' }} alt /></div>
@@ -54,14 +59,14 @@ const Header = () => {
             >
               ☰ open
             </span> */}
-            <span style={{ fontSize: 30, cursor: "pointer" ,float:'right' }} onClick={openNav}>
-               <img
+            <span style={{ fontSize: 30, cursor: "pointer", float: 'right' }} onClick={openNav}>
+              <img
                 src={img}
-                style={{ height: '60px', width: '150px' ,position:'relative',right:'178px' }}
+                style={{ height: '60px', width: '150px', position: 'relative', right: '178px' }}
                 alt="Bootstrap"
               />
-              ☰ 
-           </span>
+              ☰
+            </span>
           </div>
         </div>
 
