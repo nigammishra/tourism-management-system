@@ -542,7 +542,7 @@ const Package = () => {
                       <div className="text-warning">
                         {/* <p>place.com</p> */}
                         <p>
-                          <s>₹1500</s>
+                          <s>₹15,000</s>
                         </p>
                       </div>
                       <div className="text-success">
@@ -604,12 +604,12 @@ const Package = () => {
                       <div className="text-warning">
                         {/* <p>place.com</p> */}
                         <p>
-                          <s>₹1200</s>
+                          <s>₹11,999</s>
                         </p>
                       </div>
                       <div className="text-success">
                         {/* <p>Place.com</p> */}
-                        <h5>₹4500</h5>
+                        <h5>₹4599</h5>
                       </div>
                       <Link className="roo" to="/Roombook"><div className="bttn btn-success">View deal &gt;</div></Link>
                     </div>
@@ -666,7 +666,7 @@ const Package = () => {
                       <div className="text-warning">
                         {/* <p>place.com</p> */}
                         <p>
-                          <s>₹2100</s>
+                          <s>₹8100</s>
                         </p>
                       </div>
                       <div className="text-success">
@@ -728,7 +728,7 @@ const Package = () => {
                       <div className="text-warning">
                         {/* <p>place.com</p> */}
                         <p>
-                          <s>₹999</s>
+                          <s>₹14,999</s>
                         </p>
                       </div>
                       <div className="text-success">
@@ -790,12 +790,12 @@ const Package = () => {
                       <div className="text-warning">
                         {/* <p>place.com</p> */}
                         <p>
-                          <s>₹7599</s>
+                          <s>₹12,599</s>
                         </p>
                       </div>
                       <div className="text-success">
                         {/* <p>Place.com</p> */}
-                        <h5>₹15,999</h5>
+                        <h5>₹8,999</h5>
                       </div>
                       <div className="bttn btn-success"><Link className="roo" to="/Roombook">View deal &gt;</Link></div>
                     </div>
