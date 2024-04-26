@@ -168,7 +168,7 @@ const Contact = () => {
             <textarea name="Message" className="input" onChange={handleChange} value={formData.Message} defaultValue={""} />
           
           </div>
-          <input type="submit" defaultValue="Send" className="custom-btn btn-8" />
+          <input type="submit" defaultValue="Send" className="btn" />
         </form>
     
 

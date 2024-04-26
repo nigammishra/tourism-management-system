@@ -1270,7 +1270,7 @@ button {
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
   border-width: 1px;
   margin-top: 20px;
-  border: 1px solid #6754e2;
+  /* border: 1px solid #6754e2; */
 }
 .btn_get_two:hover {
   background: transparent;
@@ -1833,11 +1833,12 @@ ul {
 /* btn-8 */
 
 .btn-8 {
-  background-color: #f0ecfc;
-  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+  background-color: #ece749;
+  /* background-image: linear-gradient(315deg, #ede6b4 0%, #efd054 74%); */
   line-height: 42px;
   padding: 0;
   border: none;
+  color: #fefefe;
 }
 .btn-8 span {
   position: relative;
@@ -1845,6 +1846,7 @@ ul {
   width: 100%;
   height: 100%;
   font-size: 15px;
+  font-weight: 600;
 }
 .btn-8:before,
 .btn-8:after {
@@ -1852,7 +1854,7 @@ ul {
   content: "";
   right: 0;
   bottom: 0;
-  background: #c797eb;
+  background: #ebdd97;
   /* box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .2), 
     inset -4px -4px 6px 0 rgba(255,255,255,.5),
@@ -1877,7 +1879,8 @@ ul {
   background: transparent;
 }
 .btn-8 span:hover {
-  color: #eeecf0;
+  color: #131313;
+  background: linear-gradient(145deg, #6964ee, #d9dae8);
 }
 .btn-8 span:before,
 .btn-8 span:after {
@@ -1885,7 +1888,7 @@ ul {
   content: "";
   left: 0;
   top: 0;
-  background: #c797eb;
+  background: #ebe497;
   /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .2), 
     inset -4px -4px 6px 0 rgba(255,255,255,.5),
@@ -3124,10 +3127,10 @@ textarea.input {
 
 .btn {
   padding: 0.6rem 1.3rem;
-  background-color: #ffffff34;
-  border: 2px solid #fafafa;
+  background-color: #6280ec;
+  border: 2px solid #5d82fa;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: #ffffff;
   line-height: 1;
   border-radius: 5px;
   outline: none;
@@ -3138,8 +3141,9 @@ textarea.input {
 }
 
 .btn:hover {
-  background-color: #95d2f8;
-  color: #fff;
+  /* background-color: #ffffff; */
+  color: #f1d151;
+  border: 1px solid #f6b53c;
 }
 
 .input-coet span {
