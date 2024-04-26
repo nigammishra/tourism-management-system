@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -34,6 +34,8 @@ import owner from '../image/owner.gif';
 import lingaraj from '../image/lingaraj1.jpg';
 import udaya1 from '../image/udaya1.jpg';
 import { PulseLoader } from 'react-spinners';
+
+// import LoginModal from './LoginModal';
 
 
 const Home = () => {
@@ -165,8 +167,6 @@ const Home = () => {
 
 
 
-
-
   return (
     <div>
       {loaderStatus ? (
@@ -175,7 +175,7 @@ const Home = () => {
         </div>
       ) : (
         <>
-
+          {/* <LoginModal/> */}
           <>
             <button
               className={showButton ? "show" : ""}
@@ -1161,11 +1161,11 @@ const Home = () => {
               </ul>
               <ul className="tabitemresponsive" id='tabitmresponsive'>
                 <Slide direction='left'>
-                  <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">Puri</li> 
-                <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja </li>
-                </Slide> 
+                  <li className={activeTab === 0 ? 'actives' : ''} onClick={() => handleTabClick(0)} data-id="0">Puri</li>
+                  <li className={activeTab === 1 ? 'actives' : ''} onClick={() => handleTabClick(1)} data-id="1">Lingaraja </li>
+                </Slide>
                 <Slide direction='right'>
-                  <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri</li> 
+                  <li className={activeTab === 2 ? 'actives' : ''} onClick={() => handleTabClick(2)} data-id="2">Udayagiri</li>
                   <li className={activeTab === 3 ? 'actives' : ''} onClick={() => handleTabClick(3)} data-id="3">Konark</li>
                 </Slide>
               </ul>
@@ -1178,11 +1178,11 @@ const Home = () => {
                     <div class="col-md-6">   <div>
                       <h3>PURI</h3>
                       <p>
-                        The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism. It is located in Puri in the state of Odisha, situated on the eastern coast of India. 
+                        The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism. It is located in Puri in the state of Odisha, situated on the eastern coast of India.
                       </p>
                       <h3>HISTORY</h3>
                       <p>The temple was rebuilt by the King of the Eastern Ganga dynasty, Anantavarman Chodaganga, in the 10th century CE, as described by the Kendupatna copper-plate inscription of his descendant, Narasimhadeva II.
-                      Its name is mentioned, conforming to the deity worshipped, as Srikshetra, Purusottama Dhāma, Purusottama Kshetra, Purusottama Puri and Jagannath Puri. Puri, however, is the popular usage. It is also known by the geographical features of its location as Shankhakshetra (the layout of the town is in the form of a conch shell), Neelāchala ("Blue mountain" a terminology used to name a very large sand lagoon over which the temple was built but this name is not in vogue), Neelāchalakshetra, Neelādri.
+                        Its name is mentioned, conforming to the deity worshipped, as Srikshetra, Purusottama Dhāma, Purusottama Kshetra, Purusottama Puri and Jagannath Puri. Puri, however, is the popular usage. It is also known by the geographical features of its location as Shankhakshetra (the layout of the town is in the form of a conch shell), Neelāchala ("Blue mountain" a terminology used to name a very large sand lagoon over which the temple was built but this name is not in vogue), Neelāchalakshetra, Neelādri.
                       </p>
                       <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
                     </div></div>
@@ -1197,7 +1197,7 @@ const Home = () => {
                     <div class="col-md-6"><div className='ll'>
                       <h3>LINGARAJA TEMPLE</h3>
                       <p>
-                        The Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall. The temple represents the quintessence of the Kalinga architecture and culminating the medieval stages of the architectural tradition at Bhubaneswar.[5] The temple is believed to be built by the kings from the Somavamsi dynasty, with later additions from the Ganga rulers. 
+                        The Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall. The temple represents the quintessence of the Kalinga architecture and culminating the medieval stages of the architectural tradition at Bhubaneswar.[5] The temple is believed to be built by the kings from the Somavamsi dynasty, with later additions from the Ganga rulers.
                       </p>
                       <h3>HISTORY</h3>
                       <p>The temple in its present form dates back to the last decade of the eleventh century. There is evidence that part of the temple was built during the sixth century CE as mentioned in some of the seventh century Sanskrit texts.[6] Fergusson believes that the temple might have been initiated by Lalat Indu Keshari who reigned from 615 to 657 CE. </p>
@@ -1218,7 +1218,7 @@ const Home = () => {
                       </p>
                       <h3>HISTORY</h3>
                       <p>The site at Udayagiri Caves was the patronage of Chandragupta II, who is widely accepted by scholars to have ruled the Gupta Empire in central India between c. 380-414 CE. The Udayagiri Caves were created in final decades of the 4th-century, and consecrated in 401 CE. This is based on three inscriptions.</p>
-                     
+
                       <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
                     </div></div>
                   </div>
@@ -1236,7 +1236,7 @@ const Home = () => {
                       </p>
                       <h3>HISTORY</h3>
                       <p>
-                        Konark, also referred to in Indian texts by the name Kainapara, was a significant trading port by the early centuries of the common era. The current Konark temple dates to the 13th century, though evidence suggests that a sun temple was built in the Konark area by at least the 9th century. 
+                        Konark, also referred to in Indian texts by the name Kainapara, was a significant trading port by the early centuries of the common era. The current Konark temple dates to the 13th century, though evidence suggests that a sun temple was built in the Konark area by at least the 9th century.
                       </p>
                       <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
                     </div></div>

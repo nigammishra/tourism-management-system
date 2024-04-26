@@ -162,7 +162,7 @@ const About = () => {
     <li className="ccardd">
       <div className="ccardd__thumb">
       <Slide direction='left'>
-        <img style={{height:'500px'}} className="animate" src={Bhadrak} /></Slide></div>
+        <img style={{height:'370px'}} className="animate" src={Bhadrak} /></Slide></div>
       <div className="ccardd__content">
       <Slide direction='down'>
         <h3 className="ccardd__title">Bhadrak</h3>
@@ -195,7 +195,7 @@ const About = () => {
     <li className="ccardd">
       <div className="ccardd__thumb">
       <Slide direction='right'>
-        <img style={{height:'500px'}} className="animate" src={Debagarh } /></Slide>
+        <img style={{height:'400px'}} className="animate" src={Debagarh } /></Slide>
       </div>
       <div className="ccardd__content">
       <Slide direction='down'>
@@ -245,7 +245,7 @@ const About = () => {
     <li className="ccardd">
       <div className="ccardd__thumb">
       <Slide direction='right'>
-        <img  style={{height:'500px'}} className="animate" src={Jagatsinghpur} />
+        <img  style={{height:'440px'}} className="animate" src={Jagatsinghpur} />
 </Slide>
         </div>
       <div className="ccardd__content">
@@ -259,7 +259,7 @@ const About = () => {
     <li className="ccardd">
       <div className="ccardd__thumb">
       <Slide direction='right'>
-        <img  style={{height:'500px'}} className="animate" src={Jajpur} />
+        <img  style={{height:'400px'}} className="animate" src={Jajpur} />
 </Slide>
         </div>
       <div className="ccardd__content">
@@ -273,7 +273,7 @@ const About = () => {
     <li className="ccardd">
       <div className="ccardd__thumb">
       <Slide direction='right'>
-        <img style={{height:'500px'}} className="animate" src={Kalahandi} />
+        <img style={{height:'400px'}} className="animate" src={Kalahandi} />
 </Slide>
         </div>
       <div className="ccardd__content">
@@ -287,7 +287,7 @@ const About = () => {
     <li className="ccardd">
       <div className="ccardd__thumb">
       <Slide direction='right'>
-        <img style={{height:'500px'}} className="animate" src={Kandhamal} />
+        <img style={{height:'400px'}} className="animate" src={Kandhamal} />
 </Slide>
         </div>
       <div className="ccardd__content">
@@ -301,7 +301,7 @@ const About = () => {
     <li className="ccardd">
       <div className="ccardd__thumb">
       <Slide direction='right'>
-        <img style={{height:'500px'}} className="animate" src={Kendrapara} />
+        <img style={{height:'400px'}} className="animate" src={Kendrapara} />
 </Slide>
         </div>
       <div className="ccardd__content">
