@@ -1181,7 +1181,9 @@ const Home = () => {
                         The Jagannath Temple is an important Hindu temple dedicated to Jagannath, a form of Vishnu–one of the trinity of supreme divinity in Hinduism. It is located in Puri in the state of Odisha, situated on the eastern coast of India. 
                       </p>
                       <h3>HISTORY</h3>
-                      <p>The temple was rebuilt by the King of the Eastern Ganga dynasty, Anantavarman Chodaganga, in the 10th century CE, as described by the Kendupatna copper-plate inscription of his descendant, Narasimhadeva II.</p>
+                      <p>The temple was rebuilt by the King of the Eastern Ganga dynasty, Anantavarman Chodaganga, in the 10th century CE, as described by the Kendupatna copper-plate inscription of his descendant, Narasimhadeva II.
+                      Its name is mentioned, conforming to the deity worshipped, as Srikshetra, Purusottama Dhāma, Purusottama Kshetra, Purusottama Puri and Jagannath Puri. Puri, however, is the popular usage. It is also known by the geographical features of its location as Shankhakshetra (the layout of the town is in the form of a conch shell), Neelāchala ("Blue mountain" a terminology used to name a very large sand lagoon over which the temple was built but this name is not in vogue), Neelāchalakshetra, Neelādri.
+                      </p>
                       <Link href="#"><button class="custom-btn btn-8 btnstyle"><span>Explore More...</span></button></Link>
                     </div></div>
                   </div>

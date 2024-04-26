@@ -2118,7 +2118,7 @@ display: inline-block;
 img,
 svg {
   width: 100%;
-  vertical-align: top;
+  /* vertical-align: top; */
 }
 .animate{
   height: 100%;
