@@ -1,24 +1,22 @@
-import React, { useNavigate ,useState } from 'react';
-import Swal from 'sweetalert2';
+import React, { useNavigate, useState } from "react";
+import Swal from "sweetalert2";
 // import { Modal, Button, Form } from 'react-bootstrap';
 
-function LoginModal({ show, onHide,onLogin }) {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+function LoginModal({ show, onHide, onLogin }) {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   // const navigate = useNavigate();
 
   const handleLogin = (e) => {
-    
     e.preventDefault();
-    if (username === 'nigam' && password === 'nigam123') {
-      sessionStorage.setItem('isLoggedIn', 'true');
-      
+    if (username === "nigam" && password === "nigam123") {
+      sessionStorage.setItem("isLoggedIn", "true");
+
       // navigate('/Package');
       Swal.fire({
         icon: "success",
-       
+
         text: " Logged In Successfully.",
-        
       });
     } else {
       // Show an error message
@@ -27,25 +25,29 @@ function LoginModal({ show, onHide,onLogin }) {
         icon: "error",
         title: "Oops...",
         text: "Invalid username or password!",
-        html:`<a href="/LoginModel">Back to login</a>`
+        html: `<a href="/LoginModel">Back to login</a>`,
         // footer: '<a href="#">Why do I have this issue?</a>'
       });
     }
     onHide();
   };
-  
-
 
   return (
-    <div className={`modal ${show ? 'show' : ''}`} id="loginModal" tabIndex="-1" role="dialog" style={{ display: show ? 'block' : 'none' }}>
-      <div className="modal-dialog" role="document">
+    <div
+      className={`modal ${show ? "show" : ""}`}
+      id="loginModal"
+      tabIndex="-1"
+      role="dialog"
+      style={{ display: show ? "block" : "none" }}
+    >
+      <div className="modal-dialog modal-fullscreen " role="document">
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">Login</h5>
             {/* <button type="button" class="btn-close" data-bs-dismiss="modal" onClick={onHide}  aria-label="Close"></button> */}
           </div>
           <div className="modal-body">
-            <form>
+            {/* <form>
               <div className="form-group">
                 <label htmlFor="username">Username</label>
                 <input type="text" className="form-control" id="username" value={username} onChange={(e) => setUsername(e.target.value)} />
@@ -54,62 +56,159 @@ function LoginModal({ show, onHide,onLogin }) {
                 <label htmlFor="password">Password</label>
                 <input type="password" className="form-control" id="password" value={password} onChange={(e) => setPassword(e.target.value)} />
               </div>
-            </form>
-             {/* <div class=" loginpagemodal">
-      
-      <div class="container1" id="container1">
-    <div class="form-container1 sign-up-container1">
-        <form class="formstyle" action="#">
-            <h1>Create Account</h1>
-            <div class="socialcontact-container11">
-                <a href="#" class="socialcontact"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="socialcontact"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#" class="socialcontact"><i class="fab fa-linkedin-in"></i></a>
+            </form> */}
+
+            {/* resposive form */}
+
+            <div className="container responsiveformdesgn">
+              <div className="loginresponsivestyle">
+                {/* <h2 className="activee"> sign in </h2> */}
+                <form className="p-t80 backfacedesgn">
+                  {/* <input type="text" className="text" name="username" /> */}
+                  <input
+                          type="text"
+                          className="form-control"
+                          id="username"
+                          value={username}
+                          onChange={(e) => setUsername(e.target.value)}
+                        />
+                  <span className="spandesgn">username</span>
+                  <br />
+                  <br />
+                  {/* <input type="password" className="text" name="password" /> */}
+                  <input
+                          type="password"
+                          className="form-control"
+                          id="password"
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                        />
+                  <span className="spandesgn">password</span>
+                  <br />
+                  <input
+                    type="checkbox"
+                    id="checkbox-1-1"
+                    className="custom-checkbox"
+                  />
+                  <label className="labelstyle" htmlFor="checkbox-1-1">
+                    Keep me Signed in
+                  </label>
+                  <button   onClick={handleLogin} className="signin1">Sign In</button>
+                  <hr />
+                  <a className="forgotpass" href="#">
+                    Forgot Password?
+                  </a>
+                </form>
+              </div>
             </div>
-            <span>or use your email for registration</span>
-            <input type="text" class="inputstyle" placeholder="Name" />
-            <input type="email" class="inputstyle" placeholder="Email" />
-            <input type="password" class="inputstyle" placeholder="Password" />
-            <button class="loginbtn">Sign Up</button>
-        </form>
-    </div>
-    <div class="form-container1 sign-in-container1">
-        <form class="formstyle" action="#">
-            <h1>Sign in</h1>
-            <div class="socialcontact-container11">
-                <a href="#" class="socialcontact"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="socialcontact"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#" class="socialcontact"><i class="fab fa-linkedin-in"></i></a>
+
+
+               {/* responsive design end */}
+
+
+
+            <div className="bodydegn">
+              <main className="container logincontainer active" id="container">
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-container login">
+                      <form className="form-control">
+                        <h1>Login</h1>
+                        <div className="social-iconss">
+                          <a>
+                            <i
+                              className="fa-brands fa-facebook"
+                              aria-hidden="true"
+                            />
+                          </a>
+                          <a>
+                            <i
+                              className="fa-brands fa-linkedin"
+                              aria-hidden="true"
+                            />
+                          </a>
+                          <a>
+                            <i
+                              className="fa-brands fa-google"
+                              aria-hidden="true"
+                            />
+                          </a>
+                          <a>
+                            <i
+                              className="fa-brands fa-github"
+                              aria-hidden="true"
+                            />
+                          </a>
+                        </div>
+                        <span>Registrase de manera manual</span>
+                        {/* <input className="form-input" type="text" placeholder="Email" fdprocessedid="j0foqu" /> */}
+                        <label htmlFor="username">Username</label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          id="username"
+                          value={username}
+                          onChange={(e) => setUsername(e.target.value)}
+                        />
+                        <label htmlFor="password">Password</label>
+                        <input
+                          type="password"
+                          className="form-control"
+                          id="password"
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                        />
+                        {/* <input className="form-input" type="text" placeholder="****" fdprocessedid="ynyvmt" /> */}
+                        <a>Has olvidado la contraseña?</a>
+                        <button
+                          type="submit"
+                          onClick={handleLogin}
+                          fdprocessedid="o8jcd"
+                        >
+                          Login
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <section className="toggle-container">
+                      <div className="toggle">
+                        <div className="toggle-panel toggle-left">
+                          <h1>Hola Amigo</h1>
+                          <span>Registrate usando tus datos personales</span>
+                          <button
+                            id="registrar"
+                            className="hidden"
+                            fdprocessedid="50o2zg"
+                          >
+                            Registrar
+                          </button>
+                        </div>
+                        <div className="toggle-panel toggle-right">
+                          <h1>Bienvenido</h1>
+                          <span>Introduce tus datos personales</span>
+                          <button
+                            id="login"
+                            className="hidden"
+                            onClick={handleLogin}
+                            fdprocessedid="id111"
+                          >
+                            {" "}
+                            Login
+                          </button>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </main>
             </div>
-            <span>or use your account</span>
-            <input type="email" class="inputstyle" placeholder="Email" />
-            <input type="password" class="inputstyle" placeholder="Password" />
-            <a href="#" class="forgot-password">Forgot your password?</a>
-            <button class="loginbtn">Sign In</button>
-        </form>
-    </div>
-    <div class="overlay1-container1">
-        <div class="overlay1">
-            <div class="overlay1-panel overlay1-left">
-                <h1>Welcome Back!</h1>
-                <p>To keep connected with us please login with your personal info</p>
-                <button class="ghost loginbtn" id="signIn">Sign In</button>
-            </div>
-            <div class="overlay1-panel overlay1-right">
-                <h1>Hello, Friend!</h1>
-                <p>Enter your personal details and start journey with us</p>
-                <button class="ghost loginbtn" id="signUp">Sign Up</button>
-            </div>
-        </div>
-    </div>
-</div>
-</div>  */}
- </div>
-          <div className="modal-footer">
-            {/* <button type="button" className="btn btn-secondary"  onClick={onHide}>Close</button> */}
-            <button type="button" className="btn btn-primary" onClick={handleLogin}>Login</button>
-            
           </div>
+          {/* <div className="modal-footer">
+            <button type="button" className="btn btn-secondary"  onClick={onHide}>Close</button>
+            <button type="button" className="btn btn-primary hidden" onClick={handleLogin}>Login</button>
+            
+          </div> */}
         </div>
       </div>
     </div>
@@ -117,3 +216,5 @@ function LoginModal({ show, onHide,onLogin }) {
 }
 
 export default LoginModal;
+
+// https://codepen.io/shahrilamrias/pen/vdQXmL
