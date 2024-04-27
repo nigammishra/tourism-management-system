@@ -14,7 +14,7 @@ function LoginModal({ show, onHide, onLogin }) {
       const timeoutId = setTimeout(() => {
         // Reload after 5 seconds if login error occurs
         window.location.reload();
-      }, 500);
+      }, 1000);
 
       return () => clearTimeout(timeoutId);
     }
