@@ -1,4 +1,4 @@
-import React, { useNavigate, useState } from "react";
+import React, { useEffect, useNavigate, useState } from "react";
 import Swal from "sweetalert2";
 // import { Modal, Button, Form } from 'react-bootstrap';
 
@@ -6,6 +6,19 @@ function LoginModal({ show, onHide, onLogin }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   // const navigate = useNavigate();
+ 
+  const [loginError, setLoginError] = useState(false);
+
+  useEffect(() => {
+    if (loginError) {
+      const timeoutId = setTimeout(() => {
+        // Reload after 5 seconds if login error occurs
+        window.location.reload();
+      }, 500);
+
+      return () => clearTimeout(timeoutId);
+    }
+  }, [loginError]);
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -21,6 +34,7 @@ function LoginModal({ show, onHide, onLogin }) {
     } else {
       // Show an error message
       // alert('Invalid username or password');
+      setLoginError(true);
       Swal.fire({
         icon: "error",
         title: "Oops...",
@@ -29,9 +43,14 @@ function LoginModal({ show, onHide, onLogin }) {
         // footer: '<a href="#">Why do I have this issue?</a>'
       });
     }
+
     onHide();
   };
 
+
+
+ 
+  
   return (
     <div
       className={`modal ${show ? "show" : ""}`}
@@ -43,8 +62,8 @@ function LoginModal({ show, onHide, onLogin }) {
       <div className="modal-dialog modal-fullscreen " role="document">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title">Login</h5>
-            {/* <button type="button" class="btn-close" data-bs-dismiss="modal" onClick={onHide}  aria-label="Close"></button> */}
+            {/* <h5 className="modal-title">Login</h5> */}
+            <button type="button" class="btn-close" data-bs-dismiss="modal" onClick={onHide}  aria-label="Close"></button>
           </div>
           <div className="modal-body">
             {/* <form>
@@ -59,7 +78,7 @@ function LoginModal({ show, onHide, onLogin }) {
             </form> */}
 
             {/* resposive form */}
-
+            {/* <button type="button" class="btn-close" data-bs-dismiss="modal" onClick={onHide}  aria-label="Close"></button> */}
             <div className="container responsiveformdesgn">
               <div className="loginresponsivestyle">
                 {/* <h2 className="activee"> sign in </h2> */}
@@ -91,9 +110,9 @@ function LoginModal({ show, onHide, onLogin }) {
                     className="custom-checkbox"
                   />
                   <label className="labelstyle" htmlFor="checkbox-1-1">
-                    Keep me Signed in
+                    Entering the odisha tourism
                   </label>
-                  <button   onClick={handleLogin} className="signin1">Sign In</button>
+                  <button   onClick={handleLogin} className="signin1">Login In</button>
                   <hr />
                   <a className="forgotpass" href="#">
                     Forgot Password?
@@ -117,30 +136,30 @@ function LoginModal({ show, onHide, onLogin }) {
                         <div className="social-iconss">
                           <a>
                             <i
-                              className="fa-brands fa-facebook"
+                              className="fab fa-facebook-f"
                               aria-hidden="true"
                             />
                           </a>
                           <a>
                             <i
-                              className="fa-brands fa-linkedin"
+                              className="fab fa-linkedin-in"
                               aria-hidden="true"
                             />
                           </a>
                           <a>
                             <i
-                              className="fa-brands fa-google"
+                              className="fab fa-instagram"
                               aria-hidden="true"
                             />
                           </a>
                           <a>
                             <i
-                              className="fa-brands fa-github"
+                              className="fab fa-twitter"
                               aria-hidden="true"
                             />
                           </a>
                         </div>
-                        <span>Registrase de manera manual</span>
+                        <span>Entering the tourism odisha</span>
                         {/* <input className="form-input" type="text" placeholder="Email" fdprocessedid="j0foqu" /> */}
                         <label htmlFor="username">Username</label>
                         <input
@@ -159,7 +178,7 @@ function LoginModal({ show, onHide, onLogin }) {
                           onChange={(e) => setPassword(e.target.value)}
                         />
                         {/* <input className="form-input" type="text" placeholder="****" fdprocessedid="ynyvmt" /> */}
-                        <a>Has olvidado la contraseña?</a>
+                        <a>Remember your password</a>
                         <button
                           type="submit"
                           onClick={handleLogin}
@@ -174,17 +193,17 @@ function LoginModal({ show, onHide, onLogin }) {
                     <section className="toggle-container">
                       <div className="toggle">
                         <div className="toggle-panel toggle-left">
-                          <h1>Hola Amigo</h1>
-                          <span>Registrate usando tus datos personales</span>
-                          <button
+                          <h1>Welcome Travelers</h1>
+                          <span>Login for Better Experience and Travel With Us</span>
+                          {/* <button
                             id="registrar"
                             className="hidden"
                             fdprocessedid="50o2zg"
                           >
                             Registrar
-                          </button>
+                          </button> */}
                         </div>
-                        <div className="toggle-panel toggle-right">
+                        {/* <div className="toggle-panel toggle-right">
                           <h1>Bienvenido</h1>
                           <span>Introduce tus datos personales</span>
                           <button
@@ -196,7 +215,7 @@ function LoginModal({ show, onHide, onLogin }) {
                             {" "}
                             Login
                           </button>
-                        </div>
+                        </div> */}
                       </div>
                     </section>
                   </div>

@@ -3981,7 +3981,7 @@ body {
   padding-bottom: 20px;
 }
 
-.text {
+.text1 {
   width: 70%;
   /* height: 500px; */
   display: flex;
@@ -4720,7 +4720,7 @@ input[type="checkbox"] {
 }
 
 .logincontainer button {
-  background-color: blueviolet;
+  background-color: #e2bf2b;
   color: white;
   font-weight: 600;
   text-transform: uppercase;
@@ -4760,6 +4760,7 @@ input[type="checkbox"] {
   height: 20%;
   text-align: center;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .registrar {
@@ -4825,7 +4826,7 @@ input[type="checkbox"] {
   position: relative;
   left: -100%;
   background-color: blueviolet;
-  background-image: linear-gradient(to right, violet, blueviolet);
+  background-image: linear-gradient(to right, #e2bf2b, #ffffffff);
   color: white;
   height: 100%;
   width: 200%;
@@ -4881,9 +4882,9 @@ input[type="checkbox"] {
 }
 
 .form-container button:hover {
-  color: blueviolet;
+  color: #e2bf2b;
   background-color: white;
-  border-color: blueviolet;
+  border-color: #e2bf2b;
   transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 768px) {
@@ -4920,7 +4921,7 @@ input[type="checkbox"] {
 }
 
 .backfacedesgn {
-    background-color: #050505db;
+    background-color: #050505a6;
 
 }
 
