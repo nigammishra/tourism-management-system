@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import img from "../image/room1.webp";
 import img1 from "../image/room2.webp";
 import img2 from "../image/room3.webp";
@@ -46,6 +46,9 @@ const Package = () => {
   }, []);
 
 
+
+
+
   return (
     <div>
          {loaderStatus ? (
@@ -53,6 +56,7 @@ const Package = () => {
           <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
         </div>
       ) : (<>
+      
       <>
       <button
       className={showButton ? "show" : ""}

@@ -104,7 +104,7 @@ const Contact = () => {
           <div className="form">
             <div className="contact-info">
               <h3 className="title">Let's get in touch</h3>
-              <p className="text">
+              <p className="text1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
                 dolorum adipisci recusandae praesentium dicta!
               </p>

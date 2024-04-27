@@ -9,6 +9,7 @@ import img4 from "../image/room5.jpeg";
 import img5 from "../image/room6.jpeg";
 import Swal from "sweetalert2";
 import { PulseLoader } from "react-spinners";
+import LoginModal from "./LoginModal";
 
 const Roombook = () => {
   const initialFormData = {
@@ -166,6 +167,7 @@ const Roombook = () => {
           <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
         </div>
       ) : (<>
+      <LoginModal/>
 <button
           className={showButton ? "show" : ""}
           onClick={scrollToTop}
