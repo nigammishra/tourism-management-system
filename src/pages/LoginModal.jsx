@@ -1,4 +1,5 @@
 import React, { useEffect, useNavigate, useState } from "react";
+import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 // import { Modal, Button, Form } from 'react-bootstrap';
 
@@ -186,6 +187,7 @@ function LoginModal({ show, onHide, onLogin }) {
                         >
                           Login
                         </button>
+                        
                       </form>
                     </div>
                   </div>
@@ -195,13 +197,14 @@ function LoginModal({ show, onHide, onLogin }) {
                         <div className="toggle-panel toggle-left">
                           <h1>Welcome Travelers</h1>
                           <span>Login for Better Experience and Travel With Us</span>
-                          {/* <button
+                           <button
                             id="registrar"
                             className="hidden"
                             fdprocessedid="50o2zg"
                           >
                             Registrar
-                          </button> */}
+                          </button>
+                          
                         </div>
                         {/* <div className="toggle-panel toggle-right">
                           <h1>Bienvenido</h1>

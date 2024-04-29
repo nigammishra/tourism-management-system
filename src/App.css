@@ -4826,7 +4826,7 @@ input[type="checkbox"] {
   position: relative;
   left: -100%;
   background-color: blueviolet;
-  background-image: linear-gradient(to right, #e2bf2b, #ffffffff);
+  background-image: linear-gradient(to right, #e2bf2b, rgb(244, 198, 48));
   color: white;
   height: 100%;
   width: 200%;

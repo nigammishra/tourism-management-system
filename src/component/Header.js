@@ -26,13 +26,16 @@ const Header = () => {
       </>
       <>
         <section className="nav-bar" id='header'>
-          <div className="logo"><img className="" src={img} style={{ height: '70px', width: '150px' }} alt /></div>
+          <div className="logo">
+            <img className="" src={img} style={{ height: '70px', width: '150px' }} alt />
+          </div>
           <ul className="menu1">
             <li><Link className='underline active' to="/tourism-management-system">home</Link></li>
             <li><Link className='underline' to="/about-us">about</Link></li>
             <li><Link className='underline' to="/Package">Package</Link></li>
             <li><Link className='underline' to="/Gallery">gallery</Link></li>
             <li><Link className='underline' to="/Contact">Contact us</Link></li>
+            {/* <li><Link className='underline ' to="/Register">Login/Register</Link></li> */}
           </ul>
         </section>
         <div id="header1">
