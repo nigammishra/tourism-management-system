@@ -27,7 +27,7 @@ const Header = () => {
       <>
         <section className="nav-bar" id='header'>
           <div className="logo">
-            <img className="" src={img} style={{ height: '70px', width: '150px' }} alt />
+            <img className="" src={img} style={{ height: '70px', width: '150px',position:'relative',bottom:'12px' }} alt />
           </div>
           <ul className="menu1">
             <li><Link className='underline active' to="/tourism-management-system">home</Link></li>

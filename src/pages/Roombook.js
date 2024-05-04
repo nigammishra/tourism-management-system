@@ -12,6 +12,7 @@ import { PulseLoader } from "react-spinners";
 import LoginModal from "./LoginModal";
 
 const Roombook = () => {
+
   const initialFormData = {
     name: "",
     checkIn: "",
@@ -28,10 +29,20 @@ const Roombook = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
+
+    // If the input field is mobileNumber, remove any non-numeric characters
+    if (name === "mobileNumber") {
+      const numericValue = value.replace(/\D/g, ''); // Remove non-digit characters
+      setFormData({
+        ...formData,
+        [name]: numericValue
+      });
+    } else {
+      setFormData({
+        ...formData,
+        [name]: value
+      });
+    }
   };
 
   const sendEmail = () => {
@@ -59,7 +70,7 @@ const Roombook = () => {
     if (isValidMobileNumber && isValidEmailAddress && isCheckInDateValid && isCheckOutDateValid) {
       // Store form data in local storage
       localStorage.setItem("formData", JSON.stringify(formData));
-      
+
       Swal.fire({
         title: 'Success!',
         text: 'Your room has been booked successfully.',
@@ -187,7 +198,7 @@ const Roombook = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoaderStatus(false);
-    }, 2000); 
+    }, 2000);
   }, []);
 
   return (
@@ -198,7 +209,7 @@ const Roombook = () => {
         </div>
       ) : (
         <>
-          <LoginModal/>
+          <LoginModal />
           <button
             className={showButton ? "show" : ""}
             onClick={scrollToTop}
@@ -209,7 +220,7 @@ const Roombook = () => {
             <img className="Top_most" src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/f4317cf1-564c-43a7-a40a-37e705efe473/89c15330-4099-4880-a6d2-0b15a547e71f?org_if_sml=1972044&force_format=original" alt="Landing Page Picture" />
           </div>
           <div id="wrapper"></div>
-         
+
           <div className="container">
             <div className="row" id="room-image ">
               <Slider {...settings1}>
@@ -254,13 +265,13 @@ const Roombook = () => {
                 </ul>
               </div>
             </div>
-            
+
             <form onSubmit={handleSubmit}>
               <div className="input-container1">
                 <div className="row">
                   <div className="col-md-4">
                     <label htmlFor="price">
-                      <i className="fa fa-user-circle-o" style={{fontSize: 20, color: 'gold'}}>Name</i>
+                      <i className="fa fa-user-circle-o" style={{ fontSize: 20, color: 'gold' }}>Name</i>
                     </label>
                     <input
                       type="text"
@@ -272,7 +283,7 @@ const Roombook = () => {
                   </div>
                   <div className="col-md-4">
                     <label htmlFor="check-in">
-                      <i className="fa fa-calendar" style={{fontSize: 20, color:'gold'}}>Check in</i>
+                      <i className="fa fa-calendar" style={{ fontSize: 20, color: 'gold' }}>Check in</i>
                     </label>
                     <input
                       type="date"
@@ -284,7 +295,7 @@ const Roombook = () => {
                   </div>
                   <div className="col-md-4">
                     <label htmlFor="check-out">
-                      <i className="fa fa-calendar" style={{fontSize: 20, color: 'gold'}}>Check out</i>
+                      <i className="fa fa-calendar" style={{ fontSize: 20, color: 'gold' }}>Check out</i>
                     </label>
                     <input
                       type="date"
@@ -298,7 +309,7 @@ const Roombook = () => {
                 <div className="row" style={{ paddingTop: "30px" }}>
                   <div className="column">
                     <label htmlFor="no-guest">
-                      <i className="fa fa-user-circle-o" style={{fontSize: 20, color: 'gold'}}>No. of Guest</i>
+                      <i className="fa fa-user-circle-o" style={{ fontSize: 20, color: 'gold' }}>No. of Guest</i>
                     </label>
                     <input
                       type="text"
@@ -310,7 +321,7 @@ const Roombook = () => {
                   </div>
                   <div className="column">
                     <label htmlFor="no-room">
-                      <i className="fas fa-bed" style={{fontSize: 20, color: 'gold'}}>No. of Room</i>
+                      <i className="fas fa-bed" style={{ fontSize: 20, color: 'gold' }}>No. of Room</i>
                     </label>
                     <input
                       type="text"
@@ -324,7 +335,7 @@ const Roombook = () => {
                 <div className="row" style={{ paddingTop: "30px" }}>
                   <div className="column">
                     <label htmlFor="mobile-number">
-                      <i className="fas fa-mobile-alt" style={{fontSize: 20, color: 'gold'}}>Mobile Number</i>
+                      <i className="fas fa-mobile-alt" style={{ fontSize: 20, color: 'gold' }}>Mobile Number</i>
                     </label>
                     <input
                       type="text"
@@ -337,7 +348,7 @@ const Roombook = () => {
                   </div>
                   <div className="column">
                     <label htmlFor="email">
-                      <i className="fas fa-envelope" style={{fontSize: 20, color: 'gold'}}>E-mail</i>
+                      <i className="fas fa-envelope" style={{ fontSize: 20, color: 'gold' }}>E-mail</i>
                     </label>
                     <input
                       placeholder="xyz@gmail.com"

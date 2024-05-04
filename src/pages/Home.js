@@ -1002,7 +1002,7 @@ const Home = () => {
                       <Slide direction='left'>
                         <div className="counter-box">
                           <img src={location} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
-                          <div className="counting counter text-black fs-1 fw-bold  " data-count={180}>180</div>
+                          <div className="counting counter text-black fs-1 fw-bold  " data-count={30}>30</div>
                           <p className='text-black fs-5'>Locations</p>
                         </div>
                       </Slide>
@@ -1099,7 +1099,7 @@ const Home = () => {
                     </Slide>
                     <div className="card-body">
                       <Slide direction='right'>
-                        <div className="counting counter text-black fs-1 fw-bold  text-center " data-count={180}>180</div>
+                        <div className="counting counter text-black fs-1 fw-bold  text-center " data-count={30}>30</div>
                         <p className='text-black fs-5  text-center'>Locations</p>
                       </Slide>
                     </div>
