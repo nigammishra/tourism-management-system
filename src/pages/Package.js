@@ -441,7 +441,7 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div style={{marginTop:"1%"}} className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-7">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
@@ -504,7 +504,7 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div style={{marginTop:"1%"}} className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-7">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
@@ -566,7 +566,7 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div style={{marginTop:"1%"}} className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-7">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
@@ -628,7 +628,7 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div style={{marginTop:"1%"}} className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-7">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
@@ -690,7 +690,7 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div style={{marginTop:"1%"}} className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-7">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
@@ -752,7 +752,7 @@ const Package = () => {
                       />
                       </div>
                     </div>
-                    <div style={{marginTop:"1%"}} className="col-md-5">
+                    <div style={{marginTop:"1%"}} className="col-md-7">
                       <h5>Choose The Best Plan For You</h5>
                       <div className="review">
                         <span className="fa fa-star checked" />
