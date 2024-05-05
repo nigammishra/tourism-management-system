@@ -20,14 +20,14 @@ const Header = () => {
     <div>
       <>
         <div className="container-fluid con">
-          <marquee behavior derection>In today’s world, almost everybody chooses to travel and tourism as their leisure. Traveling is a good way to learn about the world.</marquee>
+          <marquee>In today’s world, almost everybody chooses to travel and tourism as their leisure. Traveling is a good way to learn about the world.</marquee>
         </div>
 
       </>
       <>
         <section className="nav-bar" id='header'>
           <div className="logo">
-            <img className="" src={img} style={{ height: '70px', width: '150px',position:'relative',bottom:'12px' }} alt />
+            <img className="" src={img} style={{ height: '70px', width: '150px',position:'relative',bottom:'12px' }} alt='about' />
           </div>
           <ul className="menu1">
             <li><Link className='underline active' to="/tourism-management-system">home</Link></li>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,12 +26,12 @@ import Balangir from "../image/Balangir.jpg";
 import konark from "../image/konark.jpg";
 // import bbsr from "../image/bhubaneswar-visit-place.jpg";
 import { Link } from 'react-router-dom';
-import { Fade, Slide, Bounce, Zoom } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import location from '../image/location.gif';
 import review from '../image/Review.gif';
 import owner from '../image/owner.gif';
 // import doodleimage from '../image/doodles.png';
-import lingaraj from '../image/lingaraj1.jpg';
+// import lingaraj from '../image/lingaraj1.jpg';
 import udaya1 from '../image/udaya1.jpg';
 import { PulseLoader } from 'react-spinners';
 
@@ -616,31 +616,31 @@ const Home = () => {
                   <Slider {...settings1}>
                     <div className="m-1">
                       <div className="service-item">
-                        <img src={guideimage} />
+                        <img src={guideimage} alt='section2' />
                         {/* <h2>8000+ Our Local Guides</h2> */}
                       </div>
                     </div>
                     <div className="m-1">
                       <div className="service-item">
-                        <img src={trust} style={{ width: "120px" }} />
+                        <img src={trust} style={{ width: "120px" }} alt='section2' />
                         {/* <h2>100% Trusted Tour Agency</h2> */}
                       </div>
                     </div>
                     <div className="m-1">
                       <div className="service-item">
-                        <img src={travel} style={{ width: "140px" }} />
+                        <img src={travel} style={{ width: "140px" }} alt='section2' />
                         {/* <h2>28+ Years of Travel Experience</h2> */}
                       </div>
                     </div>
                     <div className="m-1">
                       <div className="service-item">
-                        <img src={travelhappy} />
+                        <img src={travelhappy} alt='section2' />
                         {/* <h2>98% Our Travelers are Happy</h2> */}
                       </div>
                     </div>
                     <div className="m-1">
                       <div className="service-item">
-                        <img src={Odishapng} />
+                        <img src={Odishapng} alt='section2' />
                         {/* <h2>98% Our Travelers are Happy</h2> */}
                       </div>
                     </div>
@@ -1001,7 +1001,7 @@ const Home = () => {
                     <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
                       <Slide direction='left'>
                         <div className="counter-box">
-                          <img src={location} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+                          <img src={location} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt='section2' />
                           <div className="counting counter text-black fs-1 fw-bold  " data-count={30}>30</div>
                           <p className='text-black fs-5'>Locations</p>
                         </div>
@@ -1010,7 +1010,7 @@ const Home = () => {
                     <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
                       <Slide direction='down'>
                         <div className="counter-box">
-                          <img src={review} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+                          <img src={review} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt='section2' />
                           <div className="counting counter text-black fs-1 fw-bold" data-count={1400}>14000</div>
                           <h5 className='text-black'>Reviews</h5>
                         </div>
@@ -1020,7 +1020,7 @@ const Home = () => {
                     <div style={{ backgroundColor: 'white', borderRadius: '20px', width: '25%' }}>
                       <Slide direction='right'>
                         <div className="counter-box">
-                          <img src={owner} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} />
+                          <img src={owner} className="img-fluid" style={{ width: 100, marginBottom: 9, marginTop: 10, height: '80px' }} alt='section2' />
                           <div className="counting counter text-black fs-1 fw-bold" data-count={40000}>40,000</div>
                           <h5 className='text-black'>Visiters</h5>
                         </div>

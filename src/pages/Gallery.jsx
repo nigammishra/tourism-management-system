@@ -145,10 +145,10 @@ const Gallery = () => {
             <Slide direction='up'>
             <div className="row" style={{display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
                 <div className="col-md-6 " id="lordjagannatheyes" style={{textAlign:'end'}}>
-                  <img className="gallery-item1" src={gallary1} alt></img>
+                  <img className="gallery-item1" src={gallary1} alt='gallery'></img>
                 </div>
                 <div className="col-md-6" id="lordjagannatheyes" style={{textAlign:'start'}}>
-                <img className="gallery-item2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6biWRc3G_P7t5wnnjEVT96kT9S-KeKv_SD6I1OetZA&s" alt></img>
+                <img className="gallery-item2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6biWRc3G_P7t5wnnjEVT96kT9S-KeKv_SD6I1OetZA&s" alt='gallery'></img>
                 </div>
                </div>
               </Slide>
@@ -177,7 +177,7 @@ const Gallery = () => {
                       <img
                          className="img-fluid"
                         src={gallary16}
-                        alt=""
+                        alt='gallery'
                       />
                     </a>
                     <a
@@ -413,7 +413,7 @@ const Gallery = () => {
                         speed={1000} // Set the speed in milliseconds
                       >
                         <SwiperSlide>
-                          <img src={galle12} height="250" width="100%" />
+                          <img src={galle12} height="250" width="100%" alt='gallery' />
                           <h5
                             style={{
                               textAlign: "center",
@@ -426,7 +426,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle} height="250" width="100%" />
+                          <img src={galle} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -439,7 +439,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle1} height="250" width="100%" />
+                          <img src={galle1} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -452,7 +452,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle2} height="250" width="100%" />
+                          <img src={galle2} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -465,7 +465,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle3} height="250" width="100%" />
+                          <img src={galle3} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -478,7 +478,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle4} height="250" width="100%" />
+                          <img src={galle4} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -491,7 +491,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle5} height="250" width="100%" />
+                          <img src={galle5} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -504,7 +504,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle6} height="250" width="100%" />
+                          <img src={galle6} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -517,7 +517,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle7} height="250" width="100%" />
+                          <img src={galle7} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -530,7 +530,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle8} height="250" width="100%" />
+                          <img src={galle8} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -543,7 +543,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle9} height="250" width="100%" />
+                          <img src={galle9} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -556,7 +556,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle10} height="250" width="100%" />
+                          <img src={galle10} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -569,7 +569,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle11} height="251" width="100%" />
+                          <img src={galle11} height="251" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",
@@ -582,7 +582,7 @@ const Gallery = () => {
                           </h5>
                         </SwiperSlide>
                         <SwiperSlide>
-                          <img src={galle13} height="250" width="100%" />
+                          <img src={galle13} height="250" width="100%" alt='gallery'/>
                           <h5
                             style={{
                               textAlign: "center",

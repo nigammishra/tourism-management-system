@@ -115,7 +115,7 @@ const Contact = () => {
             <div className="container-fluid coet">
 
               <span className="big-circle" />
-              <img src="img/shape.png" className="square" alt />
+              <img src="img/shape.png" className="square" alt='contact' />
               <div className="form">
                 <div className="contact-info">
                   <h3 className="title">Let's get in touch</h3>

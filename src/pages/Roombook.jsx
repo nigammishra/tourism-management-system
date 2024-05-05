@@ -9,7 +9,7 @@ import img4 from "../image/room5.jpeg";
 import img5 from "../image/room6.jpeg";
 import Swal from "sweetalert2";
 import { PulseLoader } from "react-spinners";
-import LoginModal from "./LoginModal";
+// import LoginModal from "./LoginModal";
 
 const Roombook = () => {
 
@@ -209,7 +209,6 @@ const Roombook = () => {
         </div>
       ) : (
         <>
-          <LoginModal />
           <button
             className={showButton ? "show" : ""}
             onClick={scrollToTop}
@@ -217,7 +216,7 @@ const Roombook = () => {
           >
           </button>
           <div className="landing-page ">
-            <img className="Top_most" src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/f4317cf1-564c-43a7-a40a-37e705efe473/89c15330-4099-4880-a6d2-0b15a547e71f?org_if_sml=1972044&force_format=original" alt="Landing Page Picture" />
+            <img className="Top_most" src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/f4317cf1-564c-43a7-a40a-37e705efe473/89c15330-4099-4880-a6d2-0b15a547e71f?org_if_sml=1972044&force_format=original" alt="Landing" />
           </div>
           <div id="wrapper"></div>
 
@@ -225,15 +224,15 @@ const Roombook = () => {
             <div className="row" id="room-image ">
               <Slider {...settings1}>
                 <div class="col-md-4">
-                  <img id="room-image" src={img1} alt="Room Image" /></div>
+                  <img id="room-image" src={img1} alt="Room " /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src={img2} alt="Room Image" /></div>
+                  <img id="room-image" src={img2} alt="Room " /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src={img3} alt="Room Image" /></div>
+                  <img id="room-image" src={img3} alt="Room " /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src={img4} alt="Room Image" /></div>
+                  <img id="room-image" src={img4} alt="Room " /></div>
                 <div class="col-md-4">
-                  <img id="room-image" src={img5} alt="Room Image" /></div>
+                  <img id="room-image" src={img5} alt="Room " /></div>
               </Slider>
             </div>
           </div>

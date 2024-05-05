@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import img from "../image/room1.webp";
 import img1 from "../image/room2.webp";
 import img2 from "../image/room3.webp";
@@ -7,7 +7,7 @@ import img4 from "../image/room5.jpeg";
 import img5 from "../image/room6.jpeg";
 import { Form } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import { Slide } from "react-awesome-reveal";
+// import { Slide } from "react-awesome-reveal";
 import { PulseLoader } from "react-spinners";
 
 const Package = () => {
@@ -437,7 +437,7 @@ const Package = () => {
                       <img
                         className="img-fluid"
                         src={img}
-                        alt="Card image cap"
+                        alt="card"
                       />
                       </div>
                     </div>
@@ -500,7 +500,7 @@ const Package = () => {
                       <img
                         className="img-fluid"
                         src={img1}
-                        alt="Card image cap"
+                        alt="card"
                       />
                       </div>
                     </div>
@@ -562,7 +562,7 @@ const Package = () => {
                       <img
                         className="img-fluid"
                         src={img2}
-                        alt="Card image cap"
+                        alt="card"
                       />
                       </div>
                     </div>
@@ -624,7 +624,7 @@ const Package = () => {
                       <img
                         className="img-fluid"
                         src={img3}
-                        alt="Card image cap"
+                        alt="card"
                       />
                       </div>
                     </div>
@@ -686,7 +686,7 @@ const Package = () => {
                       <img
                         className="img-fluid"
                         src={img4}
-                        alt="Card image cap"
+                        alt="card"
                       />
                       </div>
                     </div>
@@ -748,7 +748,7 @@ const Package = () => {
                       <img
                         className="img-fluid"
                         src={img5}
-                        alt="Card image cap"
+                        alt="card"
                       />
                       </div>
                     </div>
