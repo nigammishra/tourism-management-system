@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/tourism-management-system/static/css/main.840022d2.css",
-    "main.js": "/tourism-management-system/static/js/main.db839a8f.js",
+    "main.css": "/tourism-management-system/static/css/main.8ced1e86.css",
+    "main.js": "/tourism-management-system/static/js/main.5aa1e25b.js",
     "static/js/453.288b35d9.chunk.js": "/tourism-management-system/static/js/453.288b35d9.chunk.js",
     "static/media/puritemple.jpg": "/tourism-management-system/static/media/puritemple.576b6779b435010911c4.jpg",
     "static/media/OdishaTourism.jpg": "/tourism-management-system/static/media/OdishaTourism.f4df0868d7b4c3fb2fed.jpg",
     "static/media/Review.gif": "/tourism-management-system/static/media/Review.1cf851e4228953531f80.gif",
+    "static/media/map2-min.jpg": "/tourism-management-system/static/media/map2-min.00b3ca74ec272ab76a35.jpg",
     "static/media/Nabarangpur.png": "/tourism-management-system/static/media/Nabarangpur.f553a67e6ef2f7427523.png",
     "static/media/location.gif": "/tourism-management-system/static/media/location.8220c99afb25e44cd62a.gif",
     "static/media/owner.gif": "/tourism-management-system/static/media/owner.2ddb2ec09980367912ae.gif",
@@ -18,7 +19,6 @@
     "static/media/Cuttack.JPG": "/tourism-management-system/static/media/Cuttack.fb44357dcb4f651cd5c0.JPG",
     "static/media/Gallery5.jpg": "/tourism-management-system/static/media/Gallery5.fc7636a6898f1d15edc4.jpg",
     "static/media/Koraput.jpg": "/tourism-management-system/static/media/Koraput.0146b1fa1a7384049ed5.jpg",
-    "static/media/lingaraj1.jpg": "/tourism-management-system/static/media/lingaraj1.d4554846cc7cdafbe924.jpg",
     "static/media/Jharsuguda.jpg": "/tourism-management-system/static/media/Jharsuguda.22b481f912388d49813d.jpg",
     "static/media/Nuapada.jpg": "/tourism-management-system/static/media/Nuapada.0f58476cbcb08d578a5d.jpg",
     "static/media/udaya1.jpg": "/tourism-management-system/static/media/udaya1.e1d9da51ae1a41e93904.jpg",
@@ -110,12 +110,12 @@
     "static/media/slick.eot": "/tourism-management-system/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/tourism-management-system/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tourism-management-system/static/media/slick.295183786cd8a1389865.woff",
-    "main.840022d2.css.map": "/tourism-management-system/static/css/main.840022d2.css.map",
-    "main.db839a8f.js.map": "/tourism-management-system/static/js/main.db839a8f.js.map",
+    "main.8ced1e86.css.map": "/tourism-management-system/static/css/main.8ced1e86.css.map",
+    "main.5aa1e25b.js.map": "/tourism-management-system/static/js/main.5aa1e25b.js.map",
     "453.288b35d9.chunk.js.map": "/tourism-management-system/static/js/453.288b35d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.840022d2.css",
-    "static/js/main.db839a8f.js"
+    "static/css/main.8ced1e86.css",
+    "static/js/main.5aa1e25b.js"
   ]
 }
