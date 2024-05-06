@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {  useNavigate } from 'react-router-dom';
 import odishamap from '../image/map2-min.jpg';
+import Swal from 'sweetalert2';
 // import Loginimage from '../Images/loginpage.png';
 
 function Login() {
@@ -23,9 +24,21 @@ function Login() {
       sessionStorage.setItem('isLoggedIn', 'true');
       // Redirect to the protected route
       navigate('/Roombook');
+      Swal.fire({
+        icon: "success",
+        title: "success",
+        text: "Logged in successfully",
+        // footer: '<a href="#">Why do I have this issue?</a>'
+      });
+      
     } else {
       // Show an error message
-      alert('Invalid username or password');
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "please enter valid username and password!",
+        // footer: '<a href="#">Why do I have this issue?</a>'
+      });
     }
   };
 
