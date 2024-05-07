@@ -120,8 +120,7 @@ const Contact = () => {
                 <div className="contact-info">
                   <h3 className="title">Let's get in touch</h3>
                   <p className="text1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                    dolorum adipisci recusandae praesentium dicta!
+                  See the world. It's more fantastic than any dream made or paid for in factories. Ask for no guarantees, ask for no security.
                   </p>
                   <div className="info">
                     <div className="information">
