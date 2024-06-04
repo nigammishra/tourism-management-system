@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {  useNavigate } from 'react-router-dom';
 import odishamap from '../image/map2-min.jpg';
 import Swal from 'sweetalert2';
+import { PulseLoader } from 'react-spinners';
 // import Loginimage from '../Images/loginpage.png';
 
 function Login() {
@@ -42,8 +43,23 @@ function Login() {
     }
   };
 
+   const [loaderStatus, setLoaderStatus] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaderStatus(false);
+    }, 2000); 
+  }, []);
+
+ 
+
   return (
-    <>
+    <div>
+     {loaderStatus ? (
+        <div className="loader-container">
+          <PulseLoader loading={loaderStatus} size={50} color="#fde02f" />
+        </div>
+      ) : (<>
+      
      {/* <h1>Tourism Management System</h1> */}
       <div className="container-fluid loginbackground ">
         <div className="row loginstyle" >
@@ -121,7 +137,9 @@ function Login() {
           </div>
         </div>
       </div>
-    </>
+      </>
+       )}
+    </div>
   );
 }
 
