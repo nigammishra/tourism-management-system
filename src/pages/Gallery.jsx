@@ -26,8 +26,6 @@ import gallary10 from '../image/Gallery10.jpg'
 import gallary11 from '../image/Gallery11.jpg'
 import gallary12 from '../image/Gallery12.jpg'
 import gallary13 from '../image/Gallery13.jpg'
-import gallary14 from '../image/Gallery14.jpg'
-import gallary15 from '../image/Gallery15.jpg'
 import gallary16 from '../image/Gallery16.jpg'
 import gallary17 from '../image/Gallery17.jpg'
 import galle from '../image/galle.jpg'
@@ -44,12 +42,8 @@ import galle10 from '../image/galle10.jpg'
 import galle11 from '../image/galle11.jpg'
 import galle12 from '../image/galle12.jpg'
 import galle13 from '../image/galle13.jpg'
-import logo from '../image/gallerylogo.png';
-// image import 
-import image from '../image/puritemple.jpg'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
-import { Link } from "react-router-dom";
+import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules"; 
 import { Slide } from "react-awesome-reveal";
 import { PulseLoader } from "react-spinners";
 // import ParticleCanvas from "../component/ParticleCanvas";
