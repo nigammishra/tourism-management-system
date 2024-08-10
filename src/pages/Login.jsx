@@ -21,7 +21,7 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (username === 'Pupun' && password === '12345') {
+    if (username === 'nigam' && password === 'nigam') {
       sessionStorage.setItem('isLoggedIn', 'true');
       // Redirect to the protected route
       navigate('/Roombook');
